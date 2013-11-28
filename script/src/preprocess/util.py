@@ -23,7 +23,6 @@ import re
 strip_pattern = re.compile('\W')
 
 
-
 def BoxEmpty(box):
   return box[LEFT] == box[RIGHT] or box[UP] == box[DOWN]
 
