@@ -27,4 +27,11 @@ def AlignAll(url, output_base):
     Align.AlignFromURL(urlbase, outputbase)
 
 if __name__ == "__main__": 
-  AlignAll('http://hazy.cs.wisc.edu/hazy/share/zifeipdf/', '../../data/')
+  if len(sys.argv) == 2:
+    url = sys.argv[1]
+  else:
+    print 'Usage:',sys.argv[0],'<urlbase>'
+    url = 'http://hazy.cs.wisc.edu/hazy/share/zifeipdf/'
+    print 'Use default URL:', url
+
+  AlignAll(url, '../../data/')
