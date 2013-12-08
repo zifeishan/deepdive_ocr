@@ -53,7 +53,7 @@ def Combine(twords, cchars, index=None):
       page = tpage
       maxsub = len(index[page])
       last_sub = 0
-      print 'Processing Page:', page
+      # print 'Processing Page:', page
 
     isStarting = False
     sub = last_sub

@@ -17,7 +17,7 @@ def ReadURL(url, pageid = 1):
       trytime += 1
 
   if pq == None:
-    return Read('')
+    return Read(None)
 
   return Read(pq, pageid)
 
@@ -33,6 +33,9 @@ def ReadURL(url, pageid = 1):
 
 def Read(query, pageid = 1):
   allwords = []
+  if query == None:
+    return allwords
+
   pq = query
   lines = pq.find('.ocr_line')
   ids = []
@@ -93,7 +96,7 @@ def Read(query, pageid = 1):
       try:
         c = str(c)
       except UnicodeEncodeError:
-        print 'Cannot encode character:', c, b.GetPrinted(), 'P:', pageid
+        # print 'Cannot encode character:', c, b.GetPrinted(), 'P:', pageid
         c = '?'      
 
       w.SetContent(c)

@@ -11,7 +11,7 @@ def AlignFromURL(urlbase, output_base):
 
   print 'Loading Tesseract from:', tess_url
   twords = TessReader.ReadURL(tess_url)
-  print 'Processing Tesseract...'
+  # print 'Processing Tesseract...'
 
   flog = open(output_base + '.log', 'w')
 
@@ -24,9 +24,9 @@ def AlignFromURL(urlbase, output_base):
   for pagenum in sorted(index.keys()):
     pagestr = '%04d' % pagenum
     url = curlbase + pagestr + curlend
-    print 'Loading Cuneiform Page', pagenum
+    # print 'Loading Cuneiform Page', pagenum
     cchars = CuneiReader.ReadURL(url, pagenum)
-    print 'Processing Cuneiform Page', pagenum
+    # print 'Processing Cuneiform Page', pagenum
     this_sc = Combiner.Combine(twords, cchars, index)
     for i in range(0,2): 
       succ_fail[i] += this_sc[i]
@@ -34,7 +34,7 @@ def AlignFromURL(urlbase, output_base):
   # aligned, AGREED, miss_cuni, miss_tess
   stat = [0, 0, 0, succ_fail[1]]
 
-  print 'Printing results...'
+  # print 'Printing results...'
   fout = open(output_base+'.diff.txt', 'w')
   for word in twords:
     linechar = ' '

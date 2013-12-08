@@ -19,6 +19,10 @@ def AlignAll(url, output_base):
   lines = [l.rstrip('/') for l in lines if re.match('[0-9].*', l)]
 
   for filename in lines:
+
+    # if float(filename) < 17825:  # continue on last time
+    #   continue
+
     urlbase = 'http://hazy.cs.wisc.edu/hazy/share/zifeipdf/' + filename+'/'
     tessurl = urlbase +'input.text'
     curlbase = urlbase + 'cuneiform-page-'
