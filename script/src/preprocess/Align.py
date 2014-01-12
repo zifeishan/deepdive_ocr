@@ -1,16 +1,27 @@
 import sys
 from preprocess import *
 
+def AlignFromPath(dirbase, output_base):
+  # sample of dirbase: '../../input/'
+  Align(dirbase, output_base, isDir=True)
+
+def AlignFromURL(urlbase, output_base):
+  Align(urlbase, output_base, isDir=False)
+
+
 # Assume a fixed URL base.
 # Output alignment results in output_base.*
-def AlignFromURL(urlbase, output_base):
+def Align(urlbase, output_base, isDir=False):
 
   tess_url = urlbase +'input.text'
   curlbase = urlbase + 'cuneiform-page-'
   curlend = '.html'
 
   print 'Loading Tesseract from:', tess_url
-  twords = TessReader.ReadURL(tess_url)
+  if not isDir:
+    twords = TessReader.ReadURL(tess_url)
+  else:
+    twords = TessReader.ReadPath(tess_url)
   # print 'Processing Tesseract...'
 
   flog = open(output_base + '.log', 'w')
@@ -25,7 +36,10 @@ def AlignFromURL(urlbase, output_base):
     pagestr = '%04d' % pagenum
     url = curlbase + pagestr + curlend
     # print 'Loading Cuneiform Page', pagenum
-    cchars = CuneiReader.ReadURL(url, pagenum)
+    if not isDir:
+      cchars = CuneiReader.ReadURL(url, pagenum)
+    else:
+      cchars = CuneiReader.ReadPath(url, pagenum)
     # print 'Processing Cuneiform Page', pagenum
     this_sc = Combiner.Combine(twords, cchars, index)
     for i in range(0,2): 

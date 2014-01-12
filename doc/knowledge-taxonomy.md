@@ -5,7 +5,7 @@ Features to choose between options
 ----
 
 * Word-level features (same as former LR features)
-  - WL(i): Word length.
+  - WL(i): OCR Output length.
   - Occur(i): Number of Search result on Internet.
   - DictValid(i): whether option i is valid in dictionary.
   - UpperPunish(i) = -4x(x-1), where x is upper case percentage in the
@@ -118,3 +118,15 @@ based on knowledge of the content.
         word can be modified to X within short modification distance,
         then it is likely to suggest word X in replacement of the
         current word.
+
+
+Feedback from Chris
+====
+
+One thing I really like is using the structured knowledge. For example, we know all the place names, the relationships that are likely to occur between fossils, taxa, etc. Can we use this to do a better job somehow? (Distributions over terms or over relationships?)
+
+At one level this is exactly joint inference and learning: what we've been advocating over the last few years---it's a great general purpose tool and very powerful! (we use it everywhere)
+
+We are exploring this problem in OCR because the "type" of information one gets from OCR (primarily visual features), the markup from NLP, and then the structured knowledge are all strong where the other is weak. We've been playing this game between NLP and structured knowledge, but we suspect that there are even larger gains if the signals are more "orthogonal"---that's why we are so interested in this test case.
+
+Chris

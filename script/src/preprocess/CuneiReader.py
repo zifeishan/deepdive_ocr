@@ -21,15 +21,13 @@ def ReadURL(url, pageid = 1):
 
   return Read(pq, pageid)
 
-# def ReadPath(file_path):
-#   data = []
-#   fin = open(file_path)
-#   alltext = fin.read()
-#   return Read(alltext)
+def ReadPath(file_path, pageid = 1):
+  data = []
+  fin = open(file_path)
+  alltext = fin.read()
+  pq = PyQuery(alltext)
+  return Read(pq, pageid)
 
-
-  # for i in range(0, len(text)):
-  #   if text[i] ==
 
 def Read(query, pageid = 1):
   allwords = []
