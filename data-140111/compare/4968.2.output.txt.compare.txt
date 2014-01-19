@@ -198,7 +198,7 @@
 10              by              by   IN      O	
 11      Proiesso-r       Professor  NNP      O	|||d,sw,by
 12      Coclterell       Cockereii  NNP      O	|||ed,kbe
-13              a.              an   IN      O	|||comb,seg,twchar,
+13              a.              an   IN      O	|||comb,seg,twchar
 14             r1d             d.t   NN      O	|||seg,cwchar
 15               .               h    .      O	|||twchar
 
@@ -279,7 +279,7 @@
  9              by              by   IN      O	
 10        Sc-udder         Scudder   NN      O	|||sw,by,kbe
 11             for            itar   IN      O	|||d,sw
-12               .               n    .      O	|||dot,comb,n
+12               .               n    .      O	|||dot,comb
 
  1              mo              ul   NN DURATI	|||
  2               ,               n    ,      O	|||
