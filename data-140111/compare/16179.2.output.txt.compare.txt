@@ -654,8 +654,8 @@
 18           state          stirte   NN      O	|||d,sw
 19           ofour           ofour   NN      O	|||seg
 20       knowledge       knowledge   NN      O	
-21         ofthese         ofthese   NN      O	
-22         fossils         fossils  NNS      O	|||seg
+21         ofthese         ofthese   NN      O	|||seg
+22         fossils         fossils  NNS      O	
 23               ,               ,    ,      O	
 24              we              we  PRP      O	
 25             are             are  VBP      O	

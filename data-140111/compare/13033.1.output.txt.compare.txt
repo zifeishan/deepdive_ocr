@@ -165,7 +165,7 @@
 20              at              at   IN      O	
 21               :               :    :      O	
 22 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O	
-23               |               l   NN      O	|||comb,url
+23               |               l   NN      O	|||comb,url$l
 
  1            This            This   DT      O	
  2         article         article   NN      O	
@@ -182,8 +182,8 @@
 13            free            free   JJ      O	
 14               :               :    :      O	
 15 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O	
-16               |               l   CD NUMBER	|||comb
-17            #ref            4fre   NN      O	|||?
+16               |               l   CD NUMBER	|||comb$l
+17            #ref            4fre   NN      O	|||?$$
 18               ?               f   CD NUMBER	|||
 19               |               -   CD NUMBER	|||
 20             ist             lis   NN      O	|||
@@ -224,15 +224,15 @@
 14             see             see   VB      O	
 15               :               :    :      O	
 16 http://www.sciencemag.org/content/284/5423/2137.fu http://www.sciencemag.org/content/284/5423/2137.fu   NN      O	
-17               |               l   CD NUMBER	|||comb,url
-18               |               l   NN      O	|||
+17               |               l   CD NUMBER	|||comb,url$l
+18               |               l   NN      O	|||$l
 19               .               .    .      O	
 
  1             htm             htm   NN      O	
- 2               |               l  SYM      O	|||
- 3             #re             ffr   FW      O	|||
- 4               |               e   FW      O	|||
- 5       ated-urls      lated-uris  NNS      O	|||
+ 2               |               l  SYM      O	|||$html
+ 3             #re             ffr   FW      O	|||$#related-urls
+ 4               |               e   FW      O	|||$
+ 5       ated-urls      lated-uris  NNS      O	|||$
 
  1            This            This   DT      O	
  2         article         article   NN      O	
@@ -246,13 +246,13 @@
 10    Paleontology    Paleontology   NN      O	
 11 http://www.sciencemag.org/cgi/collection/paleo http://www.sciencemag.org/cgi/collection/paleo   NN      O	
 
- 1             Dow            3OCI  NNP   MISC	|||comb
- 2         nloaded          IUcdOC  VBD      O	|||
- 3             fro               O   NN      O	|||comb
- 4               m               E   NN      O	|||
- 5              ww                   NN      O	
- 6              w.              CO   NN      O	|||comb,url
- 7      sciencemag            EIOO   NN      O	|||
+ 1             Dow            3OCI  NNP   MISC	|||comb$downloaded
+ 2         nloaded          IUcdOC  VBD      O	|||$
+ 3             fro               O   NN      O	|||comb$from
+ 4               m               E   NN      O	|||$
+ 5              ww                   NN      O	|||comb,url$www.scincemag.org
+ 6              w.              CO   NN      O	|||$
+ 7      sciencemag            EIOO   NN      O	|||$
  8               .               C    .      O	|||
 
  1             org              BO   NN      O	|||
@@ -260,8 +260,8 @@
  3               n                   NN      O	
  4             May                   MD   DATE	
  5               8               C   CD   DATE	|||swgram
- 6               ,               O    ,   DATE	|||pos,swgram
- 7            2013            C)CU   CD   DATE	|||d,swgram,pos
+ 6               ,               O    ,   DATE	|||ner,swgram
+ 7            2013            C)CU   CD   DATE	|||d,swgram,ner
  8         Science         Science   NN      O	
  9               (               (   CD NUMBER	
 10           print           print   NN      O	
@@ -406,8 +406,8 @@
  9           ibid.           ibid.  NNP      O	
 10               ,               ,    ,      O	
 11              p.              p.   NN      O	
-12           10671           '\067   CD NUMBER	|||pos
-13               .              1.    .      O	|||pos,comb
+12           10671           '\067   CD NUMBER	|||ner
+13               .              1.    .      O	|||ner,comb
 
  1              96              96   CD NUMBER	
  2               .               .    .      O	

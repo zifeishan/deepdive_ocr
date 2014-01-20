@@ -30,7 +30,7 @@
 
  1              73              73   CD NUMBER	
  2               '               -   ''      O	|||comb
- 3              -2              '2   CD NUMBER	|||rmchar,pos
+ 3              -2              '2   CD NUMBER	|||rmchar,ner
  4               ?               1   CD NUMBER	|||
  5              l3              3,   NN      O	|||
  6               ,               '    ,      O	|||cwchar,rmchar
@@ -954,7 +954,7 @@
  8            Pnoc            Pace  NNP      O	|||ed,swgram
  9               .               .    .      O	
 
- 1             411             Sai   CD NUMBER	|||pos
+ 1             411             Sai   CD NUMBER	|||ner
  2               !               c    .      O	|||
 
  1             San             Sss  NNP LOCATI	|||ed?(Ser.)
@@ -1126,7 +1126,7 @@
  2         olotype         01otype   NN      O	|||comb,charuni
  3               :               f    :      O	|||pos
  4               N               N   NN      O	
- 5          0-4623          o.4623   CD NUMBER	|||pos
+ 5          0-4623          o.4623   CD NUMBER	|||comb
  6               ,               ,    ,      O	
  7             Mus             Mus   NN      O	
  8               .               .    .      O	
@@ -1158,7 +1158,7 @@
 13            base            base   NN      O	
 14              of              of   IN      O	
 15             the             the   DT      O	
-16          Tuber?          Tubers  NNP      O	|||?
+16          Tuber?          Tubers  NNP      O	|||twchar
 17           group           group   NN      O	
 18               ,               ,    ,      O	
 19           where           where  WRB      O	

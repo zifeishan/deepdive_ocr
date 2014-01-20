@@ -25,8 +25,8 @@
  4               '                   ''      O	
  5               '                   ''      O	
 
- 1              Br              BY  NNP      O	|||dict,statw
- 2         CHARLES       CSLjLRKXS  NNP PERSON	|||by,kbe,statw,upp
+ 1              Br              BY  NNP      O	|||d,sw
+ 2         CHARLES       CSLjLRKXS  NNP PERSON	|||by,kbe,sw,upp
  3              T.              T.  NNP PERSON	
  4           Bones           BRBZS  NNP PERSON	|||by,kbe
  5               .               .    .      O	
@@ -34,11 +34,11 @@
  1               I                  PRP      O	
 
  1             The             The   DT      O	
- 2         present         preacnt   JJ   DATE	|||dict,statw
+ 2         present         preacnt   JJ   DATE	|||d,sw
  3           paper           paper   NN      O	
  4              is              18  VBZ      O	|||pos
  5           based           based  VBN      O	
- 6            upon            upan   IN      O	|||dict,statw
+ 6            upon            upan   IN      O	|||d,sw
  7         studies         Studies  NNS      O	|||upper
  8              on              an   IN      O	|||pos,swgram
  9             the             the   DT      O	
@@ -174,7 +174,7 @@
  2           which          xvhich  WDT      O	|||d,sw
  3           there           there   EX      O	
  4             are             are  VBP      O	
- 5             112             IIQ   CD NUMBER	|||pos
+ 5             112             IIQ   CD NUMBER	|||ner
  6         clearly         cfearfy   RB      O	|||d,sw
  7          de?ned          degned   JJ      O	|||edrule
  8         species         species  NNS      O	
@@ -190,7 +190,7 @@
  2              to              ta   TO      O	|||d,sw
  3           these           these   DT      O	
  4             the             the   DT      O	
- 5              13              I3   CD NUMBER	|||pos
+ 5              13              I3   CD NUMBER	|||ner
  6         species         specie8  NNS      O	|||d,sw
  7      previously      prevlausiv   RB   DATE	|||d,sw
  8       described       iiescrlba  VBN      O	|||d,sw
@@ -456,11 +456,11 @@
  1        Florissa        BerlsaLL  NNP      O	|||comb,kbe
  2               ?               L   CD NUMBER	|||twchar
  3              nt              Lt  NNS      O	|||
- 4               5               S   CD NUMBER	|||pos
+ 4               5               S   CD NUMBER	|||ner
  5               3               3   CD NUMBER	
- 6              15               U   CD NUMBER	|||pos
+ 6              15               U   CD NUMBER	|||ner
  7              76              76   CD NUMBER	
- 8              23             'j3   CD NUMBER	|||pos
+ 8              23             'j3   CD NUMBER	|||ner
  9               o                   NN      O	
 10               X                   NN      O	
 11               ,                    ,      O	
@@ -688,7 +688,7 @@
 43            both           both.   CC      O	|||rmchar
 44             the             the   DT      O	
 45       parasitic       parasitic   JJ      O	
-46             end             aud   NN      O	|||ed
+46             end             aud   NN      O	|||ed,swgram,path
 47        aculeute        acufaate   NN      O	|||ed,kbe?(aculeate)
 48  I-Ijnuenoptera  Hnnenopterafro   NN      O	|||ed?
 49               .               m    .      O	|||dot

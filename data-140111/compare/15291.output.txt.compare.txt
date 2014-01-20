@@ -722,7 +722,7 @@
  3            Part            Part  NNP   DATE	
  4               1               1   CD   DATE	
  5               ,               ,    ,   DATE	
- 6            1982            lpsz   CD   DATE	|||pos,sw
+ 6            1982            lpsz   CD   DATE	|||ner,sw
  7               ,               >    ,      O	|||swgram
  8              pp              pp   NN      O	
  9               .               .    .      O	
