@@ -1,28 +1,112 @@
 Taxonomy of Knowledge
 ====
 
+Dimensionality of Taxonomy
+----
+
+- tools / human
+  - tools: OCR
+  - human: experts, crowdsourcing
+- entity / relation
+  - entity: dict, web, domain-corpus..
+  - relation: KB, ngram? parsing?
+- character / word / sentence / document / corpus
+- internal / external 
+  - (dictionary / KB / other corpus, are external)
+- structured / unstructured
+
+
+Initial taxonomy
+----
+
+* Tool(OCR)-specific knowledge (?)
+  - Single-tool knowledge
+    + (specific correction rules: rm->nn, etc)
+      + (weight dependent on document?)
+  - Inter-tools knowledge ? (do we really have this?)
+    + (correction rules within multiple ocrs) ?
+
+* Human knowledge
+  - Expert labeling
+    + (a label is actually a rule)
+  - Crowdsourced labels
+
+* Linguistic features ??
+  - (these are features, not corpus... features to extract->corpus to supervise. What are knowledge?)
+  - Shallow NLP: POS
+  - Deep NLP
+    - dependency parse, 
+    - named entity recognition
+
+* Entity-level knowledge (a table of different hierarchies)
+  - character level
+    - character frequency
+  - word level
+    - word frequency in:
+      - Linguistic dictionary
+      - General corpus 
+        - (Web)
+      - Domain-specific corpus 
+        - (Paleo documents)
+      - This corpus (internal, cross-document)
+  - sentence level
+    - sentence frequency in: (same as above)
+
+<!-- - internal / external ??? -->
+<!-- - char/word/sent/doc/corpus level knowledges? -->
+
+* Relation-level knowledge
+  - relation among characters
+    - char-gram
+    - OCR-specific edit rules (overlap?)
+  - relation among words
+    - POS-gram
+    - dependency parse
+  - Structural knowledge base
+
+
+
+Two tasks in this project
+----
+1. to generate new candidates
+  - edit distance
+  - Rules to "edit" can be learned in a tool-specific setting
+2. to select a candidate
+  - supervision and inference rules
+
+
+Project architecture:
+OCR, human <-> Candidates <-> 
+
+
 Features to choose between options
 ----
 
-* Word-level features (same as former LR features)
-  - WL(i): OCR Output length.
-  - Occur(i): Number of Search result on Internet.
-  - DictValid(i): whether option i is valid in dictionary.
-  - UpperPunish(i) = -4x(x-1), where x is upper case percentage in the
-    option. The idea is that the percentage of upper-case characters in
-    a word should be either near 0% or 100%.
-  - LowerToUpperChange(i): how many times in the option is a lowercase
-    character followed by an uppercase character.
-  - Count of each character occurrence
-  - Count of occurrence of two consequent character
+* Character Level
+  - Edit distance combined with dictionary
+  - OCR-specific edit rules
+  - Cross-word character combination / N-gram (fix bad segmentation)
+
+* Word level
+  - Shallow word-level features
+  - Dictionary
+    - Shallow English dictionary
+    - General corpus (Web)
+    - Domain-specific corpus (Paleo)
+  - Cross-sentence word combination (fix bad segmentation)
+
   - POS(i): i's Part-of-speech tag.
+
+* Document level
+  - OCRs make similar errors within a single document!
+  - 
+
 
 * Lexical level
   - A window of k words to the left of i (including i)
     - e.g. for current word "dinosaurs" with a left window "the
       evolution of", check how many times "the evolution of dinosaurs"
-      appear in our knowledge base (or maybe in this document / the
-      corpus?)
+      appear in our corpus / this document / whole
   - A window of k words to the right of i (including i)
   - A window of k words' POS tags to the left of i including POS of i.
     - e.g. "PER VERB LOC" often appears in our knowledge base, but "NOUN

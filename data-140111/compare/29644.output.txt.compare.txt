@@ -5,42 +5,42 @@
 
  1      CALIFORNIA      CALIFORNIA  NNP LOCATI	
  2               :               :    :      O	
- 3        vACADEMY        :AlCABEM   NN      O	|||ed,comb
- 4               ?               Y   CD NUMBER	|||twchar,rmchar
+ 3        vACADEMY        :AlCABEM   NN      O	|||ed,comb$ACADEMY
+ 4               ?               Y   CD NUMBER	|||twchar,rmchar$
  5              OF              OF   IN      O	
  6        SCIENCES        SCIENCES  NNS      O	
 
- 1         1-vFoUR         :FOURTH   NN      O	|||rmchar
+ 1         1-vFoUR         :FOURTH   NN      O	|||rmchar$FOURTH
  2               *                   CD NUMBER	
  3               i                   FW      O	
  4               *                   FW      O	
  5               H                   NN      O	
  6          SERIES          SERIES   NN      O	
- 7               :               '    :      O	|||rmchar,twchar,cwchar
+ 7               :               '    :      O	|||rmchar,twchar,cwchar$
 
- 1             voL             VOL   NN      O	|||upp,sw
- 2               ;               ,    :      O	|||twchar,cwchar,rmchar
- 3           xv111           XVIII   NN      O	|||sw,swgram
+ 1             voL             VOL   NN      O	|||upp,sw$2
+ 2               ;               ,    :      O	|||twchar,cwchar,rmchar$
+ 3           xv111           XVIII   NN      O	|||sw,swgram$2
  4               ,               ,    ,      O	
- 5             No.             No;   NN      O	|||sw
+ 5             No.             No;   NN      O	|||sw$1
  6               4               4   CD NUMBER	
  7               ,               ,    ,      O	
  8              pp              pp   NN      O	
  9               .               .    .      O	
 
  1              73              73   CD NUMBER	
- 2               '               -   ''      O	|||comb
- 3              -2              '2   CD NUMBER	|||rmchar,ner
- 4               ?               1   CD NUMBER	|||
- 5              l3              3,   NN      O	|||
- 6               ,               '    ,      O	|||cwchar,rmchar
- 7               ?               p   CD NUMBER	|||
- 8          plates           1ates  NNS      O	|||d,sw
+ 2               '               -   ''      O	|||comb$-213,
+ 3              -2              '2   CD NUMBER	|||rmchar,ner$
+ 4               ?               1   CD NUMBER	|||$
+ 5              l3              3,   NN      O	|||$
+ 6               ,               '    ,      O	|||cwchar,rmchar$
+ 7               ?               p   CD NUMBER	|||$
+ 8          plates           1ates  NNS      O	|||d,sw$plates
  9            8-23            8-23   CD NUMBER	
-10               ?               M   CD NUMBER	|||
-11           MARCH           ARcII   NN   DATE	|||d,sw
+10               ?               M   CD NUMBER	|||$
+11           MARCH           ARcII   NN   DATE	|||d,sw$MARCH
 12              29              29   CD   DATE	
-13               ,              ';    ,   DATE	|||
+13               ,              ';    ,   DATE	|||cwchar$,
 14            1929            1929   CD   DATE	
 
  1              IV                   CD NUMBER	
@@ -48,474 +48,46 @@
  1          MARINE          MARINE   JJ      O	
  2         MIOCENE         MIOCENE   JJ   MISC	
  3             AND             AND   CC      O	
- 4         RELATED       :RELATEX)   JJ      O	|||d,sw
- 5        DEPOSITS        DEP'OSXT  NNS      O	|||d,sw
+ 4         RELATED       :RELATEX)   JJ      O	|||d,sw$1
+ 5        DEPOSITS        DEP'OSXT  NNS      O	|||d,sw$1
  6               ?              S:   IN      O	|||
 
- 1              OF             OF:   IN      O	|||d,sw
- 2           NORTH           NQRTH  NNP      O	|||d,sw
- 3               "               C   ``      O	|||
- 4        COLOMBIA         OLOMBIA  NNP LOCATI	|||d,sw
+ 1              OF             OF:   IN      O	|||d,sw$1
+ 2           NORTH           NQRTH  NNP      O	|||d,sw$1
+ 3               "               C   ``      O	|||rmchar$
+ 4        COLOMBIA         OLOMBIA  NNP LOCATI	|||d,sw$1
 
- 1              BY              SY   IN      O	|||d,sw,by
+ 1              BY              SY   IN      O	|||d,sw,by$1
 
  1           FRANK           FRANK   JJ      O	
- 2               ?                   JJ      O	
+ 2               ?                   JJ      O	|||twchar$
  3               ?               .   NN      O	|||twchar,comb,persondot
- 4               *              M;   CD NUMBER	|||
+ 4               *              M;   CD NUMBER	|||?$
  5        ANDERSON        ANDERSON  NNP      O	
 
  1        CONTENTS        CONTENTS  NNS      O	
 
- 1            PAGE           PAGP.   NN      O	|||d,sw
- 2    Introduction    Introduction   NN      O	
- 3       . . . . .              ..   CD NUMBER	|||
- 4       . . . . .              ..   CD NUMBER	|||
- 5       . . . . .               .   CD NUMBER	|||
- 6               *              ..   NN      O	|||
- 7       . . . . .               .   CD NUMBER	|||
- 8       . . . . .                   CD NUMBER	
- 9       . . . . .                   CD NUMBER	
-10         . . . .                   CD NUMBER	
-11               *                   NN      O	
-12               .                    .      O	
+ 1            PAGE           PAGP.   NN      O	|||d,sw$1
 
- 1               -                    :      O	
- 2       . . . . .                   NN      O	
- 3               ?                   NN      O	
- 4               *                   NN      O	
- 5               .                    .      O	
-
- 1               .                    .      O	
-
- 1               *                   NN      O	
- 2              74              74   CD NUMBER	
- 3     Post-Eocene     Post-Eocene   NN      O	
- 4               -               S    :      O	|||
- 5        Sequence        equence.   NN      O	|||
- 6         . . . .                   NN      O	
- 7               ;                    :      O	
- 8               '                   ''      O	
- 9           . . .                   CD NUMBER	
-10               ,                    ,      O	
-11         . . . .                   CD NUMBER	
-12               ;                    :      O	
-13       . . . . .                   CD NUMBER	
-14       . . . . .                   CD NUMBER	
-15           . . .                   NN      O	
-16       . . . . .                   CD NUMBER	
-17       . . . . .                   CD NUMBER	
-18             ...                    :      O	
-19               .                    .      O	
-
- 1               .                    .      O	
- 2               '                   ''      O	
-
- 1       . . . . .                   NN      O	
- 2               .                    .      O	
-
- 1               -                    :      O	
- 2              T5                   NN      O	
- 3            Poso                  NNP   MISC	
- 4          Series                  NNP   MISC	
- 5       . . . . .                  NNP      O	
- 6       . . . . .                  NNP      O	
- 7       . . . . .                  NNP      O	
- 8       . . . . .                  NNP      O	
- 9       . . . . .                  NNP      O	
-10       . . . . .                  NNP      O	
-11       . . . . .                  NNP      O	
-12       . . . . .                  NNP      O	
-13       . . . . .                  NNP      O	
-14               .                    .      O	
-
- 1               .                    .      O	
-
- 1               .                    .      O	
-
- 1              76                   CD NUMBER	
- 2      Struetures                  NNS      O	
- 3            ....                  VBN      O	
- 4               ;                    :      O	
- 5       . . . . .                   CD NUMBER	
- 6       . . . . .                   CD NUMBER	
- 7       . . . . .                   CD NUMBER	
- 8       . . . . .                   CD NUMBER	
- 9       . . . . .                   CD NUMBER	
-10               *                   NN      O	
-11       . . . . .                   CD NUMBER	
-12       . . . . .                   CD NUMBER	
-13         . . . .                   NN      O	
-14               .                    .      O	
-
- 1              82              82   CD NUMBER	
- 2   Stratigraphic   Stratigraphic   JJ      O	
- 3       relations       relations  NNS      O	
- 4       . . . . .               .  VBP      O	|||
- 5       . . . . .                   CD NUMBER	
- 6       . . . . .                   CD NUMBER	
- 7       . . . . .                   CD NUMBER	
- 8       . . . . .                   CD NUMBER	
- 9       . . . . .                   CD NUMBER	
-10       . . . . .                   CD NUMBER	
-11           . . .                   CD NUMBER	
-12              83              83   CD NUMBER	
-13             Age             Age   NN      O	
-14              of              of   IN      O	
-15             the             the   DT      O	
-16            Poso            Poso  NNP      O	
-17          series          series   NN      O	
-18       . . . . .               .   NN      O	|||
-19       . . . . .                   CD NUMBER	
-20       . . . . .                   CD NUMBER	
-21       . . . . .                   CD NUMBER	
-22       . . . . .                   CD NUMBER	
-23       . . . . .                   CD NUMBER	
-24       . . . . .                   CD NUMBER	
-25         . . . .                   CD NUMBER	
-26              85              85   CD NUMBER	
-27             The             The   DT      O	
-28         Miocene         Miocene  NNP   MISC	
-29          Series          Series  NNP   MISC	
-30           .....           .....  NNP      O	
-31             ...             ...    :      O	
-32               .               .    .      O	
-
- 1               .               .    .      O	
-
- 1               1               .   LS NUMBER	|||
- 2           .....               .   FW      O	|||
- 3           .....                   FW      O	
- 4           .....                   FW      O	
- 5           .....                   FW      O	
- 6           .....                   FW      O	
- 7           .....                   FW      O	
- 8            ....                   FW      O	
- 9               .                    .      O	
-
- 1               .                    .      O	
-
- 1              86              86   CD NUMBER	
- 2             Las             Las  NNP      O	
- 3  Perdices-group   Perdicesgroup   JJ      O	|||
- 4       . . . . .                   CD NUMBER	
- 5       . . . . .               .   CD NUMBER	|||
- 6           . . .                   NN      O	
- 7               p                   NN      O	
- 8               *                   CD NUMBER	
- 9               ,                    ,      O	
-10       . . . . .                   CD NUMBER	
-11       . . . . .                   CD NUMBER	
-12         . . . .                   NN      O	
-13               .                    .      O	
-
- 1              89              89   CD NUMBER	
- 2             The             The   DT      O	
- 3               ?               '    .      O	|||
- 4               '               ,   ''      O	|||
-
- 1               1               T   CD NUMBER	|||
- 2               ?               u   CD NUMBER	|||
- 3          uber5.          bersgr   NN      O	|||
- 4               ,               o    ,      O	|||
- 5           group           up...   NN      O	|||
- 6               .               .    .      O	
-
- 1               .               .    .      O	
-
- 1              V.              ,.  NNP      O	|||
- 2           .....             :,'  NNP      O	|||
- 3               ,                    ,      O	
- 4               .                    .      O	
-
- 1               ?                   NN      O	
- 2           .....                   NN      O	
- 3               '                   ''      O	
- 4       . . . . .                   CD NUMBER	
- 5           . . .                   CD NUMBER	
- 6       . . . . .                   CD NUMBER	
- 7       . . . . .                   NN      O	
- 8               .                    .      O	
-
- 1               .                    .      O	
-
- 1               _               9   NN      O	|||
- 2              91               1   CD NUMBER	|||
- 3 Localooourrences. Local:occurrences   NN      O	|||
- 4               ;               :    :      O	|||
- 5               _               .   NN      O	|||
- 6               .               '    .      O	|||
-
- 1               .               .    .      O	
- 2               '                   ''      O	
-
- 1               .                    .      O	
-
- 1               _                   NN      O	
- 2             ...                    :      O	
- 3               ;                    :      O	
- 4               .                    .      O	
-
- 1               .                    .      O	
- 2               '                   ''      O	
-
- 1               .                    .      O	
-
- 1               L                   NN      O	
- 2               ,                    ,      O	
- 3       . . . . .                   CD NUMBER	
- 4               .                    .      O	
-
- 1               ;                    :      O	
- 2       . . . . .                   CD NUMBER	
- 3       . . . . .                   CD NUMBER	
- 4               .                    .      O	
-
- 1               .                    .      O	
-
- 1               .                    .      O	
-
- 1              93              93   CD NUMBER	
-
- 1               ~               ,   NN      O	|||
- 2         Compari         Compari  NNP      O	
- 3               ~               s   FW      O	|||
- 4           son-o           on,of   FW      O	|||
- 5               ?               .   FW      O	|||
- 6      l_1orizons      horizons..  NNS      O	|||
- 7               .                    .      O	
-
- 1               ~                   NN      O	
- 2               .                    .      O	
-
- 1               `               .   ``      O	|||
- 2               ,               '    ,      O	|||
- 3               *               .   CD NUMBER	|||
- 4       . . . . .                   CD NUMBER	
- 5               .                    .      O	
-
- 1               .                    .      O	
-
- 1               *                   NN      O	
- 2       . . . . .                   CD NUMBER	
- 3               .                    .      O	
-
- 1              95                   CD NUMBER	
- 2    Galapa-LaPop    Galapa-LaPop  NNP      O	
- 3               ?               '   CD NUMBER	|||
- 4               a               a   DT      O	
- 5               ?               g   NN      O	|||
- 6           group           r'oup   NN      O	|||
- 7             ...             ...    :      O	
- 8               '               .   ''      O	|||
- 9           .....            ....   FW      O	|||
-10               ~                   FW      O	
-11           . . .                   FW      O	
-12               ,                    ,      O	
-13               .                    .      O	
-
- 1               .                    .      O	
-
- 1               o                   NN      O	
- 2               *                   CD NUMBER	
- 3       . . . . .                   CD NUMBER	
- 4       . . . . .                   NN      O	
- 5               .                    .      O	
-
- 1               o                   NN      O	
- 2               *                   CD NUMBER	
- 3            ....                   CD NUMBER	
- 4               ?                   NN      O	
- 5               *                   CD NUMBER	
- 6              98              98   CD NUMBER	
- 7        Pliocene        Pliocene  NNP      O	
- 8        Deposits        Deposits  NNS      O	
- 9           .....           ,....  VBP      O	|||
-10               _               .   NN      O	|||
-11               .               .    .      O	
-
- 1               ;               .    :      O	|||
- 2             ...             ...    :      O	
- 3               ?               .   CD NUMBER	|||
- 4            ....              ..   NN      O	|||
- 5               '                   ''      O	
- 6       . . . . .                   CD NUMBER	
- 7       . . . . .                   CD NUMBER	
- 8           . . .                   CD NUMBER	
- 9               ?                   NN      O	
-10               *                   CD NUMBER	
-11       . . . . .                   CD NUMBER	
-12               .                    .      O	
-
- 1               .                    .      O	
-
- 1               .                    .      O	
-
- 1               _                  NNP      O	
- 2              Z.                  NNP      O	
- 3               .                    .      O	
-
- 1               ?                   NN      O	
- 2       . . . . .                   CD NUMBER	
- 3               .                    .      O	
-
- 1               *                   NN      O	
- 2             '99                   CD NUMBER	
- 3    Correlations    Gorrelati011  NNS      O	|||
- 4               .               s    .      O	|||
-
- 1               .               .    .      O	
-
- 1               ;               .    :      O	|||
- 2              v.              ..   CC      O	|||
- 3               .               ,    .      O	|||
-
- 1               ,               .    ,      O	|||
- 2               .               .    .      O	
-
- 1               ?               .   NN      O	|||
- 2               .               .    .      O	
-
- 1               ,               .    ,      O	|||
- 2               .               .    .      O	
-
- 1               .               '    .      O	|||
- 2               '                   ''      O	
-
- 1               .                    .      O	
-
- 1               .                    .      O	
- 2               '                   ''      O	
-
- 1       . . . . .               .   NN      O	|||
- 2               .               .    .      O	
-
- 1               -                    :      O	
- 2               K                   NN      O	
- 3       . . . . .                   CD NUMBER	
- 4               .                    .      O	
-
- 1               ,                    ,      O	
- 2               w                   NN      O	
- 3               *                   CD NUMBER	
- 4     Des_criptio     Description   NN      O	|||
- 5               ,               o    ,      O	|||
- 6      nofSpeeies      fSpecies..  NNS      O	|||
- 7            ....            '...  VBP      O	|||
- 8               }               .   NN      O	|||
- 9               .               .    .      O	
-
- 1               -               ,    :      O	|||
- 2            ....              ..   NN      O	|||
- 3               ;                    :      O	
- 4             ...                    :      O	
- 5               -                    :      O	
- 6               .                    .      O	
-
- 1               .                    .      O	
-
- 1               _                   NN      O	
- 2             105             105   CD NUMBER	
- 3      Gastropoda      Gastropoda  NNP      O	
- 4       . . . . .              ..   CD NUMBER	|||
- 5               N               .  NNP      O	|||
- 6               *               .   CD NUMBER	|||
- 7       . . . . .              ..   CD NUMBER	|||
- 8               .               .    .      O	
-
- 1               .                    .      O	
-
- 1               *               .   NN      O	|||
- 2       . . . . .                   CD NUMBER	
- 3               r                   NN      O	
- 4               *                   NN      O	
- 5             106             106   CD NUMBER	
- 6      Pelecypoda      Pelecypoda  NNP      O	
- 7       . . . . .              ..   CD NUMBER	|||
- 8       . . . . .              ;.   CD NUMBER	|||
- 9       . . . . .              ..   CD NUMBER	|||
-10       . . . . .                   CD NUMBER	
-11       . . . . .                   CD NUMBER	
-12       . . . . .                   NN      O	
-13               .                    .      O	
-
- 1              oJ                   NN      O	
- 2               *                   CD NUMBER	
- 3       . . . . .                   CD NUMBER	
- 4       . . . . .                   CD NUMBER	
- 5       . . . . .                   CD NUMBER	
- 6               ?                   NN      O	
- 7             146                   CD NUMBER	
- 8    Foraminifera ,FO1'arnnlfel'a  NNP      O	|||
- 9       . . . . .              ..  NNP      O	|||
-10       . . . . .              ..  NNP      O	|||
-11               .             ..,    .      O	|||
-
- 1               |               .   NN      O	|||
- 2               *                   CD NUMBER	
- 3               *                   NN      O	
- 4               .                    .      O	
-
- 1              .3                   NN NUMBER	
- 2       . . . . .                   CD NUMBER	
- 3           . . .                   CD NUMBER	
- 4               *                   NN      O	
- 5               .                    .      O	
-
- 1               *               .   NN      O	|||
- 2               .               .    .      O	
-
- 1               _                   NN      O	
- 2       . . . . .              ..   CD NUMBER	|||
- 3               .               .    .      O	
-
- 1               .               .    .      O	
-
- 1               ?               .   NN      O	|||
- 2               *               .   NN      O	|||
- 3               .               .    .      O	
- 4               '                   ''      O	
-
- 1             179             179   CD NUMBER	
- 2               _                   CD NUMBER	
- 3           March           March  NNP   DATE	
- 4              29              99   CD   DATE	|||
- 5               ,               ,    ,   DATE	
- 6            1929            1999   CD   DATE	|||
- 7              74                   CD NUMBER	
- 8      CALIFORNIA     CALIFOIINIA  NNP LOCATI	|||
- 9         ACADEMY         ACADEMP  NNP      O	|||
-10              OF              OF   IN      O	
-11        SCIENCES        SCIENCES  NNP      O	
-12               [               [   CD NUMBER	
-13            Pnoc            Psoc  NNP      O	|||
-14               .               .    .      O	
-
- 1              41              4T   CD NUMBER	|||
- 2               '               1   ''      O	|||
- 3               H               1   NN      O	|||
- 4             SE2             Ssa   NN      O	|||
- 5               .               .    .      O	
-
- 1    INTRODUCTION    INTROBUCTXON   NN      O	|||d,sw
- 2               !              -'    .      O	|||rmchar
+ 1    INTRODUCTION    INTROBUCTXON   NN      O	|||d,sw$1
+ 2               !              -'    .      O	|||rmchar$
 
  1             The             The   DT      O	
- 2               _               m   NN      O	|||comb,twchar
- 3          marine           arine   JJ      O	|||
+ 2               _               m   NN      O	|||comb,twchar$
+ 3          marine           arine   JJ      O	|||$1
  4          Eocene          Eocene  NNP   MISC	
  5        deposits        deposits  NNS      O	
  6              of              of   IN      O	
  7        northern        northern   JJ      O	
  8        Colombia        Colombia  NNP LOCATI	
  9            have            have  VBP      O	
-10         already        al-ready   RB      O	|||d,sw,rmchar
+10         already        al-ready   RB      O	|||d,sw,rmchar$1
 11            been            been  VBN      O	
 12       described       described  VBN      O	
 13              in              in   IN      O	
 14         earlier         earlier  JJR      O	
 15          papers          papers  NNS      O	
-16               ?               '   CD NUMBER	|||?(^1footnote)
+16               ?               '   CD NUMBER	|||?$^1footnote
 17             and             and   CC      O	
 18       therefore       therefore   RB      O	
 19         require         require  VBP      O	
@@ -526,7 +98,7 @@
 24               .               .    .      O	
 
  1               -                    :      O	
- 2             For            For.   IN      O	|||d,sw
+ 2             For            For.   IN      O	|||d,sw$1
  3             the             the   DT      O	
  4            most            most  JJS      O	
  5            part            part   NN      O	
@@ -560,21 +132,21 @@
  3           midst           midst   NN      O	
  4              of              of   IN      O	
  5            this            this   DT      O	
- 6               "               g   ``      O	|||twchar,comb
- 7         general          eneral   JJ      O	|||
+ 6               "               g   ``      O	|||twchar,comb$
+ 7         general          eneral   JJ      O	|||$1
  8        syncline        syncline   NN      O	
  9           which           which  WDT      O	
 10         extends         extends  VBZ      O	
 11             for             for   IN      O	
 12            more            more  JJR      O	
-13            than            thin   IN      O	|||swgram,pos
+13            than            thin   IN      O	|||swgram,pos$1
 14             160             160   CD NUMBER	
 15           miles           miles  NNS      O	
 16               ,               ,    ,      O	
 17           there           there   EX      O	
 18             are             are  VBP      O	
 19      pronounced      pronounced   JJ      O	
-20      anticlinal       antichnal   JJ      O	|||d,sw
+20      anticlinal       antichnal   JJ      O	|||d,sw$1
 21           folds           folds  VBZ      O	
 22       extending       extending  VBG      O	
 23        parallel        parallel   NN      O	
@@ -608,7 +180,7 @@
 18        contours        contours  NNS      O	
 19              of              of   IN      O	
 20             the             the   DT      O	
-21     preexisting    pre-existing  VBG      O	|||rmchar,d,sw
+21     preexisting    pre-existing  VBG      O	|||rmchar,d,sw$1
 22          ranges          ranges  NNS      O	
 23             and             and   CC      O	
 24           spurs           spurs  VBZ      O	
@@ -619,7 +191,7 @@
 29        northern        northern   JJ      O	
 30            limb            limb   NN      O	
 31            they            they  PRP      O	
-32         outcrop        outcro'p  VBP      O	|||d,sw
+32         outcrop        outcro'p  VBP      O	|||d,sw$1
 33              in              in   IN      O	
 34    disconnected    disconnected  VBN      O	
 35           areas           areas  NNS      O	
@@ -630,14 +202,14 @@
 40            from            from   IN      O	
 41             the             the   DT      O	
 42            west            west   NN      O	
-43            ?ank            Aank   NN      O	|||edrule,swgram
+43            ?ank            Aank   NN      O	|||edrule,swgram$flank
 44              of              of   IN      O	
 45             the             the   DT      O	
 46          Sierra          Sierra  NNP LOCATI	
-47          Nevada          Xevada  NNP LOCATI	|||d,sw,kbe,kbr
-48               .               l    .      O	|||dot,rmchar
+47          Nevada          Xevada  NNP LOCATI	|||d,sw,kbe,kbr$1
+48               .               l    .      O	|||dot,rmchar$
 
- 1              de             :dh   IN      O	|||swgram
+ 1              de             :dh   IN      O	|||swgram$1
  2           Santa           Santa  NNP LOCATI	
  3           Marta           Marta  NNP LOCATI	
  4              to              to   TO      O	
@@ -650,10 +222,10 @@
  1               A               A   DT      O	
  2           large           large   JJ      O	
  3            area            area   NN      O	
- 4              of             of:   IN      O	|||d,sw,rmchar
+ 4              of             of:   IN      O	|||d,sw,rmchar$1
  5           these           these   DT      O	
- 6               ?               r   CD NUMBER	|||twchar,comb
- 7           rocks           ocks,  NNS      O	|||seg
+ 6               ?               r   CD NUMBER	|||twchar,comb$
+ 7           rocks           ocks,  NNS      O	|||seg$1
  8               ,                    ,      O	
  9             for             for   IN      O	
 10         example         example   NN      O	
@@ -663,8 +235,8 @@
 14              of              of   IN      O	
 15             the             the   DT      O	
 16             Rio             Rio  NNP LOCATI	
-17               "               M   ``      O	|||twchar,comb
-18       Magdalena       agdalena,  NNP PERSON	|||
+17               "               M   ``      O	|||twchar,comb$
+18       Magdalena       agdalena,  NNP PERSON	|||seg$1
 19               ,                    ,      O	
 20       extending       extending  VBG      O	
 21           north           north   RB      O	
@@ -677,25 +249,25 @@
 28               ,               ,    ,      O	
 29             and             and   CC      O	
 30              to              to   TO      O	
-31   the/southwest    thesouthwest   VB      O	|||seg
+31   the/southwest    thesouthwest   VB      O	|||seg$the$southwest
 32             for             for   IN      O	
 33              an              an   DT      O	
 34         unknown         unknown   JJ      O	
-35        distance        dis-tanc   NN      O	|||d,sw,comb,rmchar
-36               .              e.    .      O	|||
+35        distance        dis-tanc   NN      O	|||d,sw,comb,rmchar$1
+36               .              e.    .      O	|||$1
 
  1             The             The   DT      O	
- 2               ?               "   CD NUMBER	|||rmchar
+ 2               ?               "   CD NUMBER	|||rmchar$
  3          Arjona          Arjona  NNP PERSON	
  4           group           group   NN      O	
- 5               ?               "   CD NUMBER	|||rmchar
+ 5               ?               "   CD NUMBER	|||rmchar$
  6       mentioned       mentioned  VBN      O	
  7              in              in   IN      O	
  8               a               a   DT      O	
  9          former          former   JJ      O	
-10          paperi          paper'   NN      O	|||rmchar
-11               ?               o   NN      O	|||comb,twchar
-12        occupies         ccupies  VBZ      O	|||
+10          paperi          paper'   NN      O	|||rmchar$paper
+11               ?               o   NN      O	|||comb,twchar$
+12        occupies         ccupies  VBZ      O	|||$1
 13            this            this   DT      O	
 14            area            area   NN      O	
 15               .               .    .      O	
@@ -725,7 +297,7 @@
 23               ,               ,    ,      O	
 24              in              in   IN      O	
 25             the             the   DT      O	
-26         Cerrosi          Cerros  NNP      O	|||sw,kbe?
+26         Cerrosi          Cerros  NNP      O	|||swgram$2
 27              de              de   IN      O	
 28             las             las   FW      O	
 29         Palomas         Palomas   FW LOCATI	
@@ -733,7 +305,7 @@
 31             and             and   CC      O	
 32              in              in   IN      O	
 33           other           other   JJ      O	
-34       districts      dis-tricts  NNS      O	|||d,sw,rmchar
+34       districts      dis-tricts  NNS      O	|||d,sw,rmchar$1
 35           about           about   IN      O	
 36             the             the   DT      O	
 37            head            head   NN      O	
@@ -763,9 +335,9 @@
 
  1              In              In   IN      O	
  2            some            some   DT      O	
- 3           cases           :cams  NNS      O	|||d,sw
- 4               -               t    :      O	|||rmchar
- 5            they            he'y  PRP      O	|||d,sw
+ 3           cases           :cams  NNS      O	|||d,sw$1
+ 4               -               t    :      O	|||rmchar$
+ 5            they            he'y  PRP      O	|||d,sw$1
  6             are             are  VBP      O	
  7            much            much   JJ      O	
  8      compressed      compressed  VBN      O	
@@ -775,12 +347,12 @@
 12             but             but   CC      O	
 13            they            they  PRP      O	
 14             are             are  VBP      O	
-15   suf?cvient-ly     suRiefently   JJ      O	|||upp,ed,edrule
+15   suf?cvient-ly     suRiefently   JJ      O	|||upp,ed,edrule$sufficiently
 16          fossil          fossil   JJ      O	
 17         bearing         bearing   NN      O	
 18             for             for   IN      O	
-19   identi?cation   identificatio   NN      O	|||edrule,comb,seg
-20               .              n.    .      O	|||
+19   identi?cation   identificatio   NN      O	|||edrule,comb,seg$identification
+20               .              n.    .      O	|||$1
 
  1     POST-EOCENE     POST-EOCENE   JJ      O	
  2        SEQUENCE        SEQUENCE   NN      O	
@@ -791,9 +363,9 @@
  4              of              of   IN      O	
  5        Colombia        Colombia  NNP LOCATI	
  6             are             are  VBP      O	
- 7             for            :for   IN      O	|||d,sw,rmchar
+ 7             for            :for   IN      O	|||d,sw,rmchar$1
  8             the             the   DT      O	
- 9            most           tnost  JJS      O	|||d,sw
+ 9            most           tnost  JJS      O	|||d,sw$1
 10            part            part   NN      O	
 11               ,               ,    ,      O	
 12      especially      especially   RB      O	
@@ -803,9 +375,9 @@
 16           areas           areas  NNS      O	
 17              of              of   IN      O	
 18             the             the   DT      O	
-19        syncline        synchne,   NN      O	|||d,sw
+19        syncline        synchne,   NN      O	|||d,sw$1
 20               ,                    ,      O	
-21        overlaid        Overlaid  VBN      O	|||upper
+21        overlaid        Overlaid  VBN      O	|||upper$1
 22              by              by   IN      O	
 23               a               a   DT      O	
 24        sequence        sequence   NN      O	
@@ -818,7 +390,7 @@
 
  1              In              In   IN      O	
  2            some            some   DT      O	
- 3     placesthese    places.these   NN      O	|||seg
+ 3     placesthese    places.these   NN      O	|||seg$places$these
  4           later           later   RB      O	
  5            beds            beds  NNS      O	
  6         overlap         overlap  VBP      O	
@@ -826,21 +398,21 @@
  8         borders         borders  NNS      O	
  9              of              of   IN      O	
 10             the             the   DT      O	
-11          trough         :trough   NN      O	|||d,sw,rmchar
+11          trough         :trough   NN      O	|||d,sw,rmchar$1
 12             and             and   CC      O	
 13           along           along   IN      O	
 14             its             its  PRP$      O	
 15         coastal         coastal   JJ      O	
 16            side            side   NN      O	
-17            ?ank           flank   VB      O	|||d,sw,edrule
+17            ?ank           flank   VB      O	|||d,sw,edrule$2
 18              it              it  PRP      O	
 19             for             for   IN      O	
 20            many            many   JJ      O	
 21           miles           miles  NNS      O	
 22               .               .    .      O	
 
- 1               -               W    :      O	|||comb,twchar
- 2           While            hile   IN      O	|||
+ 1               -               W    :      O	|||comb,twchar$
+ 2           While            hile   IN      O	|||$1
  3             the             the   DT      O	
  4      succeeding      succeeding  VBG      O	
  5       divisions       divisions  NNS      O	
@@ -852,7 +424,7 @@
 11             the             the   DT      O	
 12          result          result   NN      O	
 13              of              of   IN      O	
-14  reconnaissance  reconnas-sance   NN      O	|||d,sw
+14  reconnaissance  reconnas-sance   NN      O	|||d,sw$1
 15               ,               ,    ,      O	
 16             and             and   CC      O	
 17            only            only   RB      O	
@@ -862,7 +434,7 @@
 21              be              be   VB      O	
 22         claimed         claimed  VBN      O	
 23             for             for   IN      O	
-24        themgyet       them,:yet   NN      O	|||seg,rmchar
+24        themgyet       them,:yet   NN      O	|||seg,rmchar$them$,$yet
 25              it              it  PRP      O	
 26              is              is  VBZ      O	
 27        believed        believed  VBN      O	
@@ -873,17 +445,17 @@
 32          series          series   NN      O	
 33             are             are  VBP      O	
 34        properly        properly   RB      O	
-35   d1Stinguished   dis-tinguishe  VBN      O	|||comb,upp,rmchar
-36               ,              d,    ,      O	|||
+35   d1Stinguished   dis-tinguishe  VBN      O	|||comb,upp,rmchar$distinguished
+36               ,              d,    ,      O	|||$1
 37             and             and   CC      O	
 38           their           their  PRP$      O	
 39        position        position   NN      O	
 40              in              in   IN      O	
 41             the             the   DT      O	
 42          column          column   NN      O	
-43              1S               s   NN      O	|||ed,swgram
+43              1S               s   NN      O	|||ed,swgram$is
 44     undoubtedly     undoubtedly   RB      O	
-45               ?               r   CD NUMBER	|||?(1footnote)
+45               ?               r   CD NUMBER	|||?$^1footnote
 46        Anderson        Anderson  NNP PERSON	
 47               ,               ,    ,      O	
 48              F.              F.  NNP PERSON	
@@ -895,7 +467,7 @@
  1          Calif.          Calif.  NNP LOCATI	
  2               .                    .      O	
 
- 1            Acad            Aced  NNP      O	|||comb,persondot
+ 1            Acad            Aced  NNP      O	|||comb,persondot$1
  2               .               .    .      O	
 
  1            Sci.            Sci.  NNP      O	
@@ -903,7 +475,7 @@
  3             Vol             Vol  NNP      O	
  4               .               .    .      O	
 
- 1              17              12   CD NUMBER	|||numconf
+ 1              17              12   CD NUMBER	|||?$1
  2               ,               ,    ,      O	
  3            1928            1928   CD   DATE	
  4               ,               ,    ,      O	
@@ -915,10 +487,10 @@
 
  1               _                   NN      O	
  2               1                   CD NUMBER	
- 3               ?               "   CD NUMBER	|||
+ 3               ?               "   CD NUMBER	|||rmchar$
  4        Anderson        Anderson  NNP PERSON	
  5               ,               ,    ,      O	
- 6              F.              F,  NNP PERSON	|||
+ 6              F.              F,  NNP PERSON	|||persondot$1
  7              M.              M.  NNP PERSON	
  8               ,               ,    ,      O	
  9            Bull            Bull  NNP ORGANI	
@@ -940,24 +512,24 @@
  2               ,               ,    ,      O	
  3            1926            1926   CD   DATE	
  4               ,               ,    ,      O	
- 5              p.              p;   NN      O	|||sw
+ 5              p.              p;   NN      O	|||sw$1
  6             387             387   CD NUMBER	
  7               .               .    .      O	
 
- 1              oL              11   NN      O	|||
- 2               +               2   CC      O	|||
+ 1              oL              11   NN      O	|||comb$112
+ 2               +               2   CC      O	|||$
  3      CALIFORNIA      CALIFORNIA  NNP LOCATI	
- 4         ACADEMY       ACADEMIA'  NNP      O	|||swgram,kbe
+ 4         ACADEMY       ACADEMIA'  NNP      O	|||swgram,kbe$1
  5              OF              OF   IN      O	
  6        SCIENCES        SCIENCES  NNP      O	
  7               [               [   CD NUMBER	
- 8            Pnoc            Pace  NNP      O	|||ed,swgram
+ 8            Pnoc            Pace  NNP      O	|||ed,swgram$Proc
  9               .               .    .      O	
 
- 1             411             Sai   CD NUMBER	|||ner
- 2               !               c    .      O	|||
+ 1             411             Sai   CD NUMBER	|||ner$1
+ 2               !               c    .      O	|||rmchar$
 
- 1             San             Sss  NNP LOCATI	|||ed?(Ser.)
+ 1             San             Sss  NNP LOCATI	|||ed?$Ser.
  2               .               .    .      O	
 
  1               *                   NN      O	
@@ -969,18 +541,18 @@
  3               ?                   CD NUMBER	
  4        Anderson        Anderson  NNP PERSON	
  5               ,               ,    ,      O	
- 6             new            .new   JJ      O	|||d,sw,rmchar
+ 6             new            .new   JJ      O	|||d,sw,rmchar$1
  7         species         species  NNS      O	
  8               '               '  POS      O	
 
  1           Plate           Plate   NN      O	
  2               9               9   CD NUMBER	
  3               ,               ,    ,      O	
- 4          ?gures         figures  VBZ      O	|||d,sw,edrule
+ 4          ?gures         figures  VBZ      O	|||d,sw,edrule$2
  5               4               4   LS NUMBER	
- 6               -               ,    :      O	|||twchar
- 7               ,                    ,      O	
- 8               5               8   CD NUMBER	|||numconf
+ 6               -               ,    :      O	|||twchar$2
+ 7               ,                    ,      O	|||$
+ 8               5               8   CD NUMBER	|||?$1
 
  1           Shell           Shell  NNP      O	
  2              of              of   IN      O	
@@ -991,13 +563,13 @@
  7          height          height   NN      O	
  8              of              of   IN      O	
  9        holotype        holotype   NN      O	
-10               (               {   NN      O	|||statc,path
-11      incomplete      incom-plet   JJ      O	|||d,sw,comb
-12               )              e)   NN      O	|||
+10               (               {   NN      O	|||statc,path$1
+11      incomplete      incom-plet   JJ      O	|||d,sw,comb$1
+12               )              e)   NN      O	|||$1
 13              54              54   CD NUMBER	
-14               .               m    .      O	|||dot,comb,swgram
+14               .               m    .      O	|||dot,comb,swgram$
 
- 1             mm.             m.,   NN      O	|||
+ 1             mm.             m.,   NN      O	|||$1
  2               ,                    ,      O	
  3           width           width   NN      O	
  4             3.4             3.4   CD NUMBER	
@@ -1010,9 +582,9 @@
 11       concavely       concavely   RB      O	
 12        turrited        turrited  VBN      O	
 13               ,               ,    ,      O	
-14         earlier        earlier:  JJR      O	|||d,sw,cwchar
-15 whorlsvcoronated whorls::coronate  VBN      O	|||seg,comb
-16               ;              d;    :      O	|||
+14         earlier        earlier:  JJR      O	|||d,sw,cwchar$
+15 whorlsvcoronated whorls::coronate  VBN      O	|||seg,comb$whorls$coronated
+16               ;              d;    :      O	|||$1
 17            last            last   JJ      O	
 18             two             two   CD NUMBER	
 19              or              or   CC      O	
@@ -1023,12 +595,12 @@
 24             but             but   CC      O	
 25        slightly        slightly   RB      O	
 26               ,                    ,      O	
-27  excavatedabove  excavated:abov   NN      O	|||seg,comb
-28               ;              e;    :      O	|||
+27  excavatedabove  excavated:abov   NN      O	|||seg,comb$excavated$above
+28               ;              e;    :      O	|||$1
 29           sides           sides  NNS      O	
 30              of              of   IN      O	
-31           older         older..  JJR      O	|||d,sw
-32       specimens      .specimens  NNS      O	|||
+31           older         older..  JJR      O	|||d,sw$1
+32       specimens      .specimens  NNS      O	|||$1
 33          smooth          smooth   VB      O	
 34               ,               ,    ,      O	
 35              in              in   IN      O	
@@ -1038,8 +610,8 @@
 39           sides           sides  NNS      O	
 40             are             are  VBP      O	
 41         adorned         adorned  VBN      O	
-42 withiaminuterspirally w'ith:,minute.spirally   RB      O	|||seg,rmchar
-43        arranged       ar-ranged  VBN      O	|||d,sw
+42 withiaminuterspirally w'ith:,minute.spirally   RB      O	|||seg,rmchar$with$minute$spirally
+43        arranged       ar-ranged  VBN      O	|||d,sw$1
 44           beads           beads  NNS      O	
 45               ,               ,    ,      O	
 46          chie?y         chiefly   NN      O	|||d,sw,edrule
@@ -1059,18 +631,18 @@
  3              of              of   IN      O	
  4             the             the   DT      O	
  5             las             las  NNS      O	
- 6               '               t  POS      O	|||comb
- 7               t               .   NN      O	|||
- 8               ?               :   CD NUMBER	|||
- 9          wl1orl          :whorl   NN      O	|||rmchar
+ 6               '               t  POS      O	|||comb$
+ 7               t               .   NN      O	|||$
+ 8               ?               :   CD NUMBER	|||$
+ 9          wl1orl          :whorl   NN      O	|||rmchar$whorl
 10           sharp           sharp   JJ      O	
 11             and             and   CC      O	
 12          abrupt          abrupt   JJ      O	
-13               ;              .;    :      O	|||rmchar
+13               ;              .;    :      O	|||rmchar$1
 14           lines           lines  NNS      O	
 15              of              of   IN      O	
 16          growth          growth   NN      O	
-17        strongly       strorigly   RB      O	|||d,sw
+17        strongly       strorigly   RB      O	|||d,sw$1
 18          curved          curved  VBD      O	
 19               .               .    .      O	
 
@@ -1082,7 +654,7 @@
  3           shell           shell   NN      O	
  4       resembles       resembles  VBZ      O	
  5              C.              C.  NNP      O	
- 6     consobrimus     ConsobrN2NS   NN      O	|||ed,kbe
+ 6     consobrimus     ConsobrN2NS   NN      O	|||ed,kbe$1
  7            Sow.            Sow.  NNP      O	
  8               ,               ,    ,      O	
  9            only            only   RB      O	
@@ -1095,10 +667,10 @@
 16           wider           wider  JJR      O	
 17               ,               ,    ,      O	
 18             has             has  VBZ      O	
-19            less         .less..  RBR      O	|||d,sw,swgram
-20        strongly        stxongly   RB      O	|||d,sw
+19            less         .less..  RBR      O	|||d,sw,swgram$1
+20        strongly        stxongly   RB      O	|||d,sw$1
 21       developed       developed  VBN      O	
-22    granulations   granula-tions  NNS      O	|||d,sw,rmchar
+22    granulations   granula-tions  NNS      O	|||d,sw,rmchar$1
 23              on              on   IN      O	
 24             the             the   DT      O	
 25           sides           sides  NNS      O	
@@ -1109,39 +681,39 @@
  3         differs         differs  VBZ      O	
  4            from            from   IN      O	
  5              C.              C.  NNP      O	
- 6       toroensis       toroensfs  NNP      O	|||kbe
+ 6       toroensis       toroensfs  NNP      O	|||kbe$1
  7          Olsson          Olsson  NNP PERSON	
  8              in              in   IN      O	
  9        relative        relative   JJ      O	
 10           width           width   NN      O	
 11             and             and   CC      O	
 12              in              in   IN      O	
-13               ?               f   JJ      O	|||rmchar,comb
-14            form             orm   NN      O	|||
+13               ?               f   JJ      O	|||rmchar,comb$
+14            form             orm   NN      O	|||$1
 15              of              of   IN      O	
 16           spire           spire   NN      O	
 17               .               .    .      O	
 
  1               H               H   NN      O	
- 2         olotype         01otype   NN      O	|||comb,charuni
- 3               :               f    :      O	|||pos
+ 2         olotype         01otype   NN      O	|||comb,charuni$
+ 3               :               f    :      O	|||pos$
  4               N               N   NN      O	
- 5          0-4623          o.4623   CD NUMBER	|||comb
+ 5          0-4623          o.4623   CD NUMBER	|||comb$2
  6               ,               ,    ,      O	
  7             Mus             Mus   NN      O	
  8               .               .    .      O	
 
- 1          Calif.          Calif;  NNP LOCATI	|||sw
- 2               _               A  VBD      O	|||rmchar
- 3            Acad            cad.  NNP      O	|||comb,swgram,kbe
+ 1          Calif.          Calif;  NNP LOCATI	|||sw$1
+ 2               _               A  VBD      O	|||rmchar$
+ 3            Acad            cad.  NNP      O	|||comb,swgram,kbe$1
  4               .                    .      O	
 
  1            Sci.            Sci.  NNP      O	
  2               ,               ,    ,      O	
- 3               ?               f   CD NUMBER	|||comb
- 4            from             rom   IN      O	|||
- 5             Loc             I.o   NN LOCATI	|||sw
- 6               .              c.    .      O	|||
+ 3               ?               f   CD NUMBER	|||comb$
+ 4            from             rom   IN      O	|||$1
+ 5             Loc             I.o   NN LOCATI	|||sw$1
+ 6               .              c.    .      O	|||$1
 
  1             267             267   CD NUMBER	
  2               ,               ,    ,      O	
@@ -1150,15 +722,15 @@
  5              S.              S.  NNP PERSON	
  6               ,               ,    ,      O	
  7         horizon         horizon   NN      O	
- 8              M.              M,   NN      O	|||sw
- 9               -             ???    :      O	|||rmchar
+ 8              M.              M,   NN      O	|||sw$1
+ 9               -             ???    :      O	|||rmchar$
 10               N               N   NN      O	
 11               ,               ,    ,      O	
 12            near            near   IN      O	
 13            base            base   NN      O	
 14              of              of   IN      O	
 15             the             the   DT      O	
-16          Tuber?          Tubers  NNP      O	|||twchar
+16          Tuber?          Tubers  NNP      O	|||twchar$2
 17           group           group   NN      O	
 18               ,               ,    ,      O	
 19           where           where  WRB      O	
@@ -1171,7 +743,7 @@
 26           where           where  WRB      O	
 27         several         several   JJ      O	
 28            fair            fair   JJ      O	
-29               ?               -   NN      O	|||comb
+29               ?               -   NN      O	|||comb$2
 30           sized           sized  VBN      O	
 31       specimens       specimens  NNS      O	
 32            were            were  VBD      O	
@@ -1179,8 +751,8 @@
 34               :               :    :      O	
 35         Miocene         Miocene  NNP      O	
 36              of              of   IN      O	
-37        Colombia        'Colombi  NNP LOCATI	|||d,sw
-38               .              a.    .      O	|||
+37        Colombia        'Colombi  NNP LOCATI	|||d,sw$1
+38               .              a.    .      O	|||$1
 
  1              20              20   CD NUMBER	
  2               .               .    .      O	
@@ -1195,7 +767,7 @@
  1           Plate           Plate   NN      O	
  2               9               9   CD NUMBER	
  3               ,               ,    ,      O	
- 4          ?gures         figures  VBZ      O	|||d,sw,edrule
+ 4          ?gures         figures  VBZ      O	|||d,sw,edrule$2
  5               6               6   CD NUMBER	
  6               ,               ,    ,      O	
  7               7               7   CD NUMBER	
@@ -1207,7 +779,7 @@
  5              of              of   IN      O	
  6        holotype        holotype   NN      O	
  7              17              17   CD NUMBER	
- 8             mm.             mm,   NN      O	|||sw
+ 8             mm.             mm,   NN      O	|||sw$1
  9               ,                    ,      O	
 10           width           width   NN      O	
 11              10              10   CD NUMBER	
@@ -1229,9 +801,9 @@
 27               ,               ,    ,      O	
 28            form            form   NN      O	
 29             and             and   CC      O	
-30     sculptureit    sculpture,it   NN      O	|||seg
+30     sculptureit    sculpture,it   NN      O	|||seg$sculpture$it
 31         recalls         recalls  VBZ      O	
-32              C.             ,C.  NNP      O	|||sw
+32              C.             ,C.  NNP      O	|||sw$2
 33               ,               ,    ,      O	
 34              i.              is  NNP      O	|||?
 35              s0              t7   NN      O	|||
@@ -1246,585 +818,24 @@
  7              tt                   NN      O	
  8              ,4                   CD NUMBER	
  9               s                  NNS      O	
-10            Dall            Dali  NNP PERSON	|||sw
+10            Dall            Dali  NNP PERSON	|||sw$1
 11               ,               ,    ,      O	
 12            from            from   IN      O	
 13             the             the   DT      O	
 14         Chipola         Chipola  NNP LOCATI	
 15            beds            beds  NNS      O	
-16               "               o   ``      O	|||twchar,comb
-17              of               f   IN      O	|||
+16               "               o   ``      O	|||twchar,comb$
+17              of               f   IN      O	|||$1
 18               F               F   NN      O	
-19         loridai         lorida;  NNS      O	|||comb
+19         loridai         lorida;  NNS      O	|||comb$
 20               ;                    :      O	
-21               ?               u   CD NUMBER	|||twchar,comb
-22           upper            pper   JJ      O	|||
-23               ?               s   NN      O	|||twchar,comb
-24         surface          urface   NN      O	|||
+21               ?               u   CD NUMBER	|||twchar,comb$
+22           upper            pper   JJ      O	|||$1
+23               ?               s   NN      O	|||twchar,comb$
+24         surface          urface   NN      O	|||$1
 25              of              of   IN      O	
 26             the             the   DT      O	
 27          whorls          whorls  NNS      O	
-28        ?attened        flat-ten  VBD      O	|||edrule,comb
-29               "               e   ``      O	|||
-30               ;             d";    :      O	|||cwchar
-
- 1         sutures         sutures  NNS      O	
- 2     distinctl-y      distinctly   JJ      O	|||
- 3         incised         incised  VBN      O	
- 4               ,               ,    ,      O	
- 5             but            but:   CC      O	|||
- 6          unlike          unlike   IN      O	
- 7               ?                   CD NUMBER	
- 8          Dallfs          Dali's  NNS      O	|||
- 9    species,-the     species,the   JJ      O	|||
-10       shoulders       shoulders  NNS      O	
-11              of              of   IN      O	
-12               '               t   ''      O	|||
-13      the?Whorls       he'whorls  NNPS      O	|||
-14             are             are  VBP      O	
-15               '               :   ''      O	|||
-16             t_1             tll   NN      O	|||
-17               ?               b   CD NUMBER	|||
-18     1berculated     ercuiarted,  VBN      O	|||
-19               ,                    ,      O	
-20               '                   ''      O	
-21         forming       'formjrig  VBG      O	|||
-22              on              on   IN      O	
-23             the             the   DT      O	
-24           inner           inner   JJ      O	
-25            side            side   NN      O	
-26              of              of   IN      O	
-27             the             the   DT      O	
-28          suture          suture   NN      O	
-29               a               a   DT      O	
-30            wavy            wavy   NN      O	
-31               ,               ,    ,      O	
-32              or              or   CC      O	
-33      crenulated      crenulated  VBN      O	
-34            line            line   NN      O	
-35               ;              ';    :      O	|||
-36               ?               b   CD NUMBER	|||
-37            body             ody   NN      O	|||
-38           whorl           whorl   NN      O	
-39      ornamented      or-namente  VBD      O	|||
-40               ?              d'   CD NUMBER	|||
-41              by              by   IN      O	
-42               ?                    .      O	
-
- 1          spiral         :spiral   NN      O	|||
- 2           lines           lines  NNS      O	
- 3               ,               ,    ,      O	
- 4           which           which  WDT      O	
- 5               "               b   ``      O	|||
- 6          become           ecome  VBP      O	|||
- 7               "                   ``      O	
- 8        obsolete        obsolete   JJ      O	
- 9            near             ear   IN      O	|||
-10             the             the   DT      O	
-11        shoulder        shoulder   NN      O	
-12               ,               ,    ,      O	
-13             but             but   CC      O	
-14          become          become  VBP      O	
-15               -                    :      O	
-16        stronger        stronger  JJR      O	
-17              on              on   IN      O	
-18             the             the   DT      O	
-19      lowerthird   :1'owerth'ird   NN      O	|||
-20              of            :of.   IN      O	|||
-21               ?               '   NN      O	|||
-22       ithewhorl        thewhirl   NN      O	|||
-23               ;                    :      O	
-24               ~               s   NN      O	|||
-25          spiral            peal   NN      O	|||
-26         threads         threads  NNS      O	
-27             are             are  VBP      O	
-28            here            here   RB      O	
-29        ?attened        flattene  VBN      O	|||
-30               ,              d,    ,      O	|||
-31              or              or   CC      O	
-32        slightly        slightly   RB      O	
-33         concave         concave   NN      O	
-34              in              in   IN      O	
-35         section         section   NN      O	
-36               ,               ,    ,      O	
-37          having          ha~ing  VBG      O	|||
-38             the             the   DT      O	
-39      appearance      appearance   NN      O	
-40              of              of   IN      O	
-41           being           being  VBG      O	
-42          double          doiibl   JJ      O	|||
-43               .              e.    .      O	|||
-
- 1      Holotypie.      Holptype,:  NNP      O	|||
- 2               :               -    :      O	|||
- 3               .               ,    .      O	|||
-
- 1           iv-No            -No.   NN      O	|||
- 2               .                    .      O	
-
- 1            4624            4624   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             Mus             Mus   NN      O	
- 4               .               .    .      O	
-
- 1          Calif.          Calif.  NNP LOCATI	
- 2               .                    .      O	
-
- 1            Acad            Acad  NNP      O	
- 2               .               .    .      O	
-
- 1            Sci.            Sci.  NNP      O	
- 2               ,               ,    ,      O	
- 3               ?               :   CD NUMBER	|||
- 4            from            from   IN      O	
- 5            Loci            Loc.   NN      O	|||
- 6             351             35:   CD NUMBER	|||
- 7               ,              1,    ,      O	|||
- 8              C.              C.  NNP PERSON	
- 9              A.              A,  NNP PERSON	|||
-10              S.              S.  NNP PERSON	
-11               ,               ;    ,      O	|||
-12            near            near   IN      O	
-13               ?               P   CD NUMBER	|||
-14           Punta           unta'   NN      O	|||
-15               '               .   ''      O	|||
-16               -               .    :      O	|||
-17               P               P   NN      O	
-18               ,               u    ,      O	|||
-19              ua              a,   NN      O	|||
-20               ,                    ,      O	
-21               ,                    ,      O	
-22        near-the        near-the   JJ      O	
-23          middle          middle   NN      O	
-24              of              of   IN      O	
-25             the             the   DT      O	
-26          Tubera        Tub'er'a  NNP      O	|||
-27           group           group   NN      O	
-28               ,               ,    ,      O	
-29        Colombia        Colombia  NNP LOCATI	
-30               ;               ;    :      O	
-31         Miocene         Miocene  NNP      O	
-32               .               .    .      O	
-
- 1             omT                   NN      O	
- 2               +                   CC      O	
-
- 1      CALIFORNIA                  NNP LOCATI	
-
- 1         ACADEMY                   NN      O	
- 2              OF                   IN      O	
- 3        SCIENCES                  NNP      O	
- 4               A                  NNP      O	
- 5               [                   CD NUMBER	
- 6            PROC                  NNP      O	
- 7               .                    .      O	
-
- 1             4TH                   NN ORDINA	
- 2           SI-ZR                   NN      O	
- 3               .                    .      O	
-
- 1           PLATE                   NN      O	
- 2               9                   CD NUMBER	
-
- 1            Figs            Figs  NNS      O	
- 2               .               .    .      O	
-
- 1               1               1   CD NUMBER	
- 2               ,               ,    ,      O	
- 3               2               2   CD NUMBER	
- 4               .               .    .      O	
-
- 1            Phos            Phos  NNP      O	
- 2      tuberamsis     tuberainsis  NNP      O	|||
- 3        Anderson        Anderson  NNP PERSON	
- 4               ,               ,    ,      O	
- 5             new             new   JJ      O	
- 6         species         species  NNS      O	
- 7               .               .    .      O	
-
- 1        Holotype        Holotype   JJ      O	
- 2             No.             No.   NN      O	
- 3            4621            4621   CD NUMBER	
- 4               ~                  SYM      O	
- 5               -                    :      O	
- 6               (               (   CD NUMBER	
- 7              C.              C.  NNP PERSON	
- 8              A.              A.  NNP PERSON	
- 9              S.              S.  NNP PERSON	
-10            type            type   NN      O	
-11            col1            coll   NN      O	|||
-12               .               .    .      O	
-13               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2            rear            rear   JJ      O	
- 3             and             and   CC      O	
- 4           front           front   JJ      O	
- 5           views           views  NNS      O	
- 6               ;               ;    :      O	
- 7             Loc             Loc   NN      O	
- 8               .               .    .      O	
-
- 1             267             267   CD NUMBER	
- 2               ,               ,    ,      O	
- 3              C.              C.  NNP PERSON	
- 4              A.              A.  NNP PERSON	
- 5              S.              S.  NNP PERSON	
- 6               ,               ,    ,      O	
- 7         horizon         horizon   NN      O	
- 8               P               P   NN      O	
- 9               ,               ,    ,      O	
-10          Tuber?          Tubers   NN      O	|||
-11           group           group   NN      O	
-12               ,               ,    ,      O	
-13           north           north   RB      O	
-14           slope           slope   NN      O	
-15              of              of   IN      O	
-16          Tuber?         Tubers,  NNP LOCATI	|||
-17        mountain        mountain   NN      O	
-18               ;               ;    :      O	
-19              p.              p.   NN      O	
-20             135             135   CD NUMBER	
-21               .               .    .      O	
-
- 1             Fig             Fig   NN      O	
- 2               .               .    .      O	
-
- 1               3               3   LS NUMBER	
- 2               .               .    .      O	
-
- 1            P110            thos   NN      O	|||
- 2               :                    :      O	
- 3     tubera?nsis     tuberaensis   NN      O	|||
- 4        Anderson        Anderson  NNP PERSON	
- 5               ,               ,    ,      O	
- 6             new             new   JJ      O	
- 7         species         species  NNS      O	
- 8               .               .    .      O	
-
- 1        Paratype        Paratype   JJ      O	
- 2             No.             No.   NN      O	
- 3            4622            4622   CD NUMBER	
- 4               ?                   CD NUMBER	
- 5               (               (   CD NUMBER	
- 6              C.              C.  NNP PERSON	
- 7              A.              A.  NNP PERSON	
- 8              S.              S.  NNP PERSON	
- 9            type            type   NN      O	
-10            coll            coll   NN      O	
-11               .               .    .      O	
-12               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2             Loc             Loc   NN      O	
- 3               .               .    .      O	
-
- 1             305             305   CD NUMBER	
- 2               ,               ,    ,      O	
- 3              C.              C.  NNP PERSON	
- 4              A.              A.  NNP PERSON	
- 5              S.              S.  NNP PERSON	
- 6               ,               ,    ,      O	
- 7            near            near   IN      O	
- 8         Turbaco         Turbaco  NNP LOCATI	
- 9               ,               ,    ,      O	
-10              14              14   CD NUMBER	
-11           miles           miles  NNS      O	
-12            east            east   RB      O	
-13              of              of   IN      O	
-14       Cartagena       Cartagena  NNP LOCATI	
-15               ;               ;    :      O	
-16              p.              p.   NN      O	
-17             135             135   CD NUMBER	
-18               .               .    .      O	
-
- 1            Figs            Figs  NNS      O	
- 2               .               .    .      O	
-
- 1               4               4   CD NUMBER	
- 2               ,               ,    ,      O	
- 3               5               5   CD NUMBER	
- 4               .               .    .      O	
-
- 1           Conus           Cones   NN      O	|||
- 2      tuberacola      tuberacola   NN      O	
- 3        Anderson        Anderson  NNP PERSON	
- 4               ,               ,    ,      O	
- 5             new             new   JJ      O	
- 6         species         species  NNS      O	
- 7               .               .    .      O	
-
- 1        Holotype        Holotype   JJ      O	
- 2             No.             No.   NN      O	
- 3            4623            4623   CD NUMBER	
- 4               (               (  NNP      O	
- 5              C.              C.  NNP PERSON	
- 6              A.              A.  NNP PERSON	
- 7              S.              S.  NNP PERSON	
- 8            type            type   NN      O	
- 9            coll            coll   NN      O	
-10               .               .    .      O	
-11               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2           front           front   JJ      O	
- 3             and             and   CC      O	
- 4             top             top   JJ      O	
- 5           views           views  NNS      O	
- 6               ;               ;    :      O	
- 7             Loc             Loc   NN      O	
- 8               .               .    .      O	
-
- 1             267             267   CD NUMBER	
- 2               ,               ,    ,      O	
- 3               h               C   NN      O	|||
- 4               +               .   CC      O	|||
- 5              A.              A.   NN      O	
- 6              S.              S.  NNP      O	
- 7               ,               ,    ,      O	
- 8        horlizgn     horizon112.   NN      O	|||
- 9               M               M   NN      O	
-10               -               -    :      O	
-11               N               N   NN      O	
-12               ,               ,    ,      O	
-13          Tuber?         Tubers,   NN      O	|||
-14           group           group   NN      O	
-15               ,               ,    ,      O	
-16            west            west   JJ      O	
-17            foot            foot   NN      O	
-18              of              of   IN      O	
-19          Tuber?          Tubers  NNP LOCATI	|||
-20               .               ,    .      O	|||
-
- 1        mountain        'mountai   NN      O	|||
- 2               ;             n,'    :      O	|||
- 3              p.              p.   NN      O	
- 4               .                    .      O	
-
- 1               .                    .      O	
-
- 1            Figs            Figs  NNS      O	
- 2               .               .    .      O	
-
- 1               6               6   CD NUMBER	
- 2               ,               ,    ,      O	
- 3               7               7   CD NUMBER	
- 4               .               .    .      O	
-
- 1           Conus           Conus   NN      O	
- 2   crenospiratus   crenospiratus   NN      O	
- 3        Anderson        Anderson  NNP PERSON	
- 4               ,               ,    ,      O	
- 5             new             new   JJ      O	
- 6         species         species  NNS      O	
- 7               .               .    .      O	
-
- 1        Ho1otype        Holotype   NN      O	|||
- 2               .               N    .      O	|||
-
- 1             No.              o.   NN      O	|||
- 2            4624            4624   CD NUMBER	
- 3               (               (  NNP      O	
- 4              C.              C.  NNP PERSON	
- 5              A.              A.  NNP PERSON	
- 6              S.              S.  NNP PERSON	
- 7            type            type   NN      O	
- 8            co11            coll   CD NUMBER	|||
- 9               .               .    .      O	
-10               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2           front           front   JJ      O	
- 3             and             and   CC      O	
- 4             top             top   JJ      O	
- 5           views           views  NNS      O	
- 6               ,               ,    ,      O	
- 7              X2              X2   NN      O	
- 8               ;               ;    :      O	
- 9             Loc             Loc   NN      O	
-10               .               .    .      O	
-
- 1             351             351   CD NUMBER	
- 2               ,               ,    ,      O	
- 3              C.              C.  NNP PERSON	
- 4              A.              A.  NNP PERSON	
- 5              S.              S?  NNP PERSON	|||
- 6               ,                    ,      O	
- 7         horizon         horizon   NN      O	
- 8               P               P   NN      O	
- 9               ,               ,    ,      O	
-10          Tuber?          Tubers   NN      O	|||
-11           group           group   NN      O	
-12               ,               ,    ,      O	
-13            near            near   IN      O	
-14           Punta           Punta  NNP LOCATI	
-15             Pua             Pua  NNP LOCATI	
-16               ,               ,    ,      O	
-17              20              20   CD NUMBER	
-18           miles           miles  NNS      O	
-19           north           north   RB      O	
-20              of              of   IN      O	
-21       Cartagena       Cartagena  NNP LOCATI	
-22               ;               ;    :      O	
-23              p.              p.   NN      O	
-24             112             112   CD NUMBER	
-25               .               .    .      O	
-
- 1             Fig             Fig   NN      O	
- 2               .               .    .      O	
-
- 1               8               8   CD NUMBER	
- 2               .               .    .      O	
-
- 1          Tyfhis          Tyfhis   FW      O	
- 2     siphonifera     sipkonifera   FW      O	|||
- 3            Dall            Dali   NN PERSON	|||
- 4               .               .    .      O	
-
- 1               _               P   NN      O	|||
- 2      Plesiotype       lesiotype   JJ      O	|||
- 3             No.             No.   NN      O	
- 4            4625            4625   CD NUMBER	
- 5               (               (  NNP      O	
- 6              C.              C.  NNP PERSON	
- 7              A.              A.  NNP PERSON	
- 8              S.              S.  NNP PERSON	
- 9            type            type   NN      O	
-10            coll            coll   NN      O	
-11               .               .    .      O	
-12               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2              X2              X2   NN      O	
- 3               ;               ;    :      O	
- 4             Loc             Loc   NN      O	
- 5               .               .    .      O	
-
- 1           325-A           325-A   NN      O	
- 2               ,               ,    ,      O	
- 3              C.              C.  NNP PERSON	
- 4              A.              A.  NNP PERSON	
- 5              S.              S.  NNP PERSON	
- 6               ,               ,    ,      O	
- 7         horizon         horizon   NN      O	
- 8               P               P   NN      O	
- 9               ,               ,    ,      O	
-10          Tuber?          Tubera  NNP      O	|||
-11               .                    .      O	
-
- 1           group           group   NN      O	
- 2               ,               ,    ,      O	
- 3            near            near   IN      O	
- 4         Cibarco         Cibarco  NNP LOCATI	
- 5               ,               ,    ,      O	
- 6               a               a   DT      O	
- 7             few             few   JJ      O	
- 8           miles           miles  NNS      O	
- 9           north           north   RB      O	
-10              of              of   IN      O	
-11        Usiacuri        Usiacuri  NNP LOCATI	
-12               ,               ,    ,      O	
-13        Colombia        Colombia  NNP LOCATI	
-14               ;               ;    :      O	
-15              p.              p.   NN      O	
-16             138             138   CD NUMBER	
-17               .               .    .      O	
-
- 1            Figs            Figs  NNS      O	
- 2               .               .    .      O	
-
- 1               9               9   CD NUMBER	
- 2               ,               ,    ,      O	
- 3              10              10   CD NUMBER	
- 4               .               .    .      O	
-
- 1           Ovula           Onula  NNP LOCATI	|||
- 2               .                    .      O	
-
- 1               (               (   NN      O	
- 2       Neosimwia       1Veosintn   NN LOCATI	|||
- 3               )             ia)   CD NUMBER	|||
- 4            pmma           puana   NN      O	|||
- 5        Anderson        Anderson  NNP PERSON	
- 6               ,               ,    ,      O	
- 7             new             new   JJ      O	
- 8         species         species  NNS      O	
- 9               .               .    .      O	
-
- 1        Holotype        Holotype   JJ      O	
- 2             No.             No.   NN      O	
- 3               _               4   CD NUMBER	|||
- 4           4-626             626   CD NUMBER	|||
- 5               (               (   CD NUMBER	
- 6              C.              C.  NNP PERSON	
- 7              A.              A.  NNP PERSON	
- 8              S.              S.  NNP PERSON	
- 9            type            type   NN      O	
-10            co1l            coll   CD NUMBER	|||
-11               .               ,    .      O	|||
-12               )               )  SYM      O	
-
- 1               ,               ,    ,      O	
- 2           front           front   JJ      O	
- 3             and             and   CC      O	
- 4            rear            rear   JJ      O	
- 5           views           views  NNS      O	
- 6               ,               ,    ,      O	
- 7              X2              X2   NN      O	
- 8               ;               ;    :      O	
- 9             Loc             Loc   NN      O	
-10               .               .    .      O	
-
- 1             351             351   CD NUMBER	
- 2               .               ,    .      O	|||
-
- 1              C.              C.  NNP PERSON	
- 2              A.              A,  NNP PERSON	|||
- 3              S.              S.  NNP PERSON	
- 4               ,               ,    ,      O	
- 5         horizon         horizon   NN      O	
- 6               P               P   NN      O	
- 7               ,               ,    ,      O	
- 8          Tuber?          Tubers  NNP      O	|||
- 9               .                    .      O	
-
- 1           group           group   NN      O	
- 2               ,               ,    ,      O	
- 3            near            near   IN      O	
- 4           Punta           Punta  NNP LOCATI	
- 5             Pua             Pua  NNP LOCATI	
- 6               ,               ,    ,      O	
- 7           north           north   NN      O	
- 8              of              of   IN      O	
- 9       Cartagena       Cartagena  NNP LOCATI	
-10               ;               ;    :      O	
-11              p.              p.   NN      O	
-12             140             140   CD NUMBER	
-13               .               .    .      O	
-
- 1               .                    .      O	
-
- 1            PROC                  NNP      O	
- 2               .                    .      O	
-
- 1             CAL                  NNP      O	
- 2               .                    .      O	
-
- 1            ACAD                   NN      O	
- 2               .                    .      O	
-
- 1              SC                   NN      O	
- 2               |                   NN      O	
- 3               .                    .      O	
-
- 1               ,                    ,      O	
- 2             4th                   JJ ORDINA	
- 3          Series                  NNP      O	
- 4               ,                    ,      O	
- 5             Vol                  NNP      O	
- 6               .                    .      O	
-
- 1           XVIII                   NN      O	
- 2               ,                    ,      O	
- 3             No.                   NN      O	
- 4               4                   CD NUMBER	
+28        ?attened        flat-ten  VBD      O	|||edrule,comb$2
+29               "               e   ``      O	|||$
+30               ;             d";    :      O	|||cwchar$1

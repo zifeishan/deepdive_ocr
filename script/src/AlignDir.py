@@ -26,6 +26,6 @@ if __name__ == "__main__":
     base = '../../input/'
     print 'Use default URL:', base
 
-  inputs = open('input_list.txt').readlines()
+  inputs = [l for l in open('input_list.txt').readlines() if not l.startswith('#')]
 
   AlignDir(base, '../../data-140111/', inputs)
