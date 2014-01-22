@@ -1,854 +1,854 @@
- 1        EXTENDED                  VBN      O	
- 2             PDF                   NN      O	
- 3          FORMAT                   NN      O	
- 4       SPONSORED                  VBD      O	
- 5              BY                   IN      O	
-
- 1          Travel                   NN      O	
- 2          Grants                  NNPS      O	
- 3           lathe                  VBP      O	
- 4              15                   CD NUMBER	
- 5               "                   ''      O	
- 6               ?                  NNP      O	
- 7   International                  NNP      O	
- 8        Congress                  NNP      O	
- 9    oflmmunology                   NN      O	
-10               .                    .      O	
-
- 1               4                   CD NUMBER	
- 2           Apply                  NNP      O	
- 3             Now                   RB   DATE	
- 4               !                    .      O	
-
- 1               s                  NNS      O	
- 2               '                  POS      O	
- 3               x                   NN      O	
- 4               ?                    .      O	
- 5               '                   ''      O	
-
- 1               ?                   NN      O	
- 2          L'izMs                  NNS      O	
- 3               '                  POS      O	
- 4 www.rndsystems.com                   NN      O	
-
- 1             The             The   DT      O	
- 2       Evolution       Evolution   NN      O	
- 3              of              of   IN      O	
- 4       Dinosaurs       Dinosaurs  NNP      O	
- 5            Paul            Paul  NNP PERSON	
- 6              C.              C.  NNP PERSON	
- 7          Sereno          Sereno  NNP PERSON	
- 8         Science         Science  NNP      O	
- 9             284             284   CD NUMBER	
-10               ,               ,    ,      O	
-11            2137            2137   CD   DATE	
-12               (               (   CD   DATE	
-13            1999            1999   CD   DATE	
-14               )               )   NN      O	
-15               ;               ;    :      O	
-16             DOI             DOI  NNP      O	
-17               :               :    :      O	
-18         10.1126         10.1126   CD NUMBER	
-19               /               /    :      O	
-20         science         science   NN      O	
-21  .284.5423.2137  .284.5423.2137   CD NUMBER	
-
- 1           MAAAS                  NNS      O	
-
- 1            This            This   DT      O	
- 2            copy            copy   NN      O	
- 3              is              is  VBZ      O	
- 4             for             for   IN      O	
- 5            your            your  PRP$      O	
- 6        personal        personal   JJ      O	
- 7               ,               ,    ,      O	
- 8  non-commercial  non-commercial   JJ      O	
- 9             use             use   NN      O	
-10            only            only   RB      O	
-11               .               .    .      O	
-
- 1         Science                   NN      O	
-
- 1              If              If   IN      O	
- 2             you             you  PRP      O	
- 3            wish            wish  VBP      O	
- 4              to              to   TO      O	
- 5      distribute      distribute   VB      O	
- 6            this            this   DT      O	
- 7         article         article   NN      O	
- 8              to              to   TO      O	
- 9          others          others  NNS      O	
-10               ,               ,    ,      O	
-11             you             you  PRP      O	
-12             can             can   MD      O	
-13           order           order   VB      O	
-14    high-quality    high-quality   JJ      O	
-15          copies          copies  NNS      O	
-16             for             for   IN      O	
-17            your            your  PRP$      O	
-18      colleagues      colleagues  NNS      O	
-19               ,               ,    ,      O	
-20         clients         clients  NNS      O	
-21               ,               ,    ,      O	
-22              or              or   CC      O	
-23       customers       customers  NNS      O	
-24              by              by   IN      O	
-25        clicking        clicking  VBG      O	
-26            here            here   RB      O	
-27               .               .    .      O	
-
- 1      Permission      Permission   NN      O	
- 2              to              to   TO      O	
- 3       republish       republish   VB      O	
- 4              or              or   CC      O	
- 5       repurpose       repurpose   VB      O	
- 6        articles        articles  NNS      O	
- 7              or              or   CC      O	
- 8        portions        portions  NNS      O	
- 9              of              of   IN      O	
-10        articles        articles  NNS      O	
-11             can             can   MD      O	
-12              be              be   VB      O	
-13        obtained        obtained  VBN      O	
-14              by              by   IN      O	
-15       following       following  VBG      O	
-16             the             the   DT      O	
-17      guidelines      guidelines  NNS      O	
-18            here            here   RB      O	
-19               .               .    .      O	
-
- 1             The             The   DT      O	
- 2       following       following   JJ      O	
- 3       resources       resources  NNS      O	
- 4         related         related  VBN      O	
- 5              to              to   TO      O	
- 6            this            this   DT      O	
- 7         article         article   NN      O	
- 8             are             are  VBP      O	
- 9       available       available   JJ      O	
-10          online          online   NN      O	
-11              at              at   IN      O	
-12 www.sciencemag.org www.sciencemag.org   NN      O	
-13               (               (   CD NUMBER	
-14            this            this   DT      O	
-15     information     information   NN      O	
-16              is              is  VBZ      O	
-17         current         current   JJ   DATE	
-18              as              as   IN      O	
-19              of              of   IN      O	
-20             May             May  NNP   DATE	
-21               8               8   CD   DATE	
-22               ,               ,    ,   DATE	
-23            2013            2013   CD   DATE	
-24               )               )   CD NUMBER	
-25               :               :    :      O	
-
- 1         Updated         Updated  VBN      O	
- 2     information     information   NN      O	
- 3             and             and   CC      O	
- 4        services        services  NNS      O	
- 5               ,               ,    ,      O	
- 6       including       including  VBG      O	
- 7 high-resolution high-resolution   JJ      O	
- 8         figures         figures  NNS      O	
- 9               ,               ,    ,      O	
-10             can             can   MD      O	
-11              be              be   VB      O	
-12           found           found  VBN      O	
-13              in              in   IN      O	
-14             the             the   DT      O	
-15          online          online   JJ      O	
-16         version         version   NN      O	
-17              of              of   IN      O	
-18            this            this   DT      O	
-19         article         article   NN      O	
-20              at              at   IN      O	
-21               :               :    :      O	
-22 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O	
-23               |               l   NN      O	|||comb,url$2
-
- 1            This            This   DT      O	
- 2         article         article   NN      O	
- 3           cites           cites  VBZ      O	
- 4             135             135   CD NUMBER	
- 5        articles        articles  NNS      O	
- 6               ,               ,    ,      O	
- 7              21              21   CD NUMBER	
- 8              of              of   IN      O	
- 9           which           which  WDT      O	
-10             can             can   MD      O	
-11              be              be   VB      O	
-12        accessed        accessed  VBN      O	
-13            free            free   JJ      O	
-14               :               :    :      O	
-15 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O	
-16               |               l   CD NUMBER	|||comb$2
-17            #ref            4fre   NN      O	|||?$$
-18               ?               f   CD NUMBER	|||
-19               |               -   CD NUMBER	|||
-20             ist             lis   NN      O	|||
-21               ?               t   NN      O	|||
-22               1              -1   CD NUMBER	|||
-
- 1            This            This   DT      O	
- 2         article         article   NN      O	
- 3             has             has  VBZ      O	
- 4            been            been  VBN      O	
- 5           cited           cited  VBN      O	
- 6              by              by   IN      O	
- 7             334             334   CD NUMBER	
- 8         article         article   NN      O	
- 9               (               (   NN      O	
-10               s               s  NNS      O	
-11               )               )  VBP      O	
-12              on              on   IN      O	
-13             the             the   DT      O	
-14             ISI             ISI  NNP      O	
-15             Web             Web   NN      O	
-16              of              of   IN      O	
-17         Science         Science   NN      O	
-
- 1            This            This   DT      O	
- 2         article         article   NN      O	
- 3             has             has  VBZ      O	
- 4            been            been  VBN      O	
- 5           cited           cited  VBN      O	
- 6              by              by   IN      O	
- 7              58              58   CD NUMBER	
- 8        articles        articles  NNS      O	
- 9          hosted          hosted  VBN      O	
-10              by              by   IN      O	
-11        HighWire        HighWire  NNP ORGANI	
-12           Press           Press  NNP ORGANI	
-13               ;               ;    :      O	
-14             see             see   VB      O	
-15               :               :    :      O	
-16 http://www.sciencemag.org/content/284/5423/2137.fu http://www.sciencemag.org/content/284/5423/2137.fu   NN      O	
-17               |               l   CD NUMBER	|||comb,url$2
-18               |               l   NN      O	|||$2
-19               .               .    .      O	
-
- 1             htm             htm   NN      O	
- 2               |               l  SYM      O	|||$html
- 3             #re             ffr   FW      O	|||$#related-urls
- 4               |               e   FW      O	|||$
- 5       ated-urls      lated-uris  NNS      O	|||$
-
- 1            This            This   DT      O	
- 2         article         article   NN      O	
- 3         appears         appears  VBZ      O	
- 4              in              in   IN      O	
- 5             the             the   DT      O	
- 6       following       following  VBG      O	
- 7         subject         subject   JJ      O	
- 8     collections     collections  NNS      O	
- 9               :               :    :      O	
-10    Paleontology    Paleontology   NN      O	
-11 http://www.sciencemag.org/cgi/collection/paleo http://www.sciencemag.org/cgi/collection/paleo   NN      O	
-
- 1             Dow            3OCI  NNP   MISC	|||comb$Downloaded
- 2         nloaded          IUcdOC  VBD      O	|||$
- 3             fro               O   NN      O	|||comb$from
- 4               m               E   NN      O	|||$
- 5              ww                   NN      O	|||comb,url$www.scincemag.org
- 6              w.              CO   NN      O	|||$
- 7      sciencemag            EIOO   NN      O	|||$
- 8               .               C    .      O	|||$
-
- 1             org              BO   NN      O	|||$
- 2               o               0   NN      O	|||comb$on
- 3               n                   NN      O	|||$
- 4             May                   MD   DATE	|||$1
- 5               8               C   CD   DATE	|||swgram$1
- 6               ,               O    ,   DATE	|||ner,swgram$1
- 7            2013            C)CU   CD   DATE	|||d,swgram,ner$1
- 8         Science         Science   NN      O	
- 9               (               (   CD NUMBER	
-10           print           print   NN      O	
-11            ISSN            ISSN   NN      O	
-12       0036-8075       0036-8075   CD DURATI	
-13               ;               ;    :      O	
-14          online          online   JJ      O	
-15            ISSN            ISSN   NN      O	
-16       1095-9203       1095-9203   CD DURATI	
-17               )               )   NN      O	
-18              is              is  VBZ      O	
-19       published       published  VBN      O	
-20          weekly          weekly   RB    SET	
-21               ,               ,    ,      O	
-22          except          except   IN      O	
-23             the             the   DT   DATE	
-24            last            last   JJ   DATE	
-25            week            week   NN   DATE	
-26              in              in   IN   DATE	
-27        December        December  NNP   DATE	
-28               ,               ,    ,      O	
-29              by              by   IN      O	
-30             the             the   DT      O	
-31        American        American  NNP      O	
-32     Association     Association  NNP      O	
-33             for             for   IN      O	
-34             the             the   DT      O	
-35     Advancement     Advancement  NNP ORGANI	
-36              of              of   IN ORGANI	
-37         Science         Science  NNP ORGANI	
-38               ,               ,    ,      O	
-39            1200            1200   CD   DATE	
-40             New             New  NNP ORGANI	
-41            York            York  NNP ORGANI	
-42          Avenue          Avenue  NNP ORGANI	
-43              NW              NW  NNP ORGANI	
-44               ,               ,    ,      O	
-45      Washington      Washington  NNP LOCATI	
-46               ,               ,    ,      O	
-47              DC              DC  NNP      O	
-48           20005           20005   CD NUMBER	
-49               .               .    .      O	
-
- 1       Copyright       Copyright   NN      O	
- 2            1999            1999   CD   DATE	
- 3              by              by   IN      O	
- 4             the             the   DT      O	
- 5        American        American  NNP ORGANI	
- 6     Association     Association  NNP ORGANI	
- 7             for             for   IN      O	
- 8             the             the   DT      O	
- 9     Advancement     Advancement  NNP      O	
-10              of              of   IN      O	
-11         Science         Science  NNP      O	
-12               ;               ;    :      O	
-13             all             all   DT      O	
-14          rights          rights  NNS      O	
-15        reserved        reserved  VBN      O	
-16               .               .    .      O	
-
- 1             The             The   DT      O	
- 2           title           title   NN      O	
- 3         Science         Science   NN      O	
- 4              is              is  VBZ      O	
- 5               a               a   DT      O	
- 6      registered      registered  VBN      O	
- 7       trademark       trademark   NN      O	
- 8              of              of   IN      O	
- 9            AAAS            AAAS  NNP ORGANI	
-10               .               .    .      O	
-
- 1              93              93   CD NUMBER	
- 2               .               .    .      O	
-
- 1              S.              S.  NNP PERSON	
- 2              D.              D.  NNP PERSON	
- 3      Weatherbee      Weatherbee  NNP PERSON	
- 4             and             and   CC      O	
- 5              S.              S.  NNP PERSON	
- 6              B.              B.  NNP PERSON	
- 7         Carroll         Carroll  NNP PERSON	
- 8               ,               ,    ,      O	
- 9            Cell            Cell   NN      O	
-10              97              97   CD NUMBER	
-11               ,               ,    ,      O	
-12             283             283   CD NUMBER	
-13               (               (   CD NUMBER	
-14            1999            1999   CD   DATE	
-15               )               )   NN      O	
-16               .               .    .      O	
-
- 1              94              94   CD NUMBER	
- 2               .               .    .      O	
-
- 1              W.              W.  NNP PERSON	
- 2              G.              G.  NNP PERSON	
- 3              M.              M.  NNP PERSON	
- 4           Damen           Damen  NNP PERSON	
- 5               ,               ,    ,      O	
- 6              M.              M.  NNP PERSON	
- 7        Hausdorf        Hausdorf  NNP PERSON	
- 8               .               ,    .      O	|||persondot$.
-
- 1            E.-A            E.-A   NN      O	
- 2               .               .    .      O	
-
- 1        Seyfarth        Seyfarth  NNP PERSON	
- 2               ,               ,    ,      O	
- 3              D.              D.  NNP PERSON	
- 4           Tautz           Tautz  NNP PERSON	
- 5               ,               ,    ,      O	
- 6            Proc            Proc  NNP      O	
- 7               .               .    .      O	
-
- 1           Natl.           Natl.  NNP      O	
- 2            Acad            Acad  NNP      O	
- 3               .               .    .      O	
-
- 1             Sci             Sci  NNP      O	
- 2               .               .    .      O	
-
- 1          U.S.A.          U.S.A.  NNP ORGANI	
- 2              95              95   CD NUMBER	
- 3               ,               ,    ,      O	
- 4           10665           10665   CD NUMBER	
- 5               (               (   CD NUMBER	
- 6            1998            1998   CD   DATE	
- 7               )               )   NN      O	
- 8               .               .    .      O	
-
- 1              95              95   CD NUMBER	
- 2               .               .    .      O	
-
- 1              M.              M.  NNP PERSON	
- 2              J.              J.  NNP PERSON	
- 3         Telford         Telford  NNP PERSON	
- 4             and             and   CC      O	
- 5              R.              R.  NNP PERSON	
- 6              H.              H.  NNP PERSON	
- 7          Thomas          Thomas  NNP PERSON	
- 8               ,               ,    ,      O	
- 9           ibid.           ibid.  NNP      O	
-10               ,               ,    ,      O	
-11              p.              p.   NN      O	
-12           10671           '\067   CD NUMBER	|||ner$10671
-13               .              1.    .      O	|||ner,comb$.
-
- 1              96              96   CD NUMBER	
- 2               .               .    .      O	
-
- 1              M.              M.  NNP PERSON	
- 2          Averof          Averof  NNP PERSON	
- 3             and             and   CC      O	
- 4              N.              N.  NNP PERSON	
- 5           Patel           Patel  NNP PERSON	
- 6               ,               ,    ,      O	
- 7          Nature          Nature  NNP      O	
- 8             388             388   CD NUMBER	
- 9               ,               ,    ,      O	
-10             682             682   CD NUMBER	
-11               (               (   CD NUMBER	
-12            1997            1997   CD   DATE	
-13               )               )   NN      O	
-14               .               .    .      O	
-
- 1              97              97   CD NUMBER	
- 2               .               .    .      O	
-
- 1              M.              M.  NNP PERSON	
- 2          Averof          Averof  NNP PERSON	
- 3             and             and   CC      O	
- 4              M.              M.  NNP PERSON	
- 5            Akam            Akam  NNP PERSON	
- 6               ,               ,    ,      O	
- 7            ibid            ibid   NN      O	
- 8               .               .    .      O	
-
- 1             376             376   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             420             420   CD NUMBER	
- 4               (               (   CD NUMBER	
- 5            1995            1995   CD   DATE	
- 6               )               )   NN      O	
- 7               .               .    .      O	
-
- 1              98              98   CD NUMBER	
- 2               .               .    .      O	
-
- 1              E.              E.  NNP PERSON	
- 2   Mouchel-Vielh   Mouchel-vielh  NNP PERSON	|||sw$1
- 3               ,               ,    ,      O	
- 4              C.              C.  NNP PERSON	
- 5         Rigolot         Rigolot  NNP PERSON	
- 6               ,               ,    ,      O	
- 7              J.              J.  NNP      O	
- 8               .               -    .      O	|||?$
-
- 1               ?               M   NN      O	|||
- 2               .               .    .      O	
-
- 1              M.                  NNP PERSON	
- 2         Gilbert         Gilbert  NNP PERSON	
- 3               ,               ,    ,      O	
- 4              J.              J.  NNP PERSON	
- 5              S.              S.  NNP PERSON	
- 6         Deutsch         Deut-sc  NNP PERSON	|||comb$1
- 7               ,              h,    ,      O	|||
- 8             Mol             Moi  NNP ORGANI	|||kbe$1
- 9               .               .    .      O	
-
- 1      Phylogenet      Phyiogenet  NNP      O	|||d,sw$1
- 2               .               .    .      O	
-
- 1            Evol            Evoi   NN      O	|||sw$1
- 2               .               .    .      O	
-
- 1               9               9   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             382             382   CD NUMBER	
- 4               (               (   CD NUMBER	
- 5            1998            1998   CD   DATE	
- 6               )               )   NN      O	
- 7               .               .    .      O	
-
- 1              99              99   CD NUMBER	
- 2               .               .    .      O	
-
- 1              j.              J.  NNP      O	|||swgram$2
- 2              K.              K.  NNP PERSON	
- 3         Grenier         Grenier  NNP PERSON	
- 4               ,               ,    ,      O	
- 5              T.              T.  NNP PERSON	
- 6              L.              L.  NNP PERSON	
- 7          Garber          Garber  NNP PERSON	
- 8               ,               ,    ,      O	
- 9              R.              R.  NNP PERSON	
-10          Warren          Warren  NNP PERSON	
-11               ,               ,    ,      O	
-12              P.              P.  NNP PERSON	
-13              M.              M.  NNP PERSON	
-14      Whitington      Whiting-to  NNP PERSON	|||comb$1
-15               ,              n,    ,      O	|||$1
-16              S.              S.  NNP PERSON	
-17              B.              B.  NNP PERSON	
-18         Carroll         Carroll  NNP PERSON	
-19               ,               ,    ,      O	
-20            Curr            Curr  NNP      O	
-21               .               .    .      O	
-
- 1            Biol            Biol  NNP      O	
- 2               .               .    .      O	
-
- 1               7               7   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             547             547   CD NUMBER	
- 4               (               (   CD NUMBER	
- 5            1997            1997   CD   DATE	
- 6               )               )   NN      O	
- 7               .               .    .      O	
-
- 1             100             100   CD NUMBER	
- 2               .               .    .      O	
-
- 1              R.              R.  NNP PERSON	
- 2          Warren          Warren  NNP PERSON	
- 3               ,               ,    ,      O	
- 4              L.              L.  NNP PERSON	
- 5            Nagy            Nagy  NNP PERSON	
- 6               ,               ,    ,      O	
- 7              J.              J.  NNP PERSON	
- 8         Selegue         Selegue  NNP PERSON	
- 9               ,               ,    ,      O	
-10              J.              J.  NNP PERSON	
-11           Gates           Gates  NNP PERSON	
-12               ,               ,    ,      O	
-13              S.              S.  NNP PERSON	
-14         Carroll         Carroll  NNP PERSON	
-15               ,               ,    ,      O	
-
- 1          Nature          Nature  NNP      O	
- 2             372             372   CD NUMBER	
- 3               ,               ,    ,      O	
- 4             458             458   CD NUMBER	
- 5               (               (   CD NUMBER	
- 6            1994            1994   CD   DATE	
- 7               )               )   NN      O	
- 8               .               .    .      O	
-
- 1             101             101   CD NUMBER	
- 2               .               .    .      O	
-
- 1              S.              S.  NNP PERSON	
- 2              D.              D.  NNP PERSON	
- 3      Weatherbee      Weatherbee  NNP PERSON	
- 4              et              et   FW      O	
- 5             al.             al.   FW      O	
- 6               ,               ,    ,      O	
- 7            Curr            Curr  NNP      O	
- 8               .               .    .      O	
-
- 1            Biol            Biol  NNP      O	
- 2               .               .    .      O	
-
- 1               9               9   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             109             109   CD NUMBER	
- 4               (               (   CD NUMBER	
- 5            1999            1999   CD   DATE	
- 6               )               )   NN      O	
- 7               .               .    .      O	
-
- 1             102             102   CD NUMBER	
- 2               .               .    .      O	
-
- 1              A.              A.   NN PERSON	
- 2           Burke           Burke  NNP PERSON	
- 3               ,               ,    ,      O	
- 4              C.              C.  NNP PERSON	
- 5          Nelson          Nelson  NNP PERSON	
- 6               ,               ,    ,      O	
- 7              B.              B.  NNP PERSON	
- 8          Morgan          Morgan  NNP PERSON	
- 9               ,               ,    ,      O	
-10              C.              C.  NNP PERSON	
-11           Tabin           Tabin  NNP PERSON	
-12               ,               ,    ,      O	
-13     Development    Develop-ment  NNP      O	|||d,sw,rmchar$1
-
- 1             121             121   CD NUMBER	
- 2               ,               ,    ,      O	
- 3             333             333   CD NUMBER	
- 4               (               (   CD NUMBER	
- 5            1995            1995   CD   DATE	
- 6               )               )   NN      O	
- 7               .               .    .      O	
-
- 1             103             103   CD NUMBER	
- 2               .               .    .      O	
-
- 1              J.              J.  NNP PERSON	
- 2              R.              R.  NNP PERSON	
- 3         Nursall         Nursall  NNP PERSON	
- 4               ,               ,    ,      O	
- 5          Nature          Nature  NNP      O	
- 6             183             183   CD NUMBER	
- 7               ,               ,    ,      O	
- 8            1170            1170   CD   DATE	
- 9               (               (   CD   DATE	
-10            1959            1959   CD   DATE	
-11               )               )   NN      O	
-12               ;               ;    :      O	
-13              P.              P.  NNP PERSON	
-14              E.              E.  NNP PERSON	
-15           Cloud           Cloud  NNP PERSON	
-16               ,               ,    ,      O	
-17         Science         Science  NNP      O	
-18             160             160   CD NUMBER	
-19               ,               ,    ,      O	
-20             729             729   CD NUMBER	
-21               (               (   CD NUMBER	
-22            1968            1968   CD   DATE	
-23               )               )   NN      O	
-24               ;               ;    :      O	
-25              R.              R.  NNP PERSON	
-26              A.              A.  NNP PERSON	
-27            Raff            Raff  NNP PERSON	
-28             and             and   CC      O	
-29              E.              E.  NNP PERSON	
-30              C.              C.  NNP PERSON	
-31            Raff            Raff  NNP PERSON	
-32               ,               ,    ,      O	
-33          Nature          Nature  NNP      O	
-34             228             228   CD NUMBER	
-35               ,               ,    ,      O	
-36            1003            1003   CD   DATE	
-37               (               (   CD   DATE	
-38            1970            1970   CD   DATE	
-39               )               )   NN      O	
-40               ;               ;    :      O	
-41              K.              K.  NNP PERSON	
-42              M.              M.  NNP PERSON	
-43            Towe            Towe  NNP PERSON	
-44               ,               ,    ,      O	
-45            Proc            Proc  NNP      O	
-46               .               .    .      O	
-
- 1           Natl.            NatL  NNP      O	|||
- 2            Acad            Acad  NNP      O	
- 3               .               .    .      O	
-
- 1             Sci             Sci  NNP      O	
- 2               .               .    .      O	
-
- 1          U.S.A.          U.S.A.  NNP ORGANI	
- 2              65              65   CD NUMBER	
- 3               ,               ,    ,      O	
- 4             781             781   CD NUMBER	
- 5               (               (   CD NUMBER	
- 6            1970            1970   CD   DATE	
- 7               )               )   NN      O	
- 8               .               .    .      O	
-
- 1             104             104   CD NUMBER	
- 2               .               .    .      O	
-
- 1              A.              A.   NN PERSON	
- 2           Krogh           Krogh  NNP PERSON	
- 3               ,               ,    ,      O	
- 4             The             The   DT      O	
- 5     Comparative     Comparative   JJ      O	
- 6      Physiology      Physiology  NNP      O	
- 7  ofRe5pirator_y   ofRespiratory   NN      O	|||seg$of Respiratory
- 8      Mechanisms      Mechanisms  NNS      O	
- 9               (               (  VBP      O	
-10           Univ.           Univ.  NNP      O	
-11              of              of   IN      O	
-12    Pennsylvania    Pennsylvania  NNP LOCATI	
-13           Press           Press  NNP      O	
-14               ,               ,    ,      O	
-15    Philadelphia    Philadel-phi  NNP LOCATI	|||d,sw,comb,seg$1
-16               ,              a,    ,      O	|||$1
-17            1941            1941   CD   DATE	
-18               )               )   NN      O	
-19               ;               ;    :      O	
-20              B.              B.  NNP PERSON	
-21        Runnegar        Runnegar  NNP PERSON	
-22               ,               ,    ,      O	
-23      Alcheringa      Aicheringa  NNP ORGANI	|||kbe$1
-24               6               6   CD NUMBER	
-25               ,               ,    ,      O	
-26             223             223   CD NUMBER	
-27               (               (   CD NUMBER	
-28            1982            1982   CD   DATE	
-29               )               )   NN      O	
-30               .               .    .      O	
-
- 1             105             105   CD NUMBER	
- 2               .               .    .      O	
-
- 1              G.              G.  NNP PERSON	
- 2              j.              J.  NNP PERSON	|||swgram$2
- 3         Vermeij         Vermeij  NNP PERSON	
- 4               ,               ,    ,      O	
- 5         Science         Science  NNP      O	
- 6             274             274   CD NUMBER	
- 7               ,               ,    ,      O	
- 8             525             525   CD NUMBER	
- 9               (               (   CD NUMBER	
-10            1996            1996   CD   DATE	
-11               )               )   NN      O	
-12               .               .    .      O	
-
- 1             106             106   CD NUMBER	
- 2               .               .    .      O	
-
- 1              L.              L.  NNP PERSON	
- 2              A.              A.  NNP PERSON	
- 3           Derry           Derry  NNP PERSON	
- 4               ,               ,    ,      O	
- 5              A.              A.  NNP PERSON	
- 6              J.              J.  NNP PERSON	
- 7         Kaufman         Kaufman  NNP PERSON	
- 8               ,               ,    ,      O	
- 9              S.              S.  NNP PERSON	
-10              B.              B.  NNP PERSON	
-11        jacobsen        Jacobsen  NNP PERSON	|||sw$2
-12               ,               ,    ,      O	
-13         Geochim         Geochim  NNP PERSON	
-14               .               .    .      O	
-
- 1       Cosmochim       Cosmochim  NNP      O	
- 2               .               .    .      O	
-
- 1            Acta            Acta  NNP PERSON	
- 2              56              56   CD NUMBER	
- 3               ,               ,    ,      O	
- 4            1317            1317   CD   DATE	
- 5               (               (   CD   DATE	
- 6            1992            1992   CD   DATE	
- 7               )               )   NN      O	
- 8               .               .    .      O	
-
- 1             107             107   CD NUMBER	
- 2               .               .    .      O	
-
- 1              In              In   IN      O	
- 2        oxygenic        oxygenic   JJ      O	
- 3  photosynthesis  photosynthesis   NN      O	
- 4               ,               ,    ,      O	
- 5             CO2             COz   NN      O	|||sw$1
- 6               +               +   CC      O	
- 7             H20             H,O   NN      O	|||ed$H2O
- 8               9                   CD NUMBER	
- 9            CHZO            CHzO   NN      O	|||swgram,upp
-10               +               +   CC      O	
-11              02              Oz   NN NUMBER	|||ed,swgram$O2
-12               .               .    .      O	
-
- 1        Although        Although   IN      O	
- 2  photosynthesis  photosynthesis   NN      O	
- 3        provides        provides  VBZ      O	
- 4             the             the   DT      O	
- 5        ultimate        ultimate   JJ      O	
- 6          source          source   NN      O	
- 7              of              of   IN      O	
- 8     atmospheric     atmospheric   JJ      O	
- 9          oxygen          oxygen   NN      O	
-10               ,               ,    ,      O	
-11     respiration     respiration   NN      O	
-12     essentially     essentially   RB      O	
-13            runs            runs  VBZ      O	
-14             the             the   DT      O	
-15  photosynthetic  photosynthetic   JJ      O	
-16        equation        equation   NN      O	
-17        backward        back-war   RB      O	|||comb,seg$1
-18               ,              d,    ,      O	|||
-19       consuming       consuming  VBG      O	
-20          oxygen          oxygen   NN      O	
-21               .               .    .      O	
-
- 1             The             The   DT      O	
- 2       potential       potential   NN      O	
- 3             for             for   IN      O	
- 4          oxygen          oxygen   NN      O	
- 5              to              to   TO      O	
- 6      accumulate      accumulate   VB      O	
- 7              in              in   IN      O	
- 8             the             the   DT      O	
- 9      atmosphere      atmosphere   NN      O	
-10            will            will   MD      O	
-11           arise           arise   VB      O	
-12            only            only   RB      O	
-13            when            when  WRB      O	
-14 photosynthetically photosynthetically   RB      O	
-15         derived         derived  VBN      O	
-16         organic         organic   JJ      O	
-17          matter          matter   NN      O	
-18              is              is  VBZ      O	
-19          buried          buried  VBN      O	
-20               .               ,    .      O	|||dot$2
-
- 1        limiting        limiting  VBG      O	
- 2     consumption     consumption   NN      O	
- 3              by              by   IN      O	
- 4       respirers       respirers  NNS      O	
- 5               .               .    .      O	
-
- 1          Oxygen          Oxygen   NN      O	
- 2             not             not   RB      O	
- 3            used            used  VBN      O	
- 4              in              in   IN      O	
- 5     respiration     respiration   NN      O	
- 6             may             may   MD      O	
- 7           react           react   VB      O	
- 8            with            with   IN      O	
- 9             old             old   JJ      O	
-10         organic         organic   JJ      O	
-11          matter          matter   NN      O	
-12        released        released  VBN      O	
-13          during          during   IN      O	
-14         erosion         erosion   NN      O	
-15              or              or   CC      O	
-16            with            with   IN      O	
-17         reduced         reduced  VBN      O	
-18         species         species  NNS      O	
-19              in              in   IN      O	
-20        minerals        minerals  NNS      O	
-21              or              or   CC      O	
-22              in              in   IN      O	
-23        solution        solution   NN      O	
-24               ,               ,    ,      O	
-25             but             but   CC      O	
-26              if              if   IN      O	
-27           rates           rates  NNS      O	
-28              of              of   IN      O	
-29          oxygen          oxygen   NN      O	
-30      production      production   NN      O	
-31          exceed          exceed  VBP      O	
-32           those           those   DT      O	
-33              of              of   IN      O	
-34     consumption     consumption   NN      O	
-35               ,               ,    ,      O	
-36          oxygen          oxygen   NN      O	
-37            will            will   MD      O	
-38        increase        increase   VB      O	
-39              in              in   IN      O	
-40             the             the   DT      O	
-41 ocean/atmosphere ocean/atmosphere   JJ      O	
-42          system          sys-te   NN      O	|||comb,seg$1
-43               .              m.    .      O	|||$1
+ 1        EXTENDED                  VBN      O  ///
+ 2             PDF                   NN      O  ///
+ 3          FORMAT                   NN      O  ///
+ 4       SPONSORED                  VBD      O  ///
+ 5              BY                   IN      O  ///
+
+ 1          Travel                   NN      O  ///
+ 2          Grants                  NNPS      O ///
+ 3           lathe                  VBP      O  ///
+ 4              15                   CD NUMBER  ///
+ 5               "                   ''      O  ///
+ 6               ?                  NNP      O  ///
+ 7   International                  NNP      O  ///
+ 8        Congress                  NNP      O  ///
+ 9    oflmmunology                   NN      O  ///
+10               .                    .      O  ///
+
+ 1               4                   CD NUMBER  ///
+ 2           Apply                  NNP      O  ///
+ 3             Now                   RB   DATE  ///
+ 4               !                    .      O  ///
+
+ 1               s                  NNS      O  ///
+ 2               '                  POS      O  ///
+ 3               x                   NN      O  ///
+ 4               ?                    .      O  ///
+ 5               '                   ''      O  ///
+
+ 1               ?                   NN      O  ///
+ 2          L'izMs                  NNS      O  ///
+ 3               '                  POS      O  ///
+ 4 www.rndsystems.com                   NN      O ///
+
+ 1             The             The   DT      O  
+ 2       Evolution       Evolution   NN      O  
+ 3              of              of   IN      O  
+ 4       Dinosaurs       Dinosaurs  NNP      O  
+ 5            Paul            Paul  NNP PERSON  
+ 6              C.              C.  NNP PERSON  
+ 7          Sereno          Sereno  NNP PERSON  
+ 8         Science         Science  NNP      O  
+ 9             284             284   CD NUMBER  
+10               ,               ,    ,      O  
+11            2137            2137   CD   DATE  
+12               (               (   CD   DATE  
+13            1999            1999   CD   DATE  
+14               )               )   NN      O  
+15               ;               ;    :      O  
+16             DOI             DOI  NNP      O  
+17               :               :    :      O  
+18         10.1126         10.1126   CD NUMBER  
+19               /               /    :      O  
+20         science         science   NN      O  
+21  .284.5423.2137  .284.5423.2137   CD NUMBER  
+
+ 1           MAAAS                  NNS      O  ///
+
+ 1            This            This   DT      O  
+ 2            copy            copy   NN      O  
+ 3              is              is  VBZ      O  
+ 4             for             for   IN      O  
+ 5            your            your  PRP$      O 
+ 6        personal        personal   JJ      O  
+ 7               ,               ,    ,      O  
+ 8  non-commercial  non-commercial   JJ      O  
+ 9             use             use   NN      O  
+10            only            only   RB      O  
+11               .               .    .      O  
+
+ 1         Science                   NN      O  ///
+
+ 1              If              If   IN      O  
+ 2             you             you  PRP      O  
+ 3            wish            wish  VBP      O  
+ 4              to              to   TO      O  
+ 5      distribute      distribute   VB      O  
+ 6            this            this   DT      O  
+ 7         article         article   NN      O  
+ 8              to              to   TO      O  
+ 9          others          others  NNS      O  
+10               ,               ,    ,      O  
+11             you             you  PRP      O  
+12             can             can   MD      O  
+13           order           order   VB      O  
+14    high-quality    high-quality   JJ      O  
+15          copies          copies  NNS      O  
+16             for             for   IN      O  
+17            your            your  PRP$      O 
+18      colleagues      colleagues  NNS      O  
+19               ,               ,    ,      O  
+20         clients         clients  NNS      O  
+21               ,               ,    ,      O  
+22              or              or   CC      O  
+23       customers       customers  NNS      O  
+24              by              by   IN      O  
+25        clicking        clicking  VBG      O  
+26            here            here   RB      O  
+27               .               .    .      O  
+
+ 1      Permission      Permission   NN      O  
+ 2              to              to   TO      O  
+ 3       republish       republish   VB      O  
+ 4              or              or   CC      O  
+ 5       repurpose       repurpose   VB      O  
+ 6        articles        articles  NNS      O  
+ 7              or              or   CC      O  
+ 8        portions        portions  NNS      O  
+ 9              of              of   IN      O  
+10        articles        articles  NNS      O  
+11             can             can   MD      O  
+12              be              be   VB      O  
+13        obtained        obtained  VBN      O  
+14              by              by   IN      O  
+15       following       following  VBG      O  
+16             the             the   DT      O  
+17      guidelines      guidelines  NNS      O  
+18            here            here   RB      O  
+19               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2       following       following   JJ      O  
+ 3       resources       resources  NNS      O  
+ 4         related         related  VBN      O  
+ 5              to              to   TO      O  
+ 6            this            this   DT      O  
+ 7         article         article   NN      O  
+ 8             are             are  VBP      O  
+ 9       available       available   JJ      O  
+10          online          online   NN      O  
+11              at              at   IN      O  
+12 www.sciencemag.org www.sciencemag.org   NN      O  ///
+13               (               (   CD NUMBER  
+14            this            this   DT      O  
+15     information     information   NN      O  
+16              is              is  VBZ      O  
+17         current         current   JJ   DATE  
+18              as              as   IN      O  
+19              of              of   IN      O  
+20             May             May  NNP   DATE  
+21               8               8   CD   DATE  
+22               ,               ,    ,   DATE  
+23            2013            2013   CD   DATE  
+24               )               )   CD NUMBER  
+25               :               :    :      O  
+
+ 1         Updated         Updated  VBN      O  
+ 2     information     information   NN      O  
+ 3             and             and   CC      O  
+ 4        services        services  NNS      O  
+ 5               ,               ,    ,      O  
+ 6       including       including  VBG      O  
+ 7 high-resolution high-resolution   JJ      O  
+ 8         figures         figures  NNS      O  
+ 9               ,               ,    ,      O  
+10             can             can   MD      O  
+11              be              be   VB      O  
+12           found           found  VBN      O  
+13              in              in   IN      O  
+14             the             the   DT      O  
+15          online          online   JJ      O  
+16         version         version   NN      O  
+17              of              of   IN      O  
+18            this            this   DT      O  
+19         article         article   NN      O  
+20              at              at   IN      O  
+21               :               :    :      O  
+22 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O  ///
+23               |               l   NN      O  |||comb,url$2
+
+ 1            This            This   DT      O  
+ 2         article         article   NN      O  
+ 3           cites           cites  VBZ      O  
+ 4             135             135   CD NUMBER  
+ 5        articles        articles  NNS      O  
+ 6               ,               ,    ,      O  
+ 7              21              21   CD NUMBER  
+ 8              of              of   IN      O  
+ 9           which           which  WDT      O  
+10             can             can   MD      O  
+11              be              be   VB      O  
+12        accessed        accessed  VBN      O  
+13            free            free   JJ      O  
+14               :               :    :      O  
+15 http://www.sciencemag.org/content/284/5423/2137.full.htm http://www.sciencemag.org/content/284/5423/2137.full.htm   NN      O  ///
+16               |               l   CD NUMBER  |||comb$2
+17            #ref            4fre   NN      O  |||?$$
+18               ?               f   CD NUMBER  |||
+19               |               -   CD NUMBER  |||
+20             ist             lis   NN      O  |||
+21               ?               t   NN      O  |||
+22               1              -1   CD NUMBER  |||
+
+ 1            This            This   DT      O  
+ 2         article         article   NN      O  
+ 3             has             has  VBZ      O  
+ 4            been            been  VBN      O  
+ 5           cited           cited  VBN      O  
+ 6              by              by   IN      O  
+ 7             334             334   CD NUMBER  
+ 8         article         article   NN      O  
+ 9               (               (   NN      O  
+10               s               s  NNS      O  
+11               )               )  VBP      O  
+12              on              on   IN      O  
+13             the             the   DT      O  
+14             ISI             ISI  NNP      O  
+15             Web             Web   NN      O  
+16              of              of   IN      O  
+17         Science         Science   NN      O  
+
+ 1            This            This   DT      O  
+ 2         article         article   NN      O  
+ 3             has             has  VBZ      O  
+ 4            been            been  VBN      O  
+ 5           cited           cited  VBN      O  
+ 6              by              by   IN      O  
+ 7              58              58   CD NUMBER  
+ 8        articles        articles  NNS      O  
+ 9          hosted          hosted  VBN      O  
+10              by              by   IN      O  
+11        HighWire        HighWire  NNP ORGANI  
+12           Press           Press  NNP ORGANI  
+13               ;               ;    :      O  
+14             see             see   VB      O  
+15               :               :    :      O  
+16 http://www.sciencemag.org/content/284/5423/2137.fu http://www.sciencemag.org/content/284/5423/2137.fu   NN      O  ///
+17               |               l   CD NUMBER  |||comb,url$2
+18               |               l   NN      O  |||$2
+19               .               .    .      O  
+
+ 1             htm             htm   NN      O  
+ 2               |               l  SYM      O  |||$html
+ 3             #re             ffr   FW      O  |||$#related-urls
+ 4               |               e   FW      O  |||$
+ 5       ated-urls      lated-uris  NNS      O  |||$
+
+ 1            This            This   DT      O  
+ 2         article         article   NN      O  
+ 3         appears         appears  VBZ      O  
+ 4              in              in   IN      O  
+ 5             the             the   DT      O  
+ 6       following       following  VBG      O  
+ 7         subject         subject   JJ      O  
+ 8     collections     collections  NNS      O  
+ 9               :               :    :      O  
+10    Paleontology    Paleontology   NN      O  
+11 http://www.sciencemag.org/cgi/collection/paleo http://www.sciencemag.org/cgi/collection/paleo   NN      O  ///
+
+ 1             Dow            3OCI  NNP   MISC  |||comb$Downloaded
+ 2         nloaded          IUcdOC  VBD      O  |||$
+ 3             fro               O   NN      O  |||comb$from
+ 4               m               E   NN      O  |||$
+ 5              ww                   NN      O  |||comb,url$www.scincemag.org
+ 6              w.              CO   NN      O  |||$
+ 7      sciencemag            EIOO   NN      O  |||$
+ 8               .               C    .      O  |||$
+
+ 1             org              BO   NN      O  |||$
+ 2               o               0   NN      O  |||comb$on
+ 3               n                   NN      O  |||$
+ 4             May                   MD   DATE  |||$1
+ 5               8               C   CD   DATE  |||swgram$1
+ 6               ,               O    ,   DATE  |||ner,swgram$1
+ 7            2013            C)CU   CD   DATE  |||d,swgram,ner$1
+ 8         Science         Science   NN      O  
+ 9               (               (   CD NUMBER  
+10           print           print   NN      O  
+11            ISSN            ISSN   NN      O  
+12       0036-8075       0036-8075   CD DURATI  
+13               ;               ;    :      O  
+14          online          online   JJ      O  
+15            ISSN            ISSN   NN      O  
+16       1095-9203       1095-9203   CD DURATI  
+17               )               )   NN      O  
+18              is              is  VBZ      O  
+19       published       published  VBN      O  
+20          weekly          weekly   RB    SET  
+21               ,               ,    ,      O  
+22          except          except   IN      O  
+23             the             the   DT   DATE  
+24            last            last   JJ   DATE  
+25            week            week   NN   DATE  
+26              in              in   IN   DATE  
+27        December        December  NNP   DATE  
+28               ,               ,    ,      O  
+29              by              by   IN      O  
+30             the             the   DT      O  
+31        American        American  NNP      O  
+32     Association     Association  NNP      O  
+33             for             for   IN      O  
+34             the             the   DT      O  
+35     Advancement     Advancement  NNP ORGANI  
+36              of              of   IN ORGANI  
+37         Science         Science  NNP ORGANI  
+38               ,               ,    ,      O  
+39            1200            1200   CD   DATE  
+40             New             New  NNP ORGANI  
+41            York            York  NNP ORGANI  
+42          Avenue          Avenue  NNP ORGANI  
+43              NW              NW  NNP ORGANI  
+44               ,               ,    ,      O  
+45      Washington      Washington  NNP LOCATI  
+46               ,               ,    ,      O  
+47              DC              DC  NNP      O  
+48           20005           20005   CD NUMBER  
+49               .               .    .      O  
+
+ 1       Copyright       Copyright   NN      O  
+ 2            1999            1999   CD   DATE  
+ 3              by              by   IN      O  
+ 4             the             the   DT      O  
+ 5        American        American  NNP ORGANI  
+ 6     Association     Association  NNP ORGANI  
+ 7             for             for   IN      O  
+ 8             the             the   DT      O  
+ 9     Advancement     Advancement  NNP      O  
+10              of              of   IN      O  
+11         Science         Science  NNP      O  
+12               ;               ;    :      O  
+13             all             all   DT      O  
+14          rights          rights  NNS      O  
+15        reserved        reserved  VBN      O  
+16               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2           title           title   NN      O  
+ 3         Science         Science   NN      O  
+ 4              is              is  VBZ      O  
+ 5               a               a   DT      O  
+ 6      registered      registered  VBN      O  
+ 7       trademark       trademark   NN      O  
+ 8              of              of   IN      O  
+ 9            AAAS            AAAS  NNP ORGANI  
+10               .               .    .      O  
+
+ 1              93              93   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              S.              S.  NNP PERSON  
+ 2              D.              D.  NNP PERSON  
+ 3      Weatherbee      Weatherbee  NNP PERSON  
+ 4             and             and   CC      O  
+ 5              S.              S.  NNP PERSON  
+ 6              B.              B.  NNP PERSON  
+ 7         Carroll         Carroll  NNP PERSON  
+ 8               ,               ,    ,      O  
+ 9            Cell            Cell   NN      O  
+10              97              97   CD NUMBER  
+11               ,               ,    ,      O  
+12             283             283   CD NUMBER  
+13               (               (   CD NUMBER  
+14            1999            1999   CD   DATE  
+15               )               )   NN      O  
+16               .               .    .      O  
+
+ 1              94              94   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              W.              W.  NNP PERSON  
+ 2              G.              G.  NNP PERSON  
+ 3              M.              M.  NNP PERSON  
+ 4           Damen           Damen  NNP PERSON  
+ 5               ,               ,    ,      O  
+ 6              M.              M.  NNP PERSON  
+ 7        Hausdorf        Hausdorf  NNP PERSON  
+ 8               .               ,    .      O  |||persondot$.
+
+ 1            E.-A            E.-A   NN      O  
+ 2               .               .    .      O  
+
+ 1        Seyfarth        Seyfarth  NNP PERSON  
+ 2               ,               ,    ,      O  
+ 3              D.              D.  NNP PERSON  
+ 4           Tautz           Tautz  NNP PERSON  
+ 5               ,               ,    ,      O  
+ 6            Proc            Proc  NNP      O  
+ 7               .               .    .      O  
+
+ 1           Natl.           Natl.  NNP      O  
+ 2            Acad            Acad  NNP      O  
+ 3               .               .    .      O  
+
+ 1             Sci             Sci  NNP      O  
+ 2               .               .    .      O  
+
+ 1          U.S.A.          U.S.A.  NNP ORGANI  
+ 2              95              95   CD NUMBER  
+ 3               ,               ,    ,      O  
+ 4           10665           10665   CD NUMBER  
+ 5               (               (   CD NUMBER  
+ 6            1998            1998   CD   DATE  
+ 7               )               )   NN      O  
+ 8               .               .    .      O  
+
+ 1              95              95   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              M.              M.  NNP PERSON  
+ 2              J.              J.  NNP PERSON  
+ 3         Telford         Telford  NNP PERSON  
+ 4             and             and   CC      O  
+ 5              R.              R.  NNP PERSON  
+ 6              H.              H.  NNP PERSON  
+ 7          Thomas          Thomas  NNP PERSON  
+ 8               ,               ,    ,      O  
+ 9           ibid.           ibid.  NNP      O  
+10               ,               ,    ,      O  
+11              p.              p.   NN      O  
+12           10671           '\067   CD NUMBER  |||ner$10671
+13               .              1.    .      O  |||ner,comb$.
+
+ 1              96              96   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              M.              M.  NNP PERSON  
+ 2          Averof          Averof  NNP PERSON  
+ 3             and             and   CC      O  
+ 4              N.              N.  NNP PERSON  
+ 5           Patel           Patel  NNP PERSON  
+ 6               ,               ,    ,      O  
+ 7          Nature          Nature  NNP      O  
+ 8             388             388   CD NUMBER  
+ 9               ,               ,    ,      O  
+10             682             682   CD NUMBER  
+11               (               (   CD NUMBER  
+12            1997            1997   CD   DATE  
+13               )               )   NN      O  
+14               .               .    .      O  
+
+ 1              97              97   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              M.              M.  NNP PERSON  
+ 2          Averof          Averof  NNP PERSON  
+ 3             and             and   CC      O  
+ 4              M.              M.  NNP PERSON  
+ 5            Akam            Akam  NNP PERSON  
+ 6               ,               ,    ,      O  
+ 7            ibid            ibid   NN      O  
+ 8               .               .    .      O  
+
+ 1             376             376   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             420             420   CD NUMBER  
+ 4               (               (   CD NUMBER  
+ 5            1995            1995   CD   DATE  
+ 6               )               )   NN      O  
+ 7               .               .    .      O  
+
+ 1              98              98   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              E.              E.  NNP PERSON  
+ 2   Mouchel-Vielh   Mouchel-vielh  NNP PERSON  |||sw$1
+ 3               ,               ,    ,      O  
+ 4              C.              C.  NNP PERSON  
+ 5         Rigolot         Rigolot  NNP PERSON  
+ 6               ,               ,    ,      O  
+ 7              J.              J.  NNP      O  
+ 8               .               -    .      O  |||?$
+
+ 1               ?               M   NN      O  |||
+ 2               .               .    .      O  
+
+ 1              M.                  NNP PERSON  ///
+ 2         Gilbert         Gilbert  NNP PERSON  
+ 3               ,               ,    ,      O  
+ 4              J.              J.  NNP PERSON  
+ 5              S.              S.  NNP PERSON  
+ 6         Deutsch         Deut-sc  NNP PERSON  |||comb$1
+ 7               ,              h,    ,      O  |||
+ 8             Mol             Moi  NNP ORGANI  |||kbe$1
+ 9               .               .    .      O  
+
+ 1      Phylogenet      Phyiogenet  NNP      O  |||d,sw$1
+ 2               .               .    .      O  
+
+ 1            Evol            Evoi   NN      O  |||sw$1
+ 2               .               .    .      O  
+
+ 1               9               9   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             382             382   CD NUMBER  
+ 4               (               (   CD NUMBER  
+ 5            1998            1998   CD   DATE  
+ 6               )               )   NN      O  
+ 7               .               .    .      O  
+
+ 1              99              99   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              j.              J.  NNP      O  |||swgram$2
+ 2              K.              K.  NNP PERSON  
+ 3         Grenier         Grenier  NNP PERSON  
+ 4               ,               ,    ,      O  
+ 5              T.              T.  NNP PERSON  
+ 6              L.              L.  NNP PERSON  
+ 7          Garber          Garber  NNP PERSON  
+ 8               ,               ,    ,      O  
+ 9              R.              R.  NNP PERSON  
+10          Warren          Warren  NNP PERSON  
+11               ,               ,    ,      O  
+12              P.              P.  NNP PERSON  
+13              M.              M.  NNP PERSON  
+14      Whitington      Whiting-to  NNP PERSON  |||comb$1
+15               ,              n,    ,      O  |||$1
+16              S.              S.  NNP PERSON  
+17              B.              B.  NNP PERSON  
+18         Carroll         Carroll  NNP PERSON  
+19               ,               ,    ,      O  
+20            Curr            Curr  NNP      O  
+21               .               .    .      O  
+
+ 1            Biol            Biol  NNP      O  
+ 2               .               .    .      O  
+
+ 1               7               7   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             547             547   CD NUMBER  
+ 4               (               (   CD NUMBER  
+ 5            1997            1997   CD   DATE  
+ 6               )               )   NN      O  
+ 7               .               .    .      O  
+
+ 1             100             100   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              R.              R.  NNP PERSON  
+ 2          Warren          Warren  NNP PERSON  
+ 3               ,               ,    ,      O  
+ 4              L.              L.  NNP PERSON  
+ 5            Nagy            Nagy  NNP PERSON  
+ 6               ,               ,    ,      O  
+ 7              J.              J.  NNP PERSON  
+ 8         Selegue         Selegue  NNP PERSON  
+ 9               ,               ,    ,      O  
+10              J.              J.  NNP PERSON  
+11           Gates           Gates  NNP PERSON  
+12               ,               ,    ,      O  
+13              S.              S.  NNP PERSON  
+14         Carroll         Carroll  NNP PERSON  
+15               ,               ,    ,      O  
+
+ 1          Nature          Nature  NNP      O  
+ 2             372             372   CD NUMBER  
+ 3               ,               ,    ,      O  
+ 4             458             458   CD NUMBER  
+ 5               (               (   CD NUMBER  
+ 6            1994            1994   CD   DATE  
+ 7               )               )   NN      O  
+ 8               .               .    .      O  
+
+ 1             101             101   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              S.              S.  NNP PERSON  
+ 2              D.              D.  NNP PERSON  
+ 3      Weatherbee      Weatherbee  NNP PERSON  
+ 4              et              et   FW      O  
+ 5             al.             al.   FW      O  
+ 6               ,               ,    ,      O  
+ 7            Curr            Curr  NNP      O  
+ 8               .               .    .      O  
+
+ 1            Biol            Biol  NNP      O  
+ 2               .               .    .      O  
+
+ 1               9               9   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             109             109   CD NUMBER  
+ 4               (               (   CD NUMBER  
+ 5            1999            1999   CD   DATE  
+ 6               )               )   NN      O  
+ 7               .               .    .      O  
+
+ 1             102             102   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              A.              A.   NN PERSON  
+ 2           Burke           Burke  NNP PERSON  
+ 3               ,               ,    ,      O  
+ 4              C.              C.  NNP PERSON  
+ 5          Nelson          Nelson  NNP PERSON  
+ 6               ,               ,    ,      O  
+ 7              B.              B.  NNP PERSON  
+ 8          Morgan          Morgan  NNP PERSON  
+ 9               ,               ,    ,      O  
+10              C.              C.  NNP PERSON  
+11           Tabin           Tabin  NNP PERSON  
+12               ,               ,    ,      O  
+13     Development    Develop-ment  NNP      O  |||d,sw,rmchar$1
+
+ 1             121             121   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             333             333   CD NUMBER  
+ 4               (               (   CD NUMBER  
+ 5            1995            1995   CD   DATE  
+ 6               )               )   NN      O  
+ 7               .               .    .      O  
+
+ 1             103             103   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              J.              J.  NNP PERSON  
+ 2              R.              R.  NNP PERSON  
+ 3         Nursall         Nursall  NNP PERSON  
+ 4               ,               ,    ,      O  
+ 5          Nature          Nature  NNP      O  
+ 6             183             183   CD NUMBER  
+ 7               ,               ,    ,      O  
+ 8            1170            1170   CD   DATE  
+ 9               (               (   CD   DATE  
+10            1959            1959   CD   DATE  
+11               )               )   NN      O  
+12               ;               ;    :      O  
+13              P.              P.  NNP PERSON  
+14              E.              E.  NNP PERSON  
+15           Cloud           Cloud  NNP PERSON  
+16               ,               ,    ,      O  
+17         Science         Science  NNP      O  
+18             160             160   CD NUMBER  
+19               ,               ,    ,      O  
+20             729             729   CD NUMBER  
+21               (               (   CD NUMBER  
+22            1968            1968   CD   DATE  
+23               )               )   NN      O  
+24               ;               ;    :      O  
+25              R.              R.  NNP PERSON  
+26              A.              A.  NNP PERSON  
+27            Raff            Raff  NNP PERSON  
+28             and             and   CC      O  
+29              E.              E.  NNP PERSON  
+30              C.              C.  NNP PERSON  
+31            Raff            Raff  NNP PERSON  
+32               ,               ,    ,      O  
+33          Nature          Nature  NNP      O  
+34             228             228   CD NUMBER  
+35               ,               ,    ,      O  
+36            1003            1003   CD   DATE  
+37               (               (   CD   DATE  
+38            1970            1970   CD   DATE  
+39               )               )   NN      O  
+40               ;               ;    :      O  
+41              K.              K.  NNP PERSON  
+42              M.              M.  NNP PERSON  
+43            Towe            Towe  NNP PERSON  
+44               ,               ,    ,      O  
+45            Proc            Proc  NNP      O  
+46               .               .    .      O  
+
+ 1           Natl.            NatL  NNP      O  |||
+ 2            Acad            Acad  NNP      O  
+ 3               .               .    .      O  
+
+ 1             Sci             Sci  NNP      O  
+ 2               .               .    .      O  
+
+ 1          U.S.A.          U.S.A.  NNP ORGANI  
+ 2              65              65   CD NUMBER  
+ 3               ,               ,    ,      O  
+ 4             781             781   CD NUMBER  
+ 5               (               (   CD NUMBER  
+ 6            1970            1970   CD   DATE  
+ 7               )               )   NN      O  
+ 8               .               .    .      O  
+
+ 1             104             104   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              A.              A.   NN PERSON  
+ 2           Krogh           Krogh  NNP PERSON  
+ 3               ,               ,    ,      O  
+ 4             The             The   DT      O  
+ 5     Comparative     Comparative   JJ      O  
+ 6      Physiology      Physiology  NNP      O  
+ 7  ofRe5pirator_y   ofRespiratory   NN      O  |||seg$of Respiratory
+ 8      Mechanisms      Mechanisms  NNS      O  
+ 9               (               (  VBP      O  
+10           Univ.           Univ.  NNP      O  
+11              of              of   IN      O  
+12    Pennsylvania    Pennsylvania  NNP LOCATI  
+13           Press           Press  NNP      O  
+14               ,               ,    ,      O  
+15    Philadelphia    Philadel-phi  NNP LOCATI  |||d,sw,comb,seg$1
+16               ,              a,    ,      O  |||$1
+17            1941            1941   CD   DATE  
+18               )               )   NN      O  
+19               ;               ;    :      O  
+20              B.              B.  NNP PERSON  
+21        Runnegar        Runnegar  NNP PERSON  
+22               ,               ,    ,      O  
+23      Alcheringa      Aicheringa  NNP ORGANI  |||kbe$1
+24               6               6   CD NUMBER  
+25               ,               ,    ,      O  
+26             223             223   CD NUMBER  
+27               (               (   CD NUMBER  
+28            1982            1982   CD   DATE  
+29               )               )   NN      O  
+30               .               .    .      O  
+
+ 1             105             105   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              G.              G.  NNP PERSON  
+ 2              j.              J.  NNP PERSON  |||swgram$2
+ 3         Vermeij         Vermeij  NNP PERSON  
+ 4               ,               ,    ,      O  
+ 5         Science         Science  NNP      O  
+ 6             274             274   CD NUMBER  
+ 7               ,               ,    ,      O  
+ 8             525             525   CD NUMBER  
+ 9               (               (   CD NUMBER  
+10            1996            1996   CD   DATE  
+11               )               )   NN      O  
+12               .               .    .      O  
+
+ 1             106             106   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              L.              L.  NNP PERSON  
+ 2              A.              A.  NNP PERSON  
+ 3           Derry           Derry  NNP PERSON  
+ 4               ,               ,    ,      O  
+ 5              A.              A.  NNP PERSON  
+ 6              J.              J.  NNP PERSON  
+ 7         Kaufman         Kaufman  NNP PERSON  
+ 8               ,               ,    ,      O  
+ 9              S.              S.  NNP PERSON  
+10              B.              B.  NNP PERSON  
+11        jacobsen        Jacobsen  NNP PERSON  |||sw$2
+12               ,               ,    ,      O  
+13         Geochim         Geochim  NNP PERSON  
+14               .               .    .      O  
+
+ 1       Cosmochim       Cosmochim  NNP      O  
+ 2               .               .    .      O  
+
+ 1            Acta            Acta  NNP PERSON  
+ 2              56              56   CD NUMBER  
+ 3               ,               ,    ,      O  
+ 4            1317            1317   CD   DATE  
+ 5               (               (   CD   DATE  
+ 6            1992            1992   CD   DATE  
+ 7               )               )   NN      O  
+ 8               .               .    .      O  
+
+ 1             107             107   CD NUMBER  
+ 2               .               .    .      O  
+
+ 1              In              In   IN      O  
+ 2        oxygenic        oxygenic   JJ      O  
+ 3  photosynthesis  photosynthesis   NN      O  
+ 4               ,               ,    ,      O  
+ 5             CO2             COz   NN      O  |||sw$1
+ 6               +               +   CC      O  
+ 7             H20             H,O   NN      O  |||ed$H2O
+ 8               9                   CD NUMBER  ///
+ 9            CHZO            CHzO   NN      O  |||swgram,upp
+10               +               +   CC      O  
+11              02              Oz   NN NUMBER  |||ed,swgram$O2
+12               .               .    .      O  
+
+ 1        Although        Although   IN      O  
+ 2  photosynthesis  photosynthesis   NN      O  
+ 3        provides        provides  VBZ      O  
+ 4             the             the   DT      O  
+ 5        ultimate        ultimate   JJ      O  
+ 6          source          source   NN      O  
+ 7              of              of   IN      O  
+ 8     atmospheric     atmospheric   JJ      O  
+ 9          oxygen          oxygen   NN      O  
+10               ,               ,    ,      O  
+11     respiration     respiration   NN      O  
+12     essentially     essentially   RB      O  
+13            runs            runs  VBZ      O  
+14             the             the   DT      O  
+15  photosynthetic  photosynthetic   JJ      O  
+16        equation        equation   NN      O  
+17        backward        back-war   RB      O  |||comb,seg$1
+18               ,              d,    ,      O  |||
+19       consuming       consuming  VBG      O  
+20          oxygen          oxygen   NN      O  
+21               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2       potential       potential   NN      O  
+ 3             for             for   IN      O  
+ 4          oxygen          oxygen   NN      O  
+ 5              to              to   TO      O  
+ 6      accumulate      accumulate   VB      O  
+ 7              in              in   IN      O  
+ 8             the             the   DT      O  
+ 9      atmosphere      atmosphere   NN      O  
+10            will            will   MD      O  
+11           arise           arise   VB      O  
+12            only            only   RB      O  
+13            when            when  WRB      O  
+14 photosynthetically photosynthetically   RB      O  ///
+15         derived         derived  VBN      O  
+16         organic         organic   JJ      O  
+17          matter          matter   NN      O  
+18              is              is  VBZ      O  
+19          buried          buried  VBN      O  
+20               .               ,    .      O  |||dot$2
+
+ 1        limiting        limiting  VBG      O  
+ 2     consumption     consumption   NN      O  
+ 3              by              by   IN      O  
+ 4       respirers       respirers  NNS      O  
+ 5               .               .    .      O  
+
+ 1          Oxygen          Oxygen   NN      O  
+ 2             not             not   RB      O  
+ 3            used            used  VBN      O  
+ 4              in              in   IN      O  
+ 5     respiration     respiration   NN      O  
+ 6             may             may   MD      O  
+ 7           react           react   VB      O  
+ 8            with            with   IN      O  
+ 9             old             old   JJ      O  
+10         organic         organic   JJ      O  
+11          matter          matter   NN      O  
+12        released        released  VBN      O  
+13          during          during   IN      O  
+14         erosion         erosion   NN      O  
+15              or              or   CC      O  
+16            with            with   IN      O  
+17         reduced         reduced  VBN      O  
+18         species         species  NNS      O  
+19              in              in   IN      O  
+20        minerals        minerals  NNS      O  
+21              or              or   CC      O  
+22              in              in   IN      O  
+23        solution        solution   NN      O  
+24               ,               ,    ,      O  
+25             but             but   CC      O  
+26              if              if   IN      O  
+27           rates           rates  NNS      O  
+28              of              of   IN      O  
+29          oxygen          oxygen   NN      O  
+30      production      production   NN      O  
+31          exceed          exceed  VBP      O  
+32           those           those   DT      O  
+33              of              of   IN      O  
+34     consumption     consumption   NN      O  
+35               ,               ,    ,      O  
+36          oxygen          oxygen   NN      O  
+37            will            will   MD      O  
+38        increase        increase   VB      O  
+39              in              in   IN      O  
+40             the             the   DT      O  
+41 ocean/atmosphere ocean/atmosphere   JJ      O  ///
+42          system          sys-te   NN      O  |||comb,seg$1
+43               .              m.    .      O  |||$1
