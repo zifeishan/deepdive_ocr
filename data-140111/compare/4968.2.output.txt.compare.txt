@@ -25,10 +25,10 @@
  4               '                   ''      O  ///$
  5               '                   ''      O  ///$
 
- 1              Br              BY  NNP      O  |||d,sw$2
- 2         CHARLES       CSLjLRKXS  NNP PERSON  |||by,kbe,sw,upp$1
+ 1              Br              BY  NNP      O  |||d,sw,by$2
+ 2         CHARLES       CSLjLRKXS  NNP PERSON  |||kbe,sw,upp$1
  3              T.              T.  NNP PERSON  
- 4           Bones           BRBZS  NNP PERSON  |||by,kbe$BRUES
+ 4           Bones           BRBZS  NNP PERSON  |||kbe$BRUES
  5               .               .    .      O  
 
  1               I                  PRP      O  ///$
@@ -70,8 +70,8 @@
 21        Colorado        Color'ad  NNP LOCATI  |||d,sw,kbe$1
 22               ,               o    ,      O  |||comb$1
 23               ?               ,   CD NUMBER  |||twchar$2
-24             uod            ?lnd   NN      O  |||ed,swgram$and
-25             how             new  WRB      O  |||?$now
+24             uod            ?lnd   NN      O  |||ed+swgram$and
+25             how             new  WRB      O  |||ling?$now
 26       contained       contained  VBN      O  
 27              in              in   IN      O  
 28             the             the   DT      O  
@@ -94,7 +94,7 @@
  2            D.-A            D.A.  NNP      O  |||charuni,statcgram
  3               .                    .      O  ///$1
 
- 1      Coclserell        CachereB  NNP PERSON  |||ed,kbe,upp$Cockerell
+ 1      Coclserell        CachereB  NNP PERSON  |||ed+kbe$Cockerell
  2             has             has  VBZ      O  
  3            sent            sent  VBN      O  
  4              me              me  PRP      O  
@@ -135,7 +135,7 @@
 
  1               e               m   LS      O  |||$
  2               '               e   ''      O  |||$
- 3         Americo           rican  NNP      O  |||ed,kbe$American
+ 3         Americo           rican  NNP      O  |||ed+kbe,comb$American
  4               .                    .      O  ///$
 
  1               n                   NN      O  ///$
@@ -156,7 +156,7 @@
 
  1     opportunity       opportuma   NN      O  |||d,sw$1
  2              to              to   TO      O  
- 3        ezmruine        esainine   VB      O  |||ed,swgram$examine
+ 3        ezmruine        esainine   VB      O  |||ed+swgram$examine
  4            over            over   IN      O  
  5             700             760   CD NUMBER  |||?$700
  6 wellepreser-ted  well-preserved   JJ      O  |||sw$2
@@ -197,14 +197,14 @@
  9               "               d   ``      O  |||twchar$
 10              by              by   IN      O  
 11      Proiesso-r       Professor  NNP      O  |||d,sw,by$2
-12      Coclterell       Cockereii  NNP      O  |||ed,kbe$Cockerell
-13              a.              an   IN      O  |||comb,seg,twchar$and
-14             r1d             d.t   NN      O  |||seg,cwchar$
+12      Coclterell       Cockereii  NNP      O  |||ed+kbe$Cockerell
+13              a.              an   IN      O  |||comb+seg$and
+14             r1d             d.t   NN      O  |||$
 15               .               h    .      O  |||twchar$
 
- 1             the               e   DT      O  |||comb$1
+ 1             the               e   DT      O  |||comb,d,sw$1
  2         present         present   JJ   DATE  
- 3              ix              vi   NN      O  |||comb,ed$
+ 3              ix              vi   NN      O  |||comb+ed$
  4               ?               v   NN      O  |||$
  5              -1              it   CD NUMBER  |||$
  6               -               e    :      O  |||$
@@ -212,13 +212,13 @@
  8               ,                    ,      O  ///$1
  9             the             tha   DT      O  |||d,sw$1
 10           total           lotai   JJ      O  |||d,sw$1
-11         riumher         BLLmber   NN      O  |||ed,swgram,upp$number
+11         riumher         BLLmber   NN      O  |||ed+swgram$number
 12              so              8o   RB      O  |||d,sw,charuni$1
 13             far             far   RB      O  
 14           found           found  VBN      O  
 15              at              at   IN      O  
 16      Florissant     Irlorissant  NNP LOCATI  |||d,sw,kbe$1
-17           is125           is125   CD NUMBER  |||agree,seg,charuni$is$125
+17           is125           is125   CD NUMBER  |||agree,seg+charuni$is$125
 18              --               .    :      O  |||twchar$2
 19               .                    .      O  ///$
 
@@ -231,7 +231,7 @@
  3               +                   CC      O  ///$
  4               -                    :      O  ///$
  5               .                    .      O  ///$
- 6               '               T   ''      O  |||comb,twchar$The
+ 6               '               T   ''      O  |||comb$The
 
  1               I               h  PRP      O  |||$
  2               -               e    :      O  |||twchar$
@@ -243,7 +243,7 @@
  8         species         species  NNS      O  
  9              of              ot   IN      O  |||d,sw$1
 10       parasitic       parasitic   JJ      O  
-11         I-Iy_me         Hylneno   NN      O  |||comb,ed,kbr$Hymenoptera
+11         I-Iy_me         Hylneno   NN      O  |||comb+ed+kbr$Hymenoptera
 12               .               p    .      O  |||$
 
  1        nopteras           tera,   FW      O  |||$
@@ -271,7 +271,7 @@
  1              as              as   IN      O  
  2              it              it  PRP      O  
  3             has            hila  VBZ      O  |||d,sw$1
- 4        ulrezidy         slreadv   JJ      O  |||ed,swgram$already
+ 4        ulrezidy         slreadv   JJ      O  |||ed+swgram$already
  5            been            been  VBN      O  
  6           found         t(LLlnd  VBN      O  |||d,sw,upp,charuni$1
  7              to              to   TO      O  
@@ -279,7 +279,7 @@
  9              by              by   IN      O  
 10        Sc-udder         Scudder   NN      O  |||sw,by,kbe$2
 11             for            itar   IN      O  |||d,sw$1
-12               .               n    .      O  |||dot,comb?$many
+12               .               n    .      O  |||dot+comb+ed+swgram?$many
 
  1              mo              ul   NN DURATI  |||$
  2               ,               n    ,      O  |||$
@@ -301,7 +301,7 @@
 11               ,               i    ,      O  |||$
 12               +             ves   CC      O  |||$
 13              :1              LL   CD NUMBER  |||?$a
-14 compariscmbetween comparllaonbetweien   NN      O  |||seg,ed$comparison$between
+14 compariscmbetween comparllaonbetweien   NN      O  |||seg+ed$comparison$between
 15             the             the   DT      O  
 16         several         several   JJ      O  
 17       important     'LYBpoY(ant   JJ      O  |||d,sw$1
@@ -309,7 +309,7 @@
 19           where           where  WRB      O  
 20          fossil          fossii   JJ      O  |||d,sw$1
 21       parasitic       parasllic   JJ      O  |||d,sw$1
-22  I-ljrmenoptern   Hvtnenoptcrs,   NN      O  |||ed,sw$Hymenoptera
+22  I-ljrmenoptern   Hvtnenoptcrs,   NN      O  |||ed+sw$Hymenoptera
 23               .                    .      O  |||dot$
 
  1            have            have  VBP      O  
@@ -453,7 +453,7 @@
  1         Miocene        3ILOCane  NNP      O  |||d,sw$1
  2               !               I    .      O  |||
 
- 1        Florissa        BerlsaLL  NNP      O  |||comb,kbe$Florissant
+ 1        Florissa        BerlsaLL  NNP      O  |||comb+kbe$Florissant
  2               ?               L   CD NUMBER  |||twchar$
  3              nt              Lt  NNS      O  |||$
  4               5               S   CD NUMBER  |||ner$1
@@ -475,7 +475,7 @@
 20           Upper          Utlper  NNP      O  |||d,sw$1
 21         Miocene        2fioaene  NNP      O  |||d,sw,kbe$1
 22               ;               O    :      O  |||
-23        Deningen      aijtljaejl  NNP PERSON  |||ed,kbr$Oeningen
+23        Deningen      aijtljaejl  NNP PERSON  |||ed+kbr$Oeningen
 24               '                  POS      O  ///
 25               _                  NNP      O  ///
 26              D.               Q  NNP      O  |||
@@ -582,7 +582,7 @@
  9             and             and   CC      O  
 10         species         species  NNS      O  
 11               (               (   CD NUMBER  
-12           Ephia           Zphia   NN      O  |||comb,rmchar$Ephialtites
+12           Ephia           Zphia   NN      O  |||comb+rmchar$Ephialtites
 13               .               f    .      O  |||twchar$
 
  1          ltites          tites)  NNS      O  |||$
@@ -619,11 +619,11 @@
 14           which          winch.  WDT      O  |||d,sw,charuni$1
 15             the             the   DT      O  
 16           group           group   NN      O  
-17       appearsin      appeSY'8ln   NN      O  |||seg,d,sw,charuni,upp$appears$in
+17       appearsin      appeSY'8ln   NN      O  |||seg$appears$in
 18        deposits       depaeiits  NNS      O  |||d,sw$1
 19              of              Of   IN      O  |||upper,swgram$1
 20           Lower        I~ajjrer  NNP ORGANI  |||kbe,d,sw$1
-21    Oligoceneege    01igaceneage  NNP ORGANI  |||ed,kbe,kbr,sw$Oligocene
+21    Oligoceneege    01igaceneage  NNP ORGANI  |||ed+kbe,ed+kbr,ed+sw$Oligocene
 22            show            ShOW  VBP      O  |||upp,d,sw$1
 23            that            that   IN      O  
 24              it              lt  PRP      O  |||d,sw$1
@@ -636,18 +636,18 @@
 31       developed     (feveiope(i  VBN      O  |||d,sw$1
 32              at              at   IN      O  
 33           least           feast  JJS      O  |||swgram$1
-34      befor?t-he     befol'6.the   JJ      O  |||ed,seg$before$the
+34      befor?t-he     befol'6.the   JJ      O  |||ed+seg$before$the
 35       beginning       beginning   NN      O  
 36              of              of   IN      O  
 37             the             the   DT      O  
-38        Tertiury        Tcrtlifl  NNP      O  |||ed,kbe$Tertiary
+38        Tertiury        Tcrtlifl  NNP      O  |||ed+kbe$Tertiary
 39               .               r    .      O  |||d,sw$1
 
  1               _             y..   NN      O  |||twchar,rmchar$
  2             The             The   DT      O  
- 3               -               d    :      O  |||twchar,comb$
+ 3               -               d    :      O  |||comb$
  4       discovery        iscovery   NN      O  |||$1
- 5               -               o    :      O  |||twchar,comb$
+ 5               -               o    :      O  |||comb$
  6              of               f   IN      O  |||$1
  7              E1              Ep   NN      O  |||comb$Ephialtites
  8               :               h    :      O  |||twchar$
@@ -663,15 +663,15 @@
 18           those           those   DT      O  
 19               "                   ``      O  ///$
 20              in              in   IN      O  
-21            wlji            vYhi   NN      O  |||comb,ed?$which
+21            wlji            vYhi   NN      O  |||comb+ed?$which
 22               '               c  POS      O  |||$
 23              c.               h   NN      O  |||$
 24              l1                   NN      O  ///$
 25          bother           other   VB      O  |||swgram$2
 26              of              of   IN      O  
-27            tl1e            theh   NN      O  |||comb,seg$the
+27            tl1e            theh   NN      O  |||comb+seg$the
 28               ?               i   CD NUMBER  |||$
-29          higher          gherHy  JJR      O  |||comb,seg$1
+29          higher          gherHy  JJR      O  |||comb+seg$1
 30               '               m   ''      O  |||$
 31               H               e   NN      O  |||$
 32               _               n   CD NUMBER  |||$
@@ -683,12 +683,12 @@
 38           found           found  VBN      O  
 39             has             has  VBZ      O  
 40             led             led  VBN      O  
-41      Hundlirscb       Handhrsch  NNP PERSON  |||ed,kbe$Handlirsch
-42       to-derive        Ioderive   JJ      O  |||seg,d,sw$to$derive
+41      Hundlirscb       Handhrsch  NNP PERSON  |||ed+kbe$Handlirsch
+42       to-derive        Ioderive   JJ      O  |||seg$to$derive
 43            both           both.   CC      O  |||rmchar$1
 44             the             the   DT      O  
 45       parasitic       parasitic   JJ      O  
-46             end             aud   NN      O  |||ed,swgram,path$and
-47        aculeute        acufaate   NN      O  |||ed,kbe?$aculeate
+46             end             aud   NN      O  |||ed+swgram,ed+path$and
+47        aculeute        acufaate   NN      O  |||ed+kbe?$aculeate
 48  I-Ijnuenoptera  Hnnenopterafro   NN      O  |||ed?$Hymenoptera
 49               .               m    .      O  |||dot$
