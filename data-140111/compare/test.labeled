@@ -1,0 +1,14 @@
+ 1              Br              BY  NNP      O  |||d,sw$2
+ 2         CHARLES       CSLjLRKXS  NNP PERSON  |||kbe,sw$1
+ 3              T.              T.  NNP PERSON  
+ 4           Bones           BRBZS  NNP PERSON  |||kbe$BRUES
+ 5               .               .    .      O  
+41      Hundlirscb       Handhrsch  NNP PERSON  |||ed+kbe$Handlirsch
+42       to-derive        Ioderive   JJ      O  |||seg$to$derive
+43            both           both.   CC      O  |||rmchar$1
+44             the             the   DT      O  
+45       parasitic       parasitic   JJ      O  
+46             end             aud   NN      O  |||ed+swgram$and
+47        aculeute        acufaate   NN      O  |||ed+kbe$aculeate
+48  I-Ijnuenoptera  Hnnenopterafro   NN      O  |||ed$Hymenoptera
+49               .               m    .      O  |||sw$
