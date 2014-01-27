@@ -26,7 +26,6 @@ kbe
 kbr
 ed
 edrule
-comb
 seg
 rmchar
 numconf

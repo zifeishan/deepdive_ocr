@@ -1,11 +1,11 @@
 Taxonomy of Knowledge
 ====
 
-Numbers are manually sampled from 545 cases, where 505 (92.66%) are
-solvable with automatic knowledge.
+<!-- Numbers are manually sampled from 545 cases, where 505 (92.66%) are
+solvable with automatic knowledge. -->
 
 - Knowledge
-  - Automatic knowledge (92.66%)
+  - Automatic knowledge
     - OCR-specific knowledge
       - Agreed assumption
         - If OCR outputs agree with each other, the output is correct
@@ -19,6 +19,7 @@ solvable with automatic knowledge.
         * [charuni] A word should only consist of letters, numbers, or special characters. A combination of those should be wrong.
         * [comb] Combinability: if combination can generate candidate, current output should be wrong
         * [url] URLs starts with "http" or "www" and can contain rare characters.
+        * [url] URLs containing patterns in {www, http, com. org...} are correct.
 
       - Sentence level
         - Upper / lower case 
@@ -148,15 +149,6 @@ Discarded rules:
 * [numconf] if Tesseract and Cuneiform output different numbers, Tesseract is correct and Cuneiform is wrong. 
 -->
 
-
-Assessment: get initial numbers!
-
-Just get leaf probabilities!
-
-- In an independent fashion; enumerate the conjunctions (combinations)
-- Come up with a MIDDLE LAYER!
-
-- Do a non-overlapping version, to fix the gaps.
 
 - OCR-specific only
 - Corpus-statistics -> Dict -> NLP -> Knowledge base incremental

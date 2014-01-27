@@ -2,16 +2,70 @@
 # -*- coding: utf-8 -*-
 
 import sys, re
+import pprint
+import itertools
+pp = pprint.PrettyPrinter(indent=2) # pretty printer
 
 def TCPrinter(arr, stream):
   print >>stream, '  Tesseract:', arr[0]
   print >>stream, '  Cuneiform:', arr[1]
 
-def ParseRuleComb(rulecomb):
-  return tuple(sorted(rulecomb.split('+')))
+def ParseRuleComb(rulecomb, tags):
+  s = sorted(rulecomb.split('+'))
+  for tag in s:
+    if tag not in tags:
+      print 'WARNING: unknown tag:', tag, 'in',rulecomb
+      s.remove(tag)
+  return tuple(s)
 
 def EncodeRuleComb(ruletuple):
   return '+'.join(ruletuple)
+
+class ResultLine:
+  def __init__(self):
+    self.numwords = []
+    self.tcorr = False
+    self.ccorr = False
+    self.rules = []  # arrays of Sets.
+
+def CalcLesion(comb, lesionmap, reslines):
+  lesionnum = 0
+  for rsline in reslines:
+    solvable = False
+    for r in rsline.rules:  # All in r is needed
+      if len(r.intersection(comb)) == 0:  # Remove none of the rules
+        solvable = True
+        break
+    if not solvable:
+      lesionnum += rsline.numwords
+
+  lesionmap[comb] = lesionnum
+
+
+def CalcNonTrivialLesion(comb, lesionmap, nontrivialmap, reslines):
+  maxsublesion = 0  # Max lesion for sub-combinations
+  if comb not in lesionmap:
+    CalcLesion(comb, lesionmap)
+  lesionnum = lesionmap[comb]
+  if combsize > 0:
+    for subset in itertools.combinations(comb, combsize - 1):
+      if maxsublesion < lesionmap[subset]:
+        maxsublesion = lesionmap[subset]
+  if lesionnum > 0 and lesionnum > maxsublesion and len(comb) > 0:
+    nontrivialmap[comb] = (lesionnum - maxsublesion, lesionnum)
+
+def CalcForward(comb, forwardmap, reslines):
+  recallnum = 0
+  for rsline in reslines:
+    solvable = False
+    for r in rsline.rules:  # All in r is needed
+      if r.issubset(comb):  # covered
+        solvable = True
+        break
+    if solvable:
+      recallnum += rsline.numwords
+
+  forwardmap[comb] = recallnum
 
 if __name__ == "__main__": 
   if len(sys.argv) == 2:
@@ -32,7 +86,7 @@ if __name__ == "__main__":
 
 
 
-  tags = [l.strip() for l in open('rule-tags.md').readlines()]
+  tags = sorted([l.strip() for l in open('rule-tags.md').readlines()])
   
   # This map gives an UPPER BOUND for: only using this rule, how many correct answers recalled
   know_tot = {t:0 for t in tags}  
@@ -46,7 +100,11 @@ if __name__ == "__main__":
   # This is a dict: for each knowledge, if removed, how many words are lost. (recall lost)
   tag_lesion = {t:0 for t in tags}
 
-  for l in lines:
+  # Array of ResultLine instances
+  reslines = []
+
+  for thisl in lines:
+    l = thisl
     
     if l == '':  # empty line
       continue
@@ -105,6 +163,7 @@ if __name__ == "__main__":
       this_non_correct = True
 
     if w2 == '' and sol_str == '' and answers[0] in ['', '1']:  # auto-pick...
+      # print 'DSW:',thisl
       sol_str = 'd,sw'
     # ASSUMPTION: IF ONLY ONE HAS OUTPUT, it should be trivial to get $1 or $ right.
     # JUST USE d + sw for all of them.
@@ -112,23 +171,31 @@ if __name__ == "__main__":
     # print 'Solutions:',sol_str,'\tAnswers:',answers
 
     # examine solutions
-    sols = [p.strip(' ') for p in sol_str.split(',')]
+    sols = [p.strip(' ') for p in sol_str.split(',') if p.strip(' ') != '']
 
     if '?' in sol_str:  # cannot be solved with automatic knowledge
       sols = []           # no solutions
 
-    if len(sols) > 0:
+    if len(sols) > 0:  # solvable
       solved += this_num
-    # else:
-    #   print 'Unsolvable:',sol_str
+
+    # Create a result line and store.
+    rsline = ResultLine()
+    sets = [{s for s in ParseRuleComb(s, tags)} for s in sols if len(ParseRuleComb(s, tags)) > 0]
+    # if sets == []: print thisl
+    rsline.rules = sets # Sets
+    rsline.tcorr = (answers[0] == '1')
+    rsline.ccorr = (answers[0] == '2')
+    rsline.numwords = this_num
+    reslines.append(rsline)
 
     for sol in sols:
       if sol not in know_tot:
         if sol == '': continue
         # print sol
         unknown = False
-        comb = ParseRuleComb(sol)  # May be a combination. tuple of the combination.
-        print comb
+        comb = ParseRuleComb(sol, tags)  # May be a combination. tuple of the combination.
+        # print comb
         for k in comb:
           if k not in know_tot:
             unknown = True
@@ -146,23 +213,58 @@ if __name__ == "__main__":
       if this_non_correct:
         know_noncorrect[sol] += this_num
 
-    # Lesion analysis
-    # Get "sets" of rules--comb of tags
-    sets = [{s for s in ParseRuleComb(s)} for s in sols]
-    if len(sets) > 0:
-      essential = sets[0]
-      for ss in sets:
-        essential.intersection_update(ss)
+  # print 'TOTAL WORDS:', sum([l.numwords for l in reslines]) # agreed
 
-      for tag in essential:
-        if tag == '': continue
-        tag_lesion[tag] += this_num
+  knowledge_classes = {
+    'ocr': ('twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper'),
+    'corpus': ('d', 'sw', 'swgram', 'statc'),
+    'corpus.single': ('d','sw','statc'),
+    'corpus.ngram': ('swgram',),
+    'nlp': ('pos','ner','number','persondot','lemma','path','by','etal'),
+    'kb': ('kbe','kbr'),
+    'ocr+corpus': ('d', 'sw', 'swgram', 'statc', 'twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper'),
+    'all': ('twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper', 'ocrdocacc', 'statc', 'statcgram', 'sw', 'swgram', 'stats', 'd', 'pos', 'posgram', 'ner', 'number', 'persondot', 'by', 'etal', 'lemma', 'path', 'kbe', 'kbr', 'ed', 'edrule', 'seg', 'rmchar', 'numconf')
+  }
+
+  # Sort the tuples
+  knowledge_classes = {k:tuple(sorted(knowledge_classes[k])) for k in knowledge_classes}
 
 
+  # lesionmap = {(t):0 for t in tags}  # Rule -> losetags
+  lesionmap = {}  # Rule -> losetags. 
+  # NOTE: lesionmap[()] is unsolvable cases. 
 
+  nontrivialmap = {}
+  for combsize in range(0, 4):  # 0 for no-rule lesion...
+    for comb in itertools.combinations(tags, combsize):
+      CalcLesion(comb, lesionmap, reslines)
+      CalcNonTrivialLesion(comb, lesionmap, nontrivialmap, reslines)
+
+  numunsolvable = lesionmap[()]
+  print 'Unsolvable:', numunsolvable
+  if diff_doc - solved != numunsolvable:
+    print 'Error calculating unsolvable!'
+    sys.exit(1)
+
+
+  forwardmap = {}  # Rule -> losetags. 
+  for key in knowledge_classes:
+    comb = knowledge_classes[key]
+    CalcLesion(comb, lesionmap, reslines)
+    print key
+    print '  LES ',lesionmap[comb]-numunsolvable
+
+    CalcForward(comb, forwardmap, reslines)
+    print '  FWD ',forwardmap[comb]
+
+  
+  
+
+  # Interesting combinations have high "delta".
+  # pp.pprint([(nontrivialmap[t], t) for t in sorted(nontrivialmap, key=nontrivialmap.get) if nontrivialmap[t][0] >= 5 or len(t) == 1])
 
   fout = open('stats/'+path+'.stat.txt', 'w')
-  print diff_doc, tot_doc, tot_ocr, correct, non_correct
+  print 'Diff',diff_doc, 'Tot',tot_doc, 'TOTOCR',tot_ocr, 'CORRECT',correct, 'NONCORRECT',non_correct
 
 
   print >>fout, 'Total document words:',tot_doc
@@ -197,8 +299,8 @@ if __name__ == "__main__":
   print >>fout, ''
 
 
-  import pprint
-  pp = pprint.PrettyPrinter(indent=2) # pretty printer
+  
+  
 
   # print >>fout, '\nRecall for each knowledge on all words:'
   # for s in ['%10s: %.4f%%' % (t, know_tot[t] / float(tot_doc) * 100.0 )
@@ -216,9 +318,24 @@ if __name__ == "__main__":
     print >>fout,'  '+s
 
   print >>fout, '\nLesion for each knowledge on error words:'
-  for s in ['%10s: %.4f%%' % (t, tag_lesion[t] / float(diff_doc) * 100.0 )
-      for t in sorted(tag_lesion, key=tag_lesion.get, reverse=True)]:
-    print >>fout,'  '+s
+  for s in [t for t in sorted(nontrivialmap, key=nontrivialmap.get, reverse=True) if nontrivialmap[t][0] >= 5 or len(t) == 1]:
+    if len(s) > 1:
+      print >>fout, '%20s: %.4f%% (%.4f%% more)' % (','.join(s), (nontrivialmap[s][1] - numunsolvable) * 100.0 / float(diff_doc), nontrivialmap[s][0] * 100.0 / float(diff_doc))
+    else:
+      print >>fout, '%20s: %.4f%%' % (','.join(s), (nontrivialmap[s][1] - numunsolvable) * 100.0 / float(diff_doc))
+
+  print >>fout, '\nLesion (backward search) for each knowledge class, recall on error words:'
+  for key in knowledge_classes:
+    comb = knowledge_classes[key]
+    # print lesionmap[comb], key, comb
+    print >>fout, '%15s: %.4f%%' % (key, (lesionmap[comb] - numunsolvable) * 100.0 / float(diff_doc))
+
+  print >>fout, '\nFoward search for each knowledge class, recall on error words:'
+  for key in knowledge_classes:
+    comb = knowledge_classes[key]
+    # print lesionmap[comb], key, comb
+    print >>fout, '%15s: %.4f%%' % (key, forwardmap[comb] * 100.0 / float(diff_doc))
+
 
   fout.close()
 

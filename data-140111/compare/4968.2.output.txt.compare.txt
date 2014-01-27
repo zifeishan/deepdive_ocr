@@ -670,13 +670,13 @@
 25          bother           other   VB      O  |||swgram$2
 26              of              of   IN      O  
 27            tl1e            theh   NN      O  |||comb+seg$the
-28               ?               i   CD NUMBER  |||$
+28               ?               i   CD NUMBER  |||comb+seg$
 29          higher          gherHy  JJR      O  |||comb+seg$1
-30               '               m   ''      O  |||$
-31               H               e   NN      O  |||$
-32               _               n   CD NUMBER  |||$
-33               }               o   NN      O  |||$
-34               '               p   ''      O  |||$
+30               '               m   ''      O  |||comb+seg$
+31               H               e   NN      O  |||comb+seg$
+32               _               n   CD NUMBER  |||comb+seg$
+33               }               o   NN      O  |||comb+seg$
+34               '               p   ''      O  |||comb+seg$
 35       menoptera            tara   NN      O  |||$Hymenoptera
 36            have            have  VBP      O  
 37            been            been  VBN      O  
