@@ -446,7 +446,7 @@
 33             are             are  VBP      O  
 34        properly        properly   RB      O  
 35   d1Stinguished   dis-tinguishe  VBN      O  |||comb+rmchar,ed+d,ed+sw$distinguished
-36               ,              d,    ,      O  |||$1
+36               ,              d,    ,      O  |||charuni,comb$1
 37             and             and   CC      O  
 38           their           their  PRP$      O 
 39        position        position   NN      O  
@@ -711,9 +711,9 @@
  1            Sci.            Sci.  NNP      O  
  2               ,               ,    ,      O  
  3               ?               f   CD NUMBER  |||comb+twchar$
- 4            from             rom   IN      O  |||$1
+ 4            from             rom   IN      O  |||comb+twchar$1
  5             Loc             I.o   NN LOCATI  |||sw$1
- 6               .              c.    .      O  |||$1
+ 6               .              c.    .      O  |||charuni$1
 
  1             267             267   CD NUMBER  
  2               ,               ,    ,      O  
@@ -752,7 +752,7 @@
 35         Miocene         Miocene  NNP      O  
 36              of              of   IN      O  
 37        Colombia        'Colombi  NNP LOCATI  |||d,sw$1
-38               .              a.    .      O  |||$1
+38               .              a.    .      O  |||charuni$1
 
  1              20              20   CD NUMBER  
  2               .               .    .      O  
@@ -825,14 +825,14 @@
 14         Chipola         Chipola  NNP LOCATI  
 15            beds            beds  NNS      O  
 16               "               o   ``      O  |||twchar+comb$
-17              of               f   IN      O  |||$1
+17              of               f   IN      O  |||d,sw,twchar+comb$1
 18               F               F   NN      O  
 19         loridai         lorida;  NNS      O  |||comb$
 20               ;                    :      O  
 21               ?               u   CD NUMBER  |||twchar+comb$
-22           upper            pper   JJ      O  |||$1
+22           upper            pper   JJ      O  |||twchar+comb$1
 23               ?               s   NN      O  |||twchar+comb$
-24         surface          urface   NN      O  |||$1
+24         surface          urface   NN      O  |||twchar+comb$1
 25              of              of   IN      O  
 26             the             the   DT      O  
 27          whorls          whorls  NNS      O  

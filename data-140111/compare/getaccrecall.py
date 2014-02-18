@@ -223,6 +223,9 @@ if __name__ == "__main__":
     'nlp': ('pos','ner','number','persondot','lemma','path','by','etal'),
     'kb': ('kbe','kbr'),
     'ocr+corpus': ('d', 'sw', 'swgram', 'statc', 'twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper'),
+    'edit': ('ed', 'edrule', 'seg', 'rmchar', 'numconf'),
+    'noedit': ('twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper', 'ocrdocacc', 'statc', 'statcgram', 'sw', 'swgram', 'stats', 'd', 'pos', 'posgram', 'ner', 'number', 'persondot', 'by', 'etal', 'lemma', 'path', 'kbe', 'kbr'),
+    'ocr+corpus+edit': ('d', 'sw', 'swgram', 'statc', 'twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper','ed', 'edrule', 'seg', 'rmchar', 'numconf'),
     'all': ('twchar', 'cwchar', 'upp', 'charuni', 'comb', 'url', 'dot', 'upper', 'ocrdocacc', 'statc', 'statcgram', 'sw', 'swgram', 'stats', 'd', 'pos', 'posgram', 'ner', 'number', 'persondot', 'by', 'etal', 'lemma', 'path', 'kbe', 'kbr', 'ed', 'edrule', 'seg', 'rmchar', 'numconf')
   }
 

@@ -1,6 +1,12 @@
 Taxonomy of Knowledge in OCR
 ====
 
+**Notes:**
+
+Leaf nodes are specific rules for judging among candidates / generating candidates.  
+
+`[name]` is a "nametag" for each rule, used for annotations.
+
 - **Knowledge**
   - **Automatic knowledge**
     - **OCR-specific knowledge**
@@ -126,7 +132,7 @@ Taxonomy of Knowledge in OCR
 
 ----
 
-See examples of each kind of knowledge [here](https://gist.github.com/zifeishan/8661284).
+See examples of each kind of knowledge [here](https://gist.github.com/zifeishan/05d9f28b2b9610d01e79).
 
 <!-- 
 Future ways to generate new candidates:
