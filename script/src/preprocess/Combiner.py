@@ -1,5 +1,6 @@
 from util import *
 import re
+import snap  # Calc Connected Components
 
 # Return a index of each page: index{1:[(b1,w1), (b2,w2)...], 2:[b10,b11..]}
 # The list is sorted by Box comparator.
@@ -30,6 +31,53 @@ def IsSingleMark(string):
   if len(string) != 1:
     return False
   return re.match("^[A-Za-z0-9]*$", string)  # Anything but letters and chars
+
+
+# Combine words based on box overlaps!
+# allwords: {ocrid: words}. e.g. {'T': twordsindex, 'C': cwordsindex}
+# RETURN:
+#   pageid : [[cand1, cand2], [cand1, cand2, cand3]..]
+# Candidate order: ocrid -> box -> word 
+def CombineWords(allwords):
+  page_cands = {}  # pageid : [OCRwords]
+  page_words = {}  # pageid : [[cand1, cand2], [cand1, cand2, cand3]..]
+  # where
+  for ocrid in allwords:
+    index = allwords[ocrid]
+    for pageid in index:
+      if pageid not in page_cands: 
+        page_cands[pageid] = []
+      for pair in index[pageid]:
+        page_cands[pageid].append( (ocrid,) + pair )  # (ocrid, box, word)
+
+  for pageid in page_cands:
+    nodes = page_cands[pageid]  # [(ocrid, box, word), ...]
+    graph = snap.PUNGraph.New()   # Undirected graph
+    for i in range(0, len(nodes)):
+      _ret = graph.AddNode(i)
+
+    # Add overlapping edges in undirected graph
+    for i in range(0, len(nodes)):
+      for j in range(i + 1, len(nodes)):
+        b1 = nodes[i][1]
+        b2 = nodes[j][1]
+        if b1.IsOverlapSamePage(b2):
+          graph.AddEdge(i, j)
+
+    words = []  # candidates separated: [[cand1, cand2], [cand1], ...]
+    wccs = snap.TCnComV()
+    snap.GetWccs(g, wccs)
+    for comp in wccs:
+      # print "Size of component: %d" % comp.Len()
+      print [nodes[nid] for nid in comp]
+      words.append( [nodes[nid] for nid in comp] )
+      raw_input()
+
+    page_words[pageid] = words
+
+  return page_words
+
+
 
 
 # combine cchars into twords, stored in "Word" object!
@@ -129,94 +177,3 @@ def Combine(twords, cchars, index=None):
 
   return succ_fail
 
-
-
-
-
-
-  # lasttword = None
-  # lastcbox = None
-  # cindex = 0
-  # tindex = 0
-  # newcdata = []
-  # newtdata = []
-  # emptyword = {CONTENT: '', BOX: { PAGE: 0, UP: 0, DOWN: 0, LEFT: 0, RIGHT: 0}}
-  # # crm = []
-  # # trm = []
-
-  # while cindex < len(cdata) and tindex < len(tdata):
-  #   tword = tdata[tindex]
-  #   cword = cdata[cindex]
-  #   cbox = cword[BOX]
-
-  #   # Print(cword)
-  #   # Print(tword)
-  #   # print ''
-
-  #   if cindex == 0:
-  #     newcdata.append(cword)
-  #     newtdata.append(tword)
-  #     cindex += 1
-  #     tindex += 1
-  #     continue
-
-  #   lasttword = newtdata[len(newtdata) - 1]
-  #   lastcbox = newcdata[len(newcdata) - 1][BOX]
-
-  #   lastcword = newcdata[len(newcdata) - 1]
-
-  #   # Handle '-' line-breaking
-  #   # Currently: only combine cdata.
-  #   if lastcword[CONTENT].endswith('-') and BoxAbove(lastcbox, cword[BOX]):
-  #     # Combine this cword into last in result
-  #     newcdata[len(newcdata) - 1][CONTENT] = lastcword[CONTENT].rstrip('-') + cword[CONTENT]
-  #     cindex += 1
-  #     continue
-
-  #   # todo boxcontain?
-  #   # Tword is contained by last cword. Combine tword with last tword
-  #   # Assumption: combine if "equal boxes"
-  #   if BoxEqual(lastcbox, tword[BOX]):
-  #     # print 'Combine', lasttword[CONTENT], tword[CONTENT]
-  #     # raw_input()
-
-  #     # Combine content
-  #     newtdata[len(newtdata) - 1][CONTENT] += tword[CONTENT]
-  #     # Do not add this tdata
-
-  #     # lasttword[CONTENT] += tword[CONTENT]
-  #     # trm.append(tword)
-  #     tindex += 1
-  #     continue
-
-  #   # No combination cases
-  #   else: 
-  #     # Box not equal; not combined
-  #     if not BoxEqual(tword[BOX], cword[BOX]):
-  #       if BoxBefore(tword[BOX], cword[BOX]):
-  #         # print 'tword before cword', tindex, cindex
-  #         newcdata.append(emptyword)
-  #         newtdata.append(tword)
-  #         tindex += 1
-  #       elif BoxBefore(cword[BOX], tword[BOX]):
-  #         # print 'cword before tword', tindex, cindex
-  #         newcdata.append(cword)
-  #         newtdata.append(emptyword)
-  #         cindex += 1
-  #       else: 
-  #         newcdata.append(cword)
-  #         newtdata.append(tword)
-  #         cindex += 1
-  #         tindex += 1
-  #     else:  # Match
-  #       newcdata.append(cword)
-  #       newtdata.append(tword)
-  #       cindex += 1
-  #       tindex += 1  
-  #   # raw_input()
-  
-  # # TODO crm??? align while finding removelist??
-  # # for w in trm: 
-  # #   tdata.remove(w)
-
-  # return newcdata, newtdata

@@ -1,17 +1,39 @@
 import sys
 from preprocess import *
 
+#deprecated
 def AlignFromPath(dirbase, output_base):
   # sample of dirbase: '../../input/'
   Align(dirbase, output_base, isDir=True)
 
+#deprecated
 def AlignFromURL(urlbase, output_base):
   Align(urlbase, output_base, isDir=False)
 
 
+# use this for madmax data.. Ce's output
+def AlignBoxedFromPath(dirbase, output_base):
+  # sample of dirbase: '../../input/'
+  # AlignBoxedCunei(dirbase, output_base, isDir=True, boxedCunei = True)
+
+  tess_dir = dirbase + 'input.text'
+  cuni_dir = dirbase + 'fonts.txt'
+  print 'Loading OCR outputs from', dirbase
+  twords = TessReader.ReadPath(tess_dir)
+  cwords = BoxedCuneiReader.ReadPath(cuni_dir)
+
+  tindex = Combiner.BuildBoxIndexByPage(twords)
+  cindex = Combiner.BuildBoxIndexByPage(cwords)
+  allwords = {'T': tindex, 'C': cindex}
+
+  for pagenum in sorted(index.keys()):
+    page_words = Combiner.CombineWords()
+
+
+
 # Assume a fixed URL base.
 # Output alignment results in output_base.*
-def Align(urlbase, output_base, isDir=False):
+def Align(urlbase, output_base, isDir=False, boxedCunei = False):
 
   tess_url = urlbase +'input.text'
   curlbase = urlbase + 'cuneiform-page-'
@@ -94,3 +116,13 @@ def Align(urlbase, output_base, isDir=False):
     wid += 1
 
   fout.close()
+
+
+# Testing
+if __name__ == "__main__": 
+  if len(sys.argv) == 2:
+    path = sys.argv[1]
+    AlignBoxedFromPath(path, './test')
+  else:
+    print 'Usage:',sys.argv[0],'<path>'
+    sys.exit(1)

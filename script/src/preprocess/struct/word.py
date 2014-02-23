@@ -87,3 +87,24 @@ def NewWord(parts):
     word.AddBox(box)
 
   return word
+
+# parts: as in Cuneiform "font" format
+def NewCuneiWord(parts):
+  word = Word()
+  if parts[0] == 'SPECFONT':
+    return word  # content == ''
+    # SPECFONT is repeatitive message. Not needed now.
+
+  word._content = parts[6]
+  if word._content == '':
+    return word
+  
+  # word._ctype = parts[0]
+  box = Box()
+  box.SetPage(int(parts[1]))  # not increasing order..
+  # order of "boxes": Left Top Right Bottom
+  box.SetBoxes([int(p) for p in parts[2:6]])
+  word.AddBox(box)
+  word._content = parts[6]
+  return word
+  

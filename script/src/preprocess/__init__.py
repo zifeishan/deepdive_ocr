@@ -5,3 +5,4 @@ import TessReader
 import CuneiReader
 import Combiner
 import Align
+import BoxedCuneiReader

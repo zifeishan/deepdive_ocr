@@ -71,7 +71,7 @@ class Box:
     return self.Contain(box2) and box2.Contain(self)
 
   # Test if this box appear before another box. Priority: page > Above > Left. 
-  # Note that A not before B and B not before A might be true, when they overlap.
+  # Note that A not before B and B not before A might be true, when they overlap OR WHEN 1 leftdown 2 rightup...
   def Before(self, box2):
     # if self.GetPage() < box2.GetPage():
     #   return True
@@ -97,6 +97,32 @@ class Box:
       if self.GetRight() < box2.GetLeft() + self._threshold:
         return True
     return False
+
+
+# Detect if two boxes overlap
+def IsOverlap(self, box2):
+  if self.GetPage() != box2.GetPage():
+    return False
+  return not (box2.GetLeft() > self.GetRight()
+      or box2.GetRight() < self.GetLeft()
+      or box2.GetUp() > self.GetDown()
+      or box2.GetDown() < self.GetUp())
+   # return !(r2.left > r1.right
+   #        || r2.right < r1.left
+   #        || r2.top > r1.bottom
+   #        || r2.bottom < r1.top);
+    
+# Quickly Detect if two boxes overlap (Given they are in same page!)
+def IsOverlapSamePage(self, box2):
+  return not (box2.GetLeft() > self.GetRight()
+      or box2.GetRight() < self.GetLeft()
+      or box2.GetUp() > self.GetDown()
+      or box2.GetDown() < self.GetUp())
+   # return !(r2.left > r1.right
+   #        || r2.right < r1.left
+   #        || r2.top > r1.bottom
+   #        || r2.bottom < r1.top);
+
 
 # Combine two boxes into a box and return it
 # TODO: Cannot combine boxes in different pages
