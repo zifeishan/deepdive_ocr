@@ -1,0 +1,19 @@
+TMP=/var/lib/condor/execute/slot7/dir_30106
+_CONDOR_JOB_IWD=/var/lib/condor/execute/slot7/dir_30106
+_CONDOR_SLOT=slot7
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/slot7/dir_30106/.machine.ad
+TEMP=/var/lib/condor/execute/slot7/dir_30106
+TMPDIR=/var/lib/condor/execute/slot7/dir_30106
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/slot7/dir_30106
+_CONDOR_JOB_AD=/var/lib/condor/execute/slot7/dir_30106/.job.ad
+_CONDOR_JOB_PIDS=
+PATH=/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+MachineAdTest: looking for <IsEuclid>
+Euclid test returned <no>
+Calling curl to fetch chtcinnerwrapper try 0
+Curl error <0>
+MachineAdTest: looking for <IsEuclid>
+Euclid test returned <no>
+Trying to open logfile... ChtcWrapper29644.out
+Done Running chtcinnerwrapper Result was <0>
+All went well!

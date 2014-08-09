@@ -1,0 +1,6 @@
+Usage: AlignAll.py <urlbase>
+Use default URL: http://hazy.cs.wisc.edu/hazy/share/zifeipdf/
+Loading Tesseract from: http://hazy.cs.wisc.edu/hazy/share/zifeipdf/11/input.text
+Processing Tesseract...
+Loading Cuneiform Page 1
+Cannot encode character: 

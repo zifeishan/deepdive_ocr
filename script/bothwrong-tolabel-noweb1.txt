@@ -1,0 +1,143 @@
+| Paeobotaniclu	Palobotanique 	['P1,385 604 630 640'] 	10023
+| GalrierReview	GaltierReview 	['P5,644 1583 849 1615'] 	10023
+| atifourn	latzfolium 	['P10,102 1413 394 1484'] 	10023
+| Idhanivs	oldhamius 	['P10,100 2433 410 2491'] 	10023
+| baCQpklsfs	bacupensis 	['P10,91 3638 423 3706'] 	10023
+| Hauptfle	Hauptoz 	['P12,449 832 598 863'] 	10023
+| bMMItksls	bosselensis 	['P12,112 1880 475 1940'] 	10023
+| istlEQtod	bistriatoides 	['P12,427 2279 842 2340'] 	10023
+| sthenomApcion	Asthenomyelon 	['P12,8 3280 522 3357'] 	10023
+| tQltPQcfAIQtQPR	tenuitrabeculatum 	['P12,114 3581 724 3645'] 	10023
+| sutcllPl	sutcliji 	['P15,379 650 635 723'] 	10023
+| Rhadoxplod	Rhabdoxylon 	['P15,11 1410 441 1484'] 	10023
+| HohesoptePI	Holmesopteris 	['P15,11 1508 474 1579'] 	10023
+| FavoBLQe	Faironiae 	['P15,503 1507 811 1565'] 	10023
+| diupsiion	diupsilon 	['P15,102 2170 389 2243'] 	10023
+| shorertsis	shorensis 	['P15,104 2457 394 2515'] 	10023
+| Stewartiopteis	Stewartiopteris 	['P15,6 3127 497 3198'] 	10023
+| yathotrachvs	yathotrachus 	['P15,62 3318 481 3389'] 	10023
+| Hauptfloz	Hauptozg 	['P16,448 2970 596 3002'] 	10023
+| pIystichum	polysrichum 	['P20,109 734 480 805'] 	10023
+| Blanc-Loovel	Blane-Louvel 	['P20,358 1287 788 1343'] 	10023
+| Sutcliffra	Sutclzfa 	['P20,6 2866 283 2937'] 	10023
+| QBgIO-gtVMOJChtm	anglo-germanicum 	['P20,385 2958 959 3030'] 	10023
+| Paleontologi-tscheskiy	Paleontologitscheskiy 	['P1,1734 2934 1987 2977', 'P1,170 2987 337 3031'] 	10137
+| ROZHDEsTYENSKY	ROZI-IDESTVENSKY 	['P1,393 3255 735 3295'] 	10137
+| IQELAN-JAwoRowsK	KIBLANJAwoRowsKA 	['P1,1835 3573 1989 3605', 'P1,170 3625 437 3664'] 	10137
+| DA-VADzHAMS	DAVADZI-IAMS 	['P2,1916 540 1991 573', 'P2,173 602 383 635'] 	10137
+| SHYRENDYI	SHYRENDYB 	['P2,763 1280 990 1320'] 	10137
+| PASYMoscx	PAYMOBCl 	['P18,605 221 824 250'] 	10137
+| BwaorPAJt	Bnnormnon 	['P18,884 573 1081 603'] 	10137
+| BEJJREBA	BEIIHEBA 	['P18,169 705 309 734'] 	10137
+| HBHble	uBHbIe 	['P18,574 704 801 736'] 	10137
+| aocoporoo	-IOCOpOI 	['P18,823 705 1114 736'] 	10137
+| MoaroJ	Mouromm 	['P18,1136 704 1310 730'] 	10137
+| Ilaneotu	HaIeoum 	['P18,1445 704 1592 729'] 	10137
+| ocrazxax	ocramax 	['P18,456 800 588 818'] 	10137
+| YJtaa-TOJtoroa	YraH-ToJorox 	['P18,853 792 1145 817'] 	10137
+| ItuuAPa	FAMBAPHH 	['P18,527 837 686 866'] 	10137
+| awJJwappo	IIHJIIIH 	['P18,1168 843 1389 868'] 	10137
+| MOHJorww	Monnornu 	['P18,1413 836 1577 861'] 	10137
+| npwMHTwsabtx	npnmwmnnbix 	['P18,553 931 772 955'] 	10137
+| xwntawxax	xniummax 	['P18,791 931 950 952'] 	10137
+| natteoreaa	naneorena 	['P18,1026 931 1180 949'] 	10137
+| KasaxcTaaa	Kaaaxcrana 	['P18,1425 923 1608 949'] 	10137
+| aaxotuw	Haxozum 	['P18,521 975 649 996'] 	10137
+| MoaroJt	Monromm 	['P18,886 967 1060 992'] 	10137
+| IlpwMBTwsabte	Hpnmmunnbie 	['P18,392 1011 618 1042'] 	10137
+| wpoopas	aIIPIpO 	['P18,636 1011 894 1043'] 	10137
+| IlpettsapwTeJJbabte	Ilpennapmenbnbie 	['P18,548 1055 836 1087'] 	10137
+| pesyJJETazbt	peaynsrarbi 	['P18,856 1063 1034 1087'] 	10137
+| nepsow	nepiaoii 	['P18,1160 1056 1271 1087'] 	10137
+| Moarottbcxow	Monronbcxo 	['P18,1292 1055 1505 1080'] 	10137
+| OJtorwwectof	rorwicci 	['P18,1526 1055 1858 1080'] 	10137
+| Ilaneotr	Hareonm 	['P18,1835 1539 1983 1565'] 	10137
+| Iaraazcxwe	Fnramcxne 	['P18,412 1627 589 1652'] 	10137
+| xwntabte	xpinmme 	['P18,629 1636 758 1657'] 	10137
+| twaoaaspbt	HHaBpbl 	['P18,802 1635 978 1659'] 	10137
+| Moarotrmt	Monromnzr 	['P18,1018 1609 1388 1658'] 	10137
+| Jtwaosaspbt	mmoaanpbl 	['P18,670 1722 844 1746'] 	10137
+| otaaosaspbr	rumoaanpm 	['P18,588 1766 763 1790'] 	10137
+| sepxaero	Bepxi-xero 	['P18,782 1765 922 1789'] 	10137
+| Ilaneoum	Hareoum 	['P18,1459 1759 1606 1784'] 	10137
+| HCBoRHJI	Hononmnon 	['P18,175 1845 374 1874'] 	10137
+| Meczoaaxoaiteawa	Mecronaxomneimx 	['P18,612 1845 906 1875'] 	10137
+| MJJexonwzatontwx	Mnexonnraiomnx 	['P18,927 1853 1187 1874'] 	10137
+| aaxaero	Hmxnero 	['P18,1207 1853 1344 1871'] 	10137
+| natteotteaa	naneouena 	['P18,1691 1853 1848 1875'] 	10137
+| PASPMOBCRAa	PASYMOBCKAK 	['P18,175 1932 391 1962'] 	10137
+| CTpazarpaaw	crparurpatbnn 	['P18,660 1933 877 1965'] 	10137
+| Moarottbcxoro	MOHTOHBCKOFO 	['P18,897 1933 1123 1958'] 	10137
+| Moarottww	Moi-rromm 	['P18,1249 2453 1423 2479'] 	10137
+| Ilaneonm	Hateonm 	['P18,1526 2782 1673 2808'] 	10137
+| csoeopaawoM	cBoeopaHoM 	['P18,749 2870 1011 2901'] 	10137
+| aacexoltoattaom	HQCCKOMOHJIHOM 	['P18,1038 2877 1281 2899'] 	10137
+| OTJoxeawfi	ornomenn 	['P18,1670 2871 1845 2895'] 	10137
+| IIarrottotrrbt	Ilam-ononru 	['P18,561 2958 758 2988'] 	10137
+| MoaroJtbcxof	Monronbcxoii 	['P18,1208 2958 1421 2983'] 	10137
+| naJJeoaTOJtorwecxolt	naneomonornqeckoii 	['P18,1444 2958 1768 2983'] 	10137
+| sxcnettattwef	axcnemnmeiir 	['P18,1790 2959 1991 2987'] 	10137
+| lounadb	jloxmbu 	['P18,958 3047 1142 3077'] 	10137
+| wwottepaTbt	Iluoueparbi 	['P18,393 3090 592 3122'] 	10137
+| Gradziizki	Gradziiiski 	['P19,1781 274 1909 294'] 	10137
+| Piocosnws	Piuacosnurns 	['P19,743 306 934 331'] 	10137
+| Pataeoniotogiu	Palaeonlalogiu 	['P19,81 531 290 561'] 	10137
+| ExPBDITIQNs	Expaomons 	['P19,1808 2842 1991 2867'] 	10137
+| Gradiriaki	Grmlziriski 	['P19,1777 3371 1906 3391'] 	10137
+| Potneottologio	Paiaeomoiagia 	['P19,53 3629 263 3658'] 	10137
+| Philoiio	Pnioiiica 	['P19,283 3629 415 3658'] 	10137
+| KraLttrt-Jwomowstrw	KIIELAN-JAWOIIOWSKA 	['P20,186 2596 507 2625'] 	10137
+| DovoHr	Dovcnm 	['P20,638 2601 784 2628'] 	10137
+| Nhttmrwrt	Namunva 	['P20,812 2602 974 2629'] 	10137
+| PetAaotxtrotootcAt	PALAEONTDLOGICAL 	['P20,1448 2608 1736 2636'] 	10137
+| Fxtomots	Exmnmoras 	['P20,1761 2611 1945 2638'] 	10137
+| DOVCHliN	DOVCHINZ 	['P20,876 2769 1063 2794'] 	10137
+| wwwelseviercornlocatepalaeo	wwwelseviercomlocatepalaeo 	['P1,1601 344 2024 374'] 	10255
+| RossanaMarhniterreunigech	RossanaMartinitereunigech 	['P1,406 2452 832 2483'] 	10255
+| Tjokosa-poetro	Tjokosapoetro 	['P5,1766 3225 2139 3314', 'P5,8 3352 255 3432'] 	10255
+| Palaeogeograptt	Palaeogeagraphy 	['P6,713 1773 951 1804'] 	10255
+| Halobiatyp-e	Halobia-type 	['P7,726 853 1252 943'] 	10255
+| peloidal-forami-niferal	peloidalforaminiferal 	['P10,1501 2867 2140 2956', 'P10,124 2986 376 3057'] 	10255
+| Manusela-Mosso	ManuseaMosso 	['P13,1729 959 2138 1029', 'P13,8 1079 266 1146'] 	10255
+| Feist-Bur-kar	FeistBurkardt 	['P30,1708 1078 2148 1167', 'P30,18 1195 238 1280'] 	10255
+| dynofla-gellate	dynoagellate 	['P30,1822 1430 2148 1519', 'P30,19 1547 286 1637'] 	10255
+| SemiretisJJoris	Semiretisporis 	['P31,863 1430 1424 1518'] 	10255
+| lu-kiforma	clukzforma 	['P31,1992 2483 2140 2553', 'P31,9 2601 331 2690'] 	10255
+| falsofriedl	zlsoiedli 	['P31,1290 3195 1453 3226'] 	10255
+| altmaIkensi	altmarkensis 	['P35,780 1355 1300 1441'] 	10255
+| aleisporites	alcisporites 	['P35,1696 3139 2150 3229'] 	10255
+| naplculatlspollfes	napiculatisporites 	['P40,608 1048 1378 1141'] 	10255
+| lassopollis	Iassopollis 	['P40,612 1863 1071 1956'] 	10255
+| ucolmlldltes	ucommiidites 	['P40,610 2814 1189 2888'] 	10255
+| Infemopoltenites	lnfernopollenites 	['P40,544 3628 1273 3722'] 	10255
+| Klausioollenites	Klausinollenites 	['P40,543 3765 1232 3834'] 	10255
+| Enzo-nalasporites	Enalasporites 	['P42,1920 2388 2149 2456', 'P42,14 2504 518 2595'] 	10255
+| Infernopollenite	Infemopollenites 	['P42,1218 2504 1942 2595'] 	10255
+| Araucariacite	Amucariacites 	['P46,1908 3193 2139 3261', 'P46,9 3314 414 3393'] 	10255
+| suhwAAS	aunwms 	['P3,1561 2135 1812 2172'] 	10332
+| FORIMTON	Fonmriow 	['P3,1840 2133 2114 2173'] 	10332
+| Corallme	Corultine 	['P10,1509 826 1613 848'] 	10332
+| Cnnosour	DIHOSGUF 	['P10,1655 1024 1769 1046'] 	10332
+| IuppoldefBl	Luppoldefal 	['P2,569 2770 1151 2860'] 	10358
+| piirodovedecke	pfirodovdeck 	['P3,521 1033 753 1067'] 	10358
+| Famenntan	Famennlan 	['P5,21 1265 481 1337'] 	10358
+| CAaunopfoetus	Chaunoproefus 	['P9,1503 1889 2153 1984'] 	10358
+| Cryphopsli-ke	Cryphops-like 	['P11,1349 494 1871 579'] 	10358
+| pVsayi	Ecmonm 	['P12,977 3051 1057 3481'] 	10358
+| Ober-Rodinghausen	Ober-Rdinghausen 	['P13,425 2082 1071 2157'] 	10358
+| -ninouames	mnouames 	['P1,1254 2438 1691 2508'] 	10381
+| letoivvorbecki	Ietowvorbecki 	['P9,1206 753 1661 812'] 	10381
+| PALEOPalaeontology	PALEO-Palaeontology 	['P11,981 195 1700 263'] 	10381
+| Hypsilo-phodontidae	Hypsiophodontidae 	['P11,1921 1861 2147 1919', 'P11,150 1935 485 1994'] 	10381
+| Saint-Ccnerc	Saint-Cner 	['P1,451 1009 981 1079'] 	10428
+| supragcnbrlques	supragnriques 	['P1,945 1626 1601 1713'] 	10428
+| pcdonculaires	pdonculaires 	['P1,828 2035 1372 2122'] 	10428
+| llltlRspcclfllluc	intraspcifique 	['P1,444 2131 1030 2226'] 	10428
+| stcrcomlgucs	stromiques 	['P1,18 2539 529 2632'] 	10428
+| St-Cbnerc	St-Cner 	['P1,1265 3170 1650 3240'] 	10428
+| dEdrloast	dEdrioas 	['P1,1130 3269 1851 3356'] 	10428
+| rcplc-sentes	represjents 	['P1,1900 3278 2131 3358', 'P1,9 3368 240 3449'] 	10428
+| suplRgcncllc	snprageneric 	['P2,1302 794 1796 877'] 	10428
+| Tiaracn-	Tiaratcri 	['P2,1802 897 2134 989'] 	10428
+| cIMeocrPlus	chaeocrinus 	['P2,20 1918 488 1991'] 	10428
+| Dlameno-	Diameno-o 	['P2,1740 1929 2150 2018'] 	10428

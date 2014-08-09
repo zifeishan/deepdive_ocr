@@ -99,29 +99,29 @@ class Box:
     return False
 
 
-# Detect if two boxes overlap
-def IsOverlap(self, box2):
-  if self.GetPage() != box2.GetPage():
-    return False
-  return not (box2.GetLeft() > self.GetRight()
-      or box2.GetRight() < self.GetLeft()
-      or box2.GetUp() > self.GetDown()
-      or box2.GetDown() < self.GetUp())
-   # return !(r2.left > r1.right
-   #        || r2.right < r1.left
-   #        || r2.top > r1.bottom
-   #        || r2.bottom < r1.top);
-    
-# Quickly Detect if two boxes overlap (Given they are in same page!)
-def IsOverlapSamePage(self, box2):
-  return not (box2.GetLeft() > self.GetRight()
-      or box2.GetRight() < self.GetLeft()
-      or box2.GetUp() > self.GetDown()
-      or box2.GetDown() < self.GetUp())
-   # return !(r2.left > r1.right
-   #        || r2.right < r1.left
-   #        || r2.top > r1.bottom
-   #        || r2.bottom < r1.top);
+  # Detect if two boxes overlap
+  def IsOverlap(self, box2):
+    if self.GetPage() != box2.GetPage():
+      return False
+    return not (box2.GetLeft() > self.GetRight()
+        or box2.GetRight() < self.GetLeft()
+        or box2.GetUp() > self.GetDown()
+        or box2.GetDown() < self.GetUp())
+     # return !(r2.left > r1.right
+     #        || r2.right < r1.left
+     #        || r2.top > r1.bottom
+     #        || r2.bottom < r1.top);
+      
+  # Quickly Detect if two boxes overlap (Given they are in same page!)
+  def IsOverlapSamePage(self, box2):
+    return not (box2.GetLeft() > self.GetRight()
+        or box2.GetRight() < self.GetLeft()
+        or box2.GetUp() > self.GetDown()
+        or box2.GetDown() < self.GetUp())
+     # return !(r2.left > r1.right
+     #        || r2.right < r1.left
+     #        || r2.top > r1.bottom
+     #        || r2.bottom < r1.top);
 
 
 # Combine two boxes into a box and return it

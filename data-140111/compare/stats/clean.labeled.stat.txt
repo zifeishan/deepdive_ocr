@@ -1,0 +1,168 @@
+Total document words: 2529
+
+Total OCR output words:
+  Tesseract: 2574
+  Cuneiform: 2540
+
+OCR correct outputs:
+  Tesseract: 2455
+  Cuneiform: 2401
+
+Words where all OCRs fail: 13 (0.5140%)
+
+Accuracy:
+  Tesseract: 95.3768%
+  Cuneiform: 94.5276%
+
+Recall on total document:
+  Tesseract: 97.0739%
+  Cuneiform: 94.9387%
+
+Words where at least 1 OCR make errors (disagreed / agreed but both failed): 189 (7.4733%)
+Automatically solvable errors: 174 (92.0635%)
+
+Recall on error (disagree / both fail) words:
+  Tesseract: 60.8466%
+  Cuneiform: 32.2751%
+
+
+Recall for each knowledge on error words:
+          sw: 63.4921%
+           d: 47.6190%
+     charuni: 16.9312%
+      twchar: 16.4021%
+      rmchar: 14.8148%
+         kbe: 12.1693%
+      cwchar: 8.9947%
+        comb: 8.4656%
+      edrule: 6.3492%
+      swgram: 5.2910%
+        path: 4.2328%
+  comb+rmchar: 3.7037%
+     comb+sw: 1.5873%
+  swgram+twchar: 1.0582%
+         url: 1.0582%
+    comb+kbe: 0.5291%
+          ed: 0.5291%
+         seg: 0.5291%
+     kbe+seg: 0.5291%
+  comb+kbe+rmchar: 0.5291%
+      seg+sw: 0.5291%
+  comb+ed+twchar: 0.5291%
+         pos: 0.5291%
+         dot: 0.5291%
+       upper: 0.0000%
+      number: 0.0000%
+         kbr: 0.0000%
+       stats: 0.0000%
+     numconf: 0.0000%
+   ocrdocacc: 0.0000%
+       lemma: 0.0000%
+       statc: 0.0000%
+        etal: 0.0000%
+   persondot: 0.0000%
+         ner: 0.0000%
+          by: 0.0000%
+   statcgram: 0.0000%
+     posgram: 0.0000%
+         upp: 0.0000%
+
+Recall for each knowledge on words where OCRs all fail:
+          ed: 7.6923%
+         kbe: 7.6923%
+  comb+kbe+rmchar: 7.6923%
+      edrule: 7.6923%
+  comb+ed+twchar: 7.6923%
+           d: 7.6923%
+          sw: 7.6923%
+       upper: 0.0000%
+     comb+sw: 0.0000%
+    comb+kbe: 0.0000%
+      cwchar: 0.0000%
+      number: 0.0000%
+  comb+rmchar: 0.0000%
+         seg: 0.0000%
+  swgram+twchar: 0.0000%
+         kbr: 0.0000%
+     kbe+seg: 0.0000%
+       stats: 0.0000%
+     numconf: 0.0000%
+   ocrdocacc: 0.0000%
+       lemma: 0.0000%
+       statc: 0.0000%
+        etal: 0.0000%
+   persondot: 0.0000%
+         ner: 0.0000%
+      seg+sw: 0.0000%
+      rmchar: 0.0000%
+         pos: 0.0000%
+      swgram: 0.0000%
+      twchar: 0.0000%
+        path: 0.0000%
+        comb: 0.0000%
+          by: 0.0000%
+   statcgram: 0.0000%
+         url: 0.0000%
+     posgram: 0.0000%
+     charuni: 0.0000%
+         upp: 0.0000%
+         dot: 0.0000%
+
+Lesion for each knowledge on error words:
+                d,sw: 19.5767% (17.9894% more)
+         d,rmchar,sw: 32.8042% (13.2275% more)
+         d,sw,twchar: 31.2169% (11.6402% more)
+           sw,twchar: 13.2275% (8.9947% more)
+            d,kbe,sw: 25.9259% (6.3492% more)
+         d,edrule,sw: 24.8677% (5.2910% more)
+       kbe,sw,twchar: 18.5185% (5.2910% more)
+ charuni,comb,twchar: 15.3439% (5.2910% more)
+         comb,kbe,sw: 11.6402% (5.2910% more)
+         comb,twchar: 10.0529% (5.2910% more)
+        charuni,comb: 9.5238% (4.7619% more)
+              kbe,sw: 6.3492% (4.7619% more)
+                comb: 4.7619%
+      comb,sw,twchar: 17.4603% (4.2328% more)
+  path,swgram,twchar: 10.5820% (4.2328% more)
+              twchar: 4.2328%
+           comb,d,sw: 23.2804% (3.7037% more)
+         d,sw,swgram: 22.2222% (2.6455% more)
+        charuni,d,sw: 22.2222% (2.6455% more)
+    sw,swgram,twchar: 15.8730% (2.6455% more)
+  comb,swgram,twchar: 12.6984% (2.6455% more)
+       kbe,rmchar,sw: 8.9947% (2.6455% more)
+       kbe,sw,swgram: 8.9947% (2.6455% more)
+              swgram: 2.1164%
+                  ed: 1.5873%
+                  sw: 1.5873%
+                 kbe: 1.0582%
+             charuni: 1.0582%
+                 url: 1.0582%
+              rmchar: 0.5291%
+                 seg: 0.5291%
+
+Lesion (backward search) for each knowledge class, recall on error words:
+            nlp: 0.0000%
+            all: 92.0635%
+             kb: 1.0582%
+         noedit: 69.8413%
+           edit: 2.6455%
+ocr+corpus+edit: 75.1323%
+     ocr+corpus: 55.0265%
+         corpus: 22.2222%
+            ocr: 17.9894%
+   corpus.ngram: 2.1164%
+  corpus.single: 19.5767%
+
+Foward search for each knowledge class, recall on error words:
+            nlp: 4.7619%
+            all: 92.0635%
+             kb: 12.1693%
+         noedit: 89.4180%
+           edit: 22.2222%
+ocr+corpus+edit: 91.0053%
+     ocr+corpus: 88.8889%
+         corpus: 68.2540%
+            ocr: 38.0952%
+   corpus.ngram: 5.2910%
+  corpus.single: 63.4921%

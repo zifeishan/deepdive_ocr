@@ -1,0 +1,45 @@
+cut -f 4 *.output.txt | sort | uniq -c | sort -fnr
+13180 NN
+6710 CD
+6460 IN
+6226 NNP
+5960
+5262 .
+5107 JJ
+5050 DT
+4484 ,
+3543 NNS
+2650 RB
+2471 :
+2267 CC
+1336 VBN
+ 903 FW
+ 886 VBP
+ 869 VBZ
+ 849 VBG
+ 819 ''
+ 740 TO
+ 633 PRP
+ 612 VB
+ 489 JJR
+ 362 VBD
+ 332 PRP$
+ 262 WDT
+ 259 SYM
+ 219 ``
+ 181 MD
+ 159 RBR
+ 121 POS
+ 110 LS
+  72 RP
+  72 JJS
+  63 WRB
+  56 EX
+  55 NNPS
+  50 PDT
+  25 $
+  23 RBS
+   8 WP
+   5 UH
+   2 WP$
+   2 #

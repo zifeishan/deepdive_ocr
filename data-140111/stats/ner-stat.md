@@ -1,0 +1,15 @@
+data-140111 (master) $ cut -f 5 *.output.txt | sort | uniq -c | sort -fnr
+62892 O
+6224 NUMBER
+5960
+1459 PERSON
+ 922 DATE
+ 906 LOCATION
+ 495 ORGANIZATION
+ 379 ORDINAL
+ 358 MISC
+ 142 TIME
+  88 MONEY
+  75 DURATION
+  40 PERCENT
+   4 SET

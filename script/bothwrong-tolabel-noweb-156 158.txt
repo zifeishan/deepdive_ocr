@@ -1,0 +1,16 @@
+| ttMgQA	Whittingt-n 	['P12,824 2728 1400 2823'] 	156
+| Pea-y-Garedd	Pen-y-Garncdd 	['P14,1399 2055 1599 2086'] 	156
+| HVIPgkgA	FTEI-icaEymen 	['P16,200 414 868 523'] 	156
+| Bsyxxtdesme	asByssadesma 	['P19,1531 2295 1767 2343'] 	156
+| Dirtorthit-rich	Dinorthis-rich 	['P20,842 533 1068 564'] 	156
+| BeIjleIophonitcea	allenz-phunntacga 	['P23,1242 3414 2017 3516'] 	156
+| RQfkfli	nauilc-id 	['P24,1752 1107 2153 1189'] 	156
+| ShalIOW-Water	shallow-lwater 	['P27,627 1697 866 1739'] 	156
+| Macroereio-dominated	Macrocnelia-dominated 	['P28,1079 52 1466 84'] 	156
+| MteIet	Enr-elergngn 	['P28,1326 2299 1866 2385'] 	156
+| EsfcIctx	Enteli-et 	['P28,1327 2421 1844 2507'] 	156
+| SIMQPMQCC	Strep-hememacea 	['P28,1319 3146 2110 3254'] 	156
+| PHYPQRINA	PI-IYLIJOPORINA 	['P29,880 1054 1121 1076'] 	158
+| Lichenaliid-fistuliporid	Lichenaliid-stuliporid 	['P46,843 1444 1184 1478'] 	158
+| Nauchno-Issledovatelskogo	Nauchno-Issledovatellskogo 	['P46,473 2438 874 2479'] 	158
+| sHULGA-NEsTERENRo	SHULGA-NESTERENKO 	['P47,262 340 575 365'] 	158

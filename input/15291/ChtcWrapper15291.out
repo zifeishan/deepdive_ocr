@@ -1,0 +1,351 @@
+Use of uninitialized value in concatenation (.) or string at ./chtcinnerwrapper line 103, <MA> line 207.
+What do we have for version? <>
+--version should be used for Matlab, R and Python
+Controls: <do.sh>
+Use of uninitialized value in concatenation (.) or string at ./chtcinnerwrapper line 280.
+Use of uninitialized value in concatenation (.) or string at ./chtcinnerwrapper line 280.
+Running: <Other   sh 15291 do.sh>
+Running here: uc3-c006.mwt2.org
+GLIDEIN_ResourceName=MWT2
+GLIDEIN_SEs=uct2-dc1.uchicago.edu
+MANPATH=/share/wn-client/globus/man::/share/wn-client/vdt/man:/share/wn-client/perl/man:/share/wn-client/expat/man:/share/wn-client/logrotate/man:/share/wn-client/wget/man:/share/wn-client/jdk1.6/man:/share/wn-client/curl/share/man:/share/wn-client/glite/share/man:/share/wn-client/lcg/man
+_CONDOR_JOB_PIDS=
+GRIDMAP=/var/lib/condor/execute/dir_4991/glide_XQ5097/grid-mapfile
+GLIDEIN_REQUIRE_GLEXEC_USE=False
+PAC_ANCHOR=/share/wn-client
+OSG_GLEXEC_LOCATION=None
+VOMS_USERCONF=/share/wn-client/glite/etc/vomses
+CHANGED_X509=/var/lib/globus/job_home/glow/.globus/job/osg-gk/16362139569176259396.1657325763765259447/x509_user_proxy
+GLOBUS_PATH=/share/wn-client/globus
+GLIDEIN_CPUS=1
+GLOBUS_LOCATION=/share/wn-client/globus
+TMPDIR=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+PERL5LIB=/share/wn-client/perl/lib/5.8.0:/share/wn-client/perl/lib/5.8.0/x86_64-linux-thread-multi:/share/wn-client/perl/lib/site_perl/5.8.0:/share/wn-client/perl/lib/site_perl/5.8.0/x86_64-linux-thread-multi:/share/wn-client/vdt/lib:
+GLIDECLIENT_Signature=f26601d624f4985941848a9ed246a6a5bc9e6348
+GLOBUS_GASS_CACHE_DEFAULT=/var/lib/globus/gass_cache/glow
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+VDTSETUP_AGREE_TO_LICENSES=y
+X509_CERT_DIR=/share/wn-client/globus/TRUSTED_CA
+OSG_WN_TMP=/scratch
+GLIDEIN_SE_BASEPATH=srm://uct2-dc1.uchicago.edu:8443/srm/managerv2?SFN=/pnfs/uchicago.edu/
+VDTSETUP_GOOD_PLATFORM=1
+ANT_HOME=/share/wn-client/ant
+GLIDEIN_REQUIRE_VOMS=False
+GLITE_LOCATION_LOG=/share/wn-client/glite/log
+OSG_SQUID_LOCATION=uct2-grid1.uchicago.edu:3128
+OSG_JOB_CONTACT=osg-gk.mwt2.org/jobmanager-condor
+SRM_CONFIG=/share/wn-client/srm-client-fermi/etc/config-2.xml
+OSG_SITE_WRITE=/osg/mwt2/data
+GLOBUS_ERROR_VERBOSE=true
+CONDOR_PARENT_ID=uc3-c006:10291:1382988221
+LD_LIBRARY_PATH=/share/wn-client/lib32addon/glite/lib:/share/wn-client/lib32addon/expat/lib:/share/wn-client/lib32addon/lcg/lib:/share/wn-client/lib32addon/globus/lib:/share/wn-client/lcg/lib64:/share/wn-client/lcg/lib:/share/wn-client/openldap/lib:/share/wn-client/glite/lib64:/share/wn-client/glite/lib:/share/wn-client/curl/lib:/share/wn-client/jdk1.6/jre/lib/i386:/share/wn-client/jdk1.6/jre/lib/i386/server:/share/wn-client/jdk1.6/jre/lib/i386/client:/share/wn-client/globus/lib:/share/wn-client/berkeley-db/lib:/share/wn-client/expat/lib:/usr/lib
+TEMP=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLIDEIN_Entry_Name=Engage_US_MWT2_osg
+GPT_LOCATION=/share/wn-client/gpt
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
+GLIDEIN_Name=v2_0
+GLITE_LOCATION_TMP=/share/wn-client/glite/tmp
+ATLAS_LOCAL_AREA=/osg/mwt2/app/atlas_app/local
+GLIDEIN_Entry_Signature=57fc89cadd422cbf5f73eb11f7ae15cd1ba4d62e
+OSG_SITE_READ=/osg/mwt2/data
+LIBPATH=/share/wn-client/globus/lib:/usr/lib:/lib
+DCACHE_CLIENT_ACTIVE=true
+GLOBUS_OPTIONS=-Xms256M -Xmx1024M
+CONDOR_PROCD_ADDRESS_BASE=/var/lib/condor/execute/dir_4991/glide_XQ5097/log/procd_address
+GLIDECLIENT_Name=chtc.main
+X509_CADIR=/share/wn-client/globus/TRUSTED_CA
+GLIDEIN_Site=UChicago
+_CONDOR_ANCESTOR_9660=9662:1382988057:1491408387
+PATH=/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+HOLD_GRACE_TIME=0
+_CONDOR_ANCESTOR_9662=10291:1382988221:2571876178
+MY_INITIAL_DIR=$_CONDOR_SCRATCH_DIR
+CONDOR_CONFIG=/var/lib/condor/execute/dir_4991/glide_XQ5097/condor_config
+OSG_DATA=/osg/mwt2/data
+VDT_LOCATION=/share/wn-client
+OSG_APP=/osg/mwt2/app
+PWD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+JAVA_HOME=/share/wn-client/jdk1.6
+X509_USER_CERT=/var/lib/condor/execute/dir_4991/glide_XQ5097/hostcert.pem
+_CONDOR_WRAPPER_ERROR_FILE=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.job_wrapper_failure
+LANG=C
+SRM_JAVA_OPTIONS="-Xms64m -Xmx64m -client"
+GLOBUS_REMOTE_IO_URL=/var/lib/globus/job_home/glow/.globus/job/osg-gk/16362139569176259396.1657325763765259447/remote_io_file
+_CONDOR_ANCESTOR_10291=10295:1382988222:2863202886
+VOMS_LOCATION=/share/wn-client/glite
+GLIDEIN_Country=US
+GLIDEIN_Nickname=MWT2_UC
+X509_VOMS_DIR=/share/wn-client/glite/vomsdir
+GLIDEIN_Gatekeeper=osg-gk.mwt2.org:2119/jobmanager-condor
+_CONDOR_SLOT=
+GLIDEIN_Tmp_Dir=/var/lib/condor/execute/dir_4991/glide_XQ5097/tmp
+OSG_GRID=/share/wn-client/
+CATALINA_OPTS=-Dorg.globus.wsrf.container.persistence.dir=/share/wn-client/vdt-app-data/globus/persisted
+GLIDEIN_Factory=OSGGOC
+GLIDEIN_GridType=gt5
+GLIDEIN_Proxy_URL=None
+GLIDECLIENT_Group=main
+OSG_HOSTNAME=osg-gk.mwt2.org
+GLIDEIN_Expose_Grid_Env=True
+_CONDOR_EXECUTE=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute
+PREEMPT_GRACE_TIME=10000000
+GLITE_LOCATION_VAR=/share/wn-client/glite/var
+SHLVL=2
+HOME=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLIDECLIENT_Group_Signature=4815099c63f300747ccc7bc7224a51a25f586ba3
+GLOBUS_TCP_PORT_RANGE=20000,30000
+OSG_STORAGE_ELEMENT=True
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.machine.ad
+X509_USER_PROXY=/var/lib/condor/execute/dir_4991/glide_XQ5097/ticket/myproxy
+GSI_AUTHZ_CONF=/dev/null
+DYLD_LIBRARY_PATH=/share/wn-client/globus/lib
+GLIDEIN_Signature=24306a5d295642cdaa096308e33744d0d39b32c2
+VDT_INSTALL_LOG=vdt-install.log
+SCRATCH_DIRECTORY=$_CONDOR_SCRATCH_DIR
+OSG_DEFAULT_SE=MWT2_UC_SE
+GLIDEIN_Schedd=schedd_glideins6@glidein.grid.iu.edu
+LOGNAME=glow
+PYTHONPATH=/share/wn-client/lcg/lib64/python2/site-packages:
+GLIDEIN_Glexec_Use=NEVER
+TMP=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLOBUS_TCP_SOURCE_RANGE=20000,30000
+VOS_USING_SE_BASEPATH=Engage,GLOW,HCC,OSG
+GLIDEIN_Monitoring_Enabled=False
+OSG_SITE_NAME=MWT2
+GLIDEIN_ClusterId=647777
+GLIDEIN_ProcId=5
+_CONDOR_JOB_AD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.job.ad
+SHLIB_PATH=/share/wn-client/globus/lib
+VDT_POSTINSTALL_README=/share/wn-client/post-install/README
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+GLITE_LOCATION=/share/wn-client/glite
+_CONDOR_JOB_IWD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLOBUS_GRAM_JOB_CONTACT=https://osg-gk.mwt2.org:20255/16362139569176259396/1657325763765259447/
+PACMAN_LOCATION=/opt/pacman
+X509_USER_KEY=/var/lib/condor/execute/dir_4991/glide_XQ5097/hostkey.pem
+CONDOR_PROCD_ADDRESS=/var/lib/condor/execute/dir_4991/glide_XQ5097/log/procd_address.STARTD
+HTTP_PROXY=uct2-grid1.uchicago.edu:3128
+http_proxy=uct2-grid1.uchicago.edu:3128
+
+
+ ******** My Verison = <<<<1.08>>>> 
+
+Starting to run <sh> <15291> <do.sh>
+Use of uninitialized value in concatenation (.) or string at ./chtcinnerwrapper line 306.
+Use of uninitialized value in concatenation (.) or string at ./chtcinnerwrapper line 306.
+Using <Other> <> <>
+Filesystem           1K-blocks      Used Available Use% Mounted on
+/dev/sda2            867263088  43918728 777086800   6% /
+/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+URL: <<http://proxy.chtc.wisc.edu/SQUID/>>
+Curl attempt:<curl -H "Pragma:" --fail -o SLIBS1.tar.gz http://proxy.chtc.wisc.edu/SQUID/SLIBS1.tar.gz>
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0 4593k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 4593k  100 4593k    0     0  65.7M      0 --:--:-- --:--:-- --:--:--  112M
+Curl result <0>
+TYPE = Other, checking for operating system dependent bin for<sl5>
+In HandleSl5Sl6Bins for OS <sl5> ******************************************
+/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+AuditLog.15291
+CURLTIME_10295
+ChtcWrapper15291.out
+SLIBS1.tar.gz
+SS
+_condor_stderr
+_condor_stdout
+chtcinnerwrapper
+condor_exec.exe
+cuneiform-page-0001.html
+cuneiform-page-0002.html
+cuneiform-page-0003.html
+cuneiform-page-0004.html
+cuneiform-page-0005.html
+cuneiform-page-0006.html
+cuneiform-page-0007.html
+cuneiform-page-0008.html
+cuneiform-page-0009.html
+cuneiform_fonttype
+do.sh
+input.text
+looking to untar <sl5bin.tar.gz> ********************************************
+looking for bin <sl5bin> ********************************************
+HASHBIN has value ZERO ???????????????? *************************
+version not defined. No runtime needed. Moving on.
+SANDBOX SPACE:
+19M	.
+Tar file to extract is <15291.tar.gz>
+Running here: uc3-c006.mwt2.org
+GLIDEIN_ResourceName=MWT2
+GLIDEIN_SEs=uct2-dc1.uchicago.edu
+MANPATH=/share/wn-client/globus/man::/share/wn-client/vdt/man:/share/wn-client/perl/man:/share/wn-client/expat/man:/share/wn-client/logrotate/man:/share/wn-client/wget/man:/share/wn-client/jdk1.6/man:/share/wn-client/curl/share/man:/share/wn-client/glite/share/man:/share/wn-client/lcg/man
+_CONDOR_JOB_PIDS=
+GRIDMAP=/var/lib/condor/execute/dir_4991/glide_XQ5097/grid-mapfile
+GLIDEIN_REQUIRE_GLEXEC_USE=False
+PAC_ANCHOR=/share/wn-client
+OSG_GLEXEC_LOCATION=None
+VOMS_USERCONF=/share/wn-client/glite/etc/vomses
+CHANGED_X509=/var/lib/globus/job_home/glow/.globus/job/osg-gk/16362139569176259396.1657325763765259447/x509_user_proxy
+GLOBUS_PATH=/share/wn-client/globus
+GLIDEIN_CPUS=1
+GLOBUS_LOCATION=/share/wn-client/globus
+TMPDIR=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+PERL5LIB=/share/wn-client/perl/lib/5.8.0:/share/wn-client/perl/lib/5.8.0/x86_64-linux-thread-multi:/share/wn-client/perl/lib/site_perl/5.8.0:/share/wn-client/perl/lib/site_perl/5.8.0/x86_64-linux-thread-multi:/share/wn-client/vdt/lib:
+GLIDECLIENT_Signature=f26601d624f4985941848a9ed246a6a5bc9e6348
+GLOBUS_GASS_CACHE_DEFAULT=/var/lib/globus/gass_cache/glow
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+VDTSETUP_AGREE_TO_LICENSES=y
+X509_CERT_DIR=/share/wn-client/globus/TRUSTED_CA
+OSG_WN_TMP=/scratch
+GLIDEIN_SE_BASEPATH=srm://uct2-dc1.uchicago.edu:8443/srm/managerv2?SFN=/pnfs/uchicago.edu/
+VDTSETUP_GOOD_PLATFORM=1
+ANT_HOME=/share/wn-client/ant
+GLIDEIN_REQUIRE_VOMS=False
+GLITE_LOCATION_LOG=/share/wn-client/glite/log
+OSG_SQUID_LOCATION=uct2-grid1.uchicago.edu:3128
+OSG_JOB_CONTACT=osg-gk.mwt2.org/jobmanager-condor
+SRM_CONFIG=/share/wn-client/srm-client-fermi/etc/config-2.xml
+OSG_SITE_WRITE=/osg/mwt2/data
+GLOBUS_ERROR_VERBOSE=true
+CONDOR_PARENT_ID=uc3-c006:10291:1382988221
+LD_LIBRARY_PATH=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/SS:/share/wn-client/lib32addon/glite/lib:/share/wn-client/lib32addon/expat/lib:/share/wn-client/lib32addon/lcg/lib:/share/wn-client/lib32addon/globus/lib:/share/wn-client/lcg/lib64:/share/wn-client/lcg/lib:/share/wn-client/openldap/lib:/share/wn-client/glite/lib64:/share/wn-client/glite/lib:/share/wn-client/curl/lib:/share/wn-client/jdk1.6/jre/lib/i386:/share/wn-client/jdk1.6/jre/lib/i386/server:/share/wn-client/jdk1.6/jre/lib/i386/client:/share/wn-client/globus/lib:/share/wn-client/berkeley-db/lib:/share/wn-client/expat/lib:/usr/lib
+TEMP=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLIDEIN_Entry_Name=Engage_US_MWT2_osg
+GPT_LOCATION=/share/wn-client/gpt
+VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
+GLIDEIN_Name=v2_0
+GLITE_LOCATION_TMP=/share/wn-client/glite/tmp
+ATLAS_LOCAL_AREA=/osg/mwt2/app/atlas_app/local
+GLIDEIN_Entry_Signature=57fc89cadd422cbf5f73eb11f7ae15cd1ba4d62e
+OSG_SITE_READ=/osg/mwt2/data
+LIBPATH=/share/wn-client/globus/lib:/usr/lib:/lib
+DCACHE_CLIENT_ACTIVE=true
+GLOBUS_OPTIONS=-Xms256M -Xmx1024M
+CONDOR_PROCD_ADDRESS_BASE=/var/lib/condor/execute/dir_4991/glide_XQ5097/log/procd_address
+GLIDECLIENT_Name=chtc.main
+X509_CADIR=/share/wn-client/globus/TRUSTED_CA
+GLIDEIN_Site=UChicago
+_CONDOR_ANCESTOR_9660=9662:1382988057:1491408387
+PATH=.:/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+HOLD_GRACE_TIME=0
+_CONDOR_ANCESTOR_9662=10291:1382988221:2571876178
+MY_INITIAL_DIR=$_CONDOR_SCRATCH_DIR
+CONDOR_CONFIG=/var/lib/condor/execute/dir_4991/glide_XQ5097/condor_config
+OSG_DATA=/osg/mwt2/data
+VDT_LOCATION=/share/wn-client
+OSG_APP=/osg/mwt2/app
+PWD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+JAVA_HOME=/share/wn-client/jdk1.6
+X509_USER_CERT=/var/lib/condor/execute/dir_4991/glide_XQ5097/hostcert.pem
+_CONDOR_WRAPPER_ERROR_FILE=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.job_wrapper_failure
+LANG=C
+SRM_JAVA_OPTIONS="-Xms64m -Xmx64m -client"
+GLOBUS_REMOTE_IO_URL=/var/lib/globus/job_home/glow/.globus/job/osg-gk/16362139569176259396.1657325763765259447/remote_io_file
+_CONDOR_ANCESTOR_10291=10295:1382988222:2863202886
+VOMS_LOCATION=/share/wn-client/glite
+GLIDEIN_Country=US
+GLIDEIN_Nickname=MWT2_UC
+X509_VOMS_DIR=/share/wn-client/glite/vomsdir
+GLIDEIN_Gatekeeper=osg-gk.mwt2.org:2119/jobmanager-condor
+_CONDOR_SLOT=
+GLIDEIN_Tmp_Dir=/var/lib/condor/execute/dir_4991/glide_XQ5097/tmp
+OSG_GRID=/share/wn-client/
+CATALINA_OPTS=-Dorg.globus.wsrf.container.persistence.dir=/share/wn-client/vdt-app-data/globus/persisted
+GLIDEIN_Factory=OSGGOC
+GLIDEIN_GridType=gt5
+GLIDEIN_Proxy_URL=None
+GLIDECLIENT_Group=main
+OSG_HOSTNAME=osg-gk.mwt2.org
+GLIDEIN_Expose_Grid_Env=True
+_CONDOR_EXECUTE=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute
+PREEMPT_GRACE_TIME=10000000
+GLITE_LOCATION_VAR=/share/wn-client/glite/var
+SHLVL=2
+HOME=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLIDECLIENT_Group_Signature=4815099c63f300747ccc7bc7224a51a25f586ba3
+GLOBUS_TCP_PORT_RANGE=20000,30000
+OSG_STORAGE_ELEMENT=True
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.machine.ad
+X509_USER_PROXY=/var/lib/condor/execute/dir_4991/glide_XQ5097/ticket/myproxy
+GSI_AUTHZ_CONF=/dev/null
+DYLD_LIBRARY_PATH=/share/wn-client/globus/lib
+GLIDEIN_Signature=24306a5d295642cdaa096308e33744d0d39b32c2
+VDT_INSTALL_LOG=vdt-install.log
+SCRATCH_DIRECTORY=$_CONDOR_SCRATCH_DIR
+OSG_DEFAULT_SE=MWT2_UC_SE
+GLIDEIN_Schedd=schedd_glideins6@glidein.grid.iu.edu
+LOGNAME=glow
+PYTHONPATH=/share/wn-client/lcg/lib64/python2/site-packages:
+GLIDEIN_Glexec_Use=NEVER
+TMP=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLOBUS_TCP_SOURCE_RANGE=20000,30000
+VOS_USING_SE_BASEPATH=Engage,GLOW,HCC,OSG
+GLIDEIN_Monitoring_Enabled=False
+OSG_SITE_NAME=MWT2
+GLIDEIN_ClusterId=647777
+GLIDEIN_ProcId=5
+_CONDOR_JOB_AD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291/.job.ad
+SHLIB_PATH=/share/wn-client/globus/lib
+VDT_POSTINSTALL_README=/share/wn-client/post-install/README
+VO_ATLAS_SW_DIR=/cvmfs/atlas.cern.ch/repo/sw
+GLITE_LOCATION=/share/wn-client/glite
+_CONDOR_JOB_IWD=/var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291
+GLOBUS_GRAM_JOB_CONTACT=https://osg-gk.mwt2.org:20255/16362139569176259396/1657325763765259447/
+PACMAN_LOCATION=/opt/pacman
+X509_USER_KEY=/var/lib/condor/execute/dir_4991/glide_XQ5097/hostkey.pem
+CONDOR_PROCD_ADDRESS=/var/lib/condor/execute/dir_4991/glide_XQ5097/log/procd_address.STARTD
+HTTP_PROXY=uct2-grid1.uchicago.edu:3128
+http_proxy=uct2-grid1.uchicago.edu:3128
+SANDBOX SPACE:
+19M	.
+total 5380
+-rw-r--r-- 1 uc3 osgvo     115 Oct 28 14:23 AuditLog.15291
+-rw-r--r-- 1 uc3 osgvo     118 Oct 28 14:23 CURLTIME_10295
+-rw-r--r-- 1 uc3 osgvo   15168 Oct 28 14:23 ChtcWrapper15291.out
+-rw-r--r-- 1 uc3 osgvo 4703655 Oct 28 14:23 SLIBS1.tar.gz
+drwxr-xr-x 2 uc3 osgvo    4096 Oct 25  2011 SS
+-rw-r--r-- 1 uc3 osgvo     317 Oct 28 14:23 _condor_stderr
+-rw-r--r-- 1 uc3 osgvo    6598 Oct 28 14:23 _condor_stdout
+-rwxr-xr-x 1 uc3 osgvo   35251 Oct 28 14:23 chtcinnerwrapper
+-rwxr-xr-x 1 uc3 osgvo    5393 Oct 28 14:20 condor_exec.exe
+-rwxr-xr-x 1 uc3 osgvo  109563 Oct 28 14:20 cuneiform-page-0001.html
+-rwxr-xr-x 1 uc3 osgvo   14972 Oct 28 14:20 cuneiform-page-0002.html
+-rwxr-xr-x 1 uc3 osgvo    2834 Oct 28 14:20 cuneiform-page-0003.html
+-rwxr-xr-x 1 uc3 osgvo    1782 Oct 28 14:20 cuneiform-page-0004.html
+-rwxr-xr-x 1 uc3 osgvo   24752 Oct 28 14:20 cuneiform-page-0005.html
+-rwxr-xr-x 1 uc3 osgvo   62659 Oct 28 14:20 cuneiform-page-0006.html
+-rwxr-xr-x 1 uc3 osgvo   55933 Oct 28 14:20 cuneiform-page-0007.html
+-rwxr-xr-x 1 uc3 osgvo  129346 Oct 28 14:20 cuneiform-page-0008.html
+-rwxr-xr-x 1 uc3 osgvo   41693 Oct 28 14:20 cuneiform-page-0009.html
+drwxr-xr-x 2 uc3 osgvo    4096 Oct 28 14:23 cuneiform_fonttype
+-rw-r--r-- 1 uc3 osgvo      94 Oct 28 14:20 do.sh
+-rwxr-xr-x 1 uc3 osgvo  242055 Oct 28 14:20 input.text
+chmod: cannot access `sh': No such file or directory
+/bin/sleep
+about to execute <<sh do.sh>>
+SANDBOX SPACE:
+20M	.
+Done Running 15291 /var/lib/condor/execute/dir_4991/glide_XQ5097/execute/dir_10291 Result was <0>
+Results are:total 5544
+-rw-r--r-- 1 uc3 osgvo     260 Oct 28 14:23 AuditLog.15291
+-rw-r--r-- 1 uc3 osgvo     118 Oct 28 14:23 CURLTIME_10295
+-rw-r--r-- 1 uc3 osgvo   16720 Oct 28 14:23 ChtcWrapper15291.out
+-rw-r--r-- 1 uc3 osgvo 4703655 Oct 28 14:23 SLIBS1.tar.gz
+drwxr-xr-x 2 uc3 osgvo    4096 Oct 25  2011 SS
+-rw-r--r-- 1 uc3 osgvo     317 Oct 28 14:23 _condor_stderr
+-rw-r--r-- 1 uc3 osgvo    6598 Oct 28 14:23 _condor_stdout
+-rwxr-xr-x 1 uc3 osgvo   35251 Oct 28 14:23 chtcinnerwrapper
+-rwxr-xr-x 1 uc3 osgvo    5393 Oct 28 14:20 condor_exec.exe
+-rwxr-xr-x 1 uc3 osgvo  109563 Oct 28 14:23 cuneiform-page-0001.html
+-rwxr-xr-x 1 uc3 osgvo   14972 Oct 28 14:23 cuneiform-page-0002.html
+-rwxr-xr-x 1 uc3 osgvo    2834 Oct 28 14:23 cuneiform-page-0003.html
+-rwxr-xr-x 1 uc3 osgvo    1782 Oct 28 14:23 cuneiform-page-0004.html
+-rwxr-xr-x 1 uc3 osgvo   24752 Oct 28 14:23 cuneiform-page-0005.html
+-rwxr-xr-x 1 uc3 osgvo   62659 Oct 28 14:23 cuneiform-page-0006.html
+-rwxr-xr-x 1 uc3 osgvo   55933 Oct 28 14:23 cuneiform-page-0007.html
+-rwxr-xr-x 1 uc3 osgvo  129346 Oct 28 14:23 cuneiform-page-0008.html
+-rwxr-xr-x 1 uc3 osgvo   41693 Oct 28 14:23 cuneiform-page-0009.html
+drwxr-xr-x 2 uc3 osgvo    4096 Oct 28 14:23 cuneiform_fonttype
+-rw-r--r-- 1 uc3 osgvo      94 Oct 28 14:20 do.sh
+-rw-r--r-- 1 uc3 osgvo  159512 Oct 28 14:23 fonts.text
+-rwxr-xr-x 1 uc3 osgvo  242055 Oct 28 14:23 input.text
+drwxr-xr-x 2 uc3 osgvo    4096 Oct 28 14:23 rs

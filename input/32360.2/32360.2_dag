@@ -1,0 +1,3 @@
+JOB 32360.2 process.cmd dir 32360.2
+SCRIPT POST 32360.2 /scratch/czhang/journal_wrapper/ChtcRun/postjob.pl
+RETRY 32360.2 10

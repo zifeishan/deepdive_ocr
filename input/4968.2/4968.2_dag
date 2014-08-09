@@ -1,0 +1,3 @@
+JOB 4968.2 process.cmd dir 4968.2
+SCRIPT POST 4968.2 /scratch/czhang/journal_wrapper/ChtcRun/postjob.pl
+RETRY 4968.2 10

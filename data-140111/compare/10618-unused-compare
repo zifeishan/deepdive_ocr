@@ -1,0 +1,3510 @@
+ 1         Related         Related  VBN      O  
+ 2              to              to   TO      O  
+ 3            that            that   DT      O  
+ 4            last            last   JJ      O  
+ 5     observation     observa-tio   NN      O  |||$1
+ 6               ,              n,    ,      O  |||$1
+ 7          Martin          Martin  NNP PERSON  
+ 8        provides        provides  VBZ      O  
+ 9               a               a   DT      O  
+10            good            good   JJ      O  
+11       de?nition      definition   NN      O  |||$2
+12              of              of   IN      O  
+13             the             the   DT      O  
+14    Dryolestidae    Dryolestidae  NNP      O  
+15              as              as   RB      O  
+16            well            well   RB      O  
+17              as              as   IN      O  
+18             the             the   DT      O  
+19       practical       practical   JJ      O  
+20           means           means  NNS      O  
+21              by              by   IN      O  
+22           which           which  WDT      O  
+23             its             its  PRP$      O 
+24           lower           lower  JJR      O  
+25             and             and   CC      O  
+26           upper           upper   JJ      O  
+27          molars          molars  NNS      O  
+28             can             can   MD      O  
+29              be              be   VB      O  
+30   distinguished  distin-guished  VBN      O  |||$1
+31            from            from   IN      O  
+32           those           those   DT      O  
+33              of              of   IN      O  
+34    paurodontids    paurodontids  NNS      O  
+35               .               .    .      O  
+
+ 1          Martin          Martin  NNP PERSON  
+ 2              ?s              's  POS      O  |||sw,twchar$2
+ 3           Table           Table  NNP      O  
+ 4               1               1   CD NUMBER  
+ 5           gives           gives  VBZ      O  
+ 6               a               a   DT      O  
+ 7          useful          useful   JJ      O  
+ 8         listing         listing   NN      O  
+ 9              of              of   IN      O  
+10       presently       presently   RB      O  
+11           valid           valid   JJ      O  
+12      dryolestid      dryolestid   NN      O  
+13         species         species  NNS      O  
+14               ,               ,    ,      O  
+15           their           their  PRP$      O 
+16      synonymies      synonymies  NNS      O  
+17               ,               ,    ,      O  
+18        locality        locality   NN      O  
+19     occurrences     occurrences  NNS      O  
+20               ,               ,    ,      O  
+21             and             and   CC      O  
+22           their           their  PRP$      O 
+23           known           known   JJ      O  
+24        geologic       geo-logic   JJ      O  |||rmchar,d,sw$1
+25            ages            ages  NNS      O  
+26               .               .    .      O  
+
+ 1    Procedurally    Procedurally   RB      O  
+ 2               ,               ,    ,      O  
+ 3             the             the   DT      O  
+ 4           table           table   NN      O  
+ 5              is              is  VBZ      O  
+ 6           ?awed          flawed  VBN      O  |||$2
+ 7              in              in   IN      O  
+ 8          citing          citing  VBG      O  
+ 9             the             the   DT      O  
+10           names           names  NNS      O  
+11              of              of   IN      O  
+12             new             new   JJ      O  
+13            taxa            taxa   NN      O  
+14              on              on   IN      O  
+15               a               a   DT      O  
+16            page            page   NN      O  
+17              in              in   IN      O  
+18         advance         advance   NN      O  
+19              of              of   IN      O  
+20           their           their  PRP$      O 
+21          formal          formal   JJ      O  
+22    introduction    introduction   NN      O  
+23              to              to   TO      O  
+24             the             the   DT      O  
+25 paleontological paleon-tological   JJ      O |||rmchar,d,sw$1
+26      literature      literature   NN      O  
+27               .               .    .      O  
+
+ 1            That            That   DT      O  
+ 2              is              is  VBZ      O  
+ 3            only            only   RB      O  
+ 4               a               a   DT      O  
+ 5           minor           minor   JJ      O  
+ 6       criticism       criticism   NN      O  
+ 7               ,               ,    ,      O  
+ 8         however         however   RB      O  
+ 9               ,               ,    ,      O  
+10             and             and   CC      O  
+11              in              in   IN      O  
+12            most            most  JJS      O  
+13           other           other   JJ      O  
+14        respects        respects  NNS      O  
+15            this            this   DT      O  
+16       monograph       monograph   NN      O  
+17           could           could   MD      O  
+18           serve           serve   VB      O  
+19              as              as   IN      O  
+20               a               a   DT      O  
+21           model           model   NN      O  
+22             for             for   IN      O  
+23             the             the   DT      O  
+24          manner          manner   NN      O  
+25              in              in   IN      O  
+26           which           which  WDT      O  
+27        detailed        detailed   JJ      O  
+28     descriptive     descriptive   JJ      O  
+29    paleontology    paleontology   NN      O  
+30          should          should   MD      O  
+31              be              be   VB      O  
+32       presented       presented  VBN      O  
+33               .               .    .      O  
+
+ 1             For             For   IN      O  
+ 2         example         example   NN      O  
+ 3               ,               ,    ,      O  
+ 4          Martin          Martin  NNP PERSON  
+ 5           lists           lists  VBZ      O  
+ 6             all             all   DT      O  
+ 7       specimens       specimens  NNS      O  
+ 8         studied         studied  VBN      O  
+ 9           along           along   IN      O  
+10            with            with   IN      O  
+11           brief           brief   JJ      O  
+12    descriptions    descriptions  NNS      O  
+13              of              of   IN      O  
+14       materials       materials  NNS      O  
+15     represented     represented  VBN      O  
+16              by              by   IN      O  
+17            each            each   DT      O  
+18        specimen        specimen   NN      O  
+19          number          number   NN      O  
+20               .               .    .      O  
+
+ 1              He              He  PRP      O  
+ 2            also            also   RB      O  
+ 3           gives           gives  VBZ      O  
+ 4               ?               "   CD NUMBER  |||$2
+ 5            pure            pure   JJ      O  
+ 6               ?               "   NN      O  |||$2
+ 7   morphological   morphological   JJ      O  
+ 8       diagnoses       diagnoses  NNS      O  
+ 9              in              in   IN      O  
+10        addition        addition   NN      O  
+11              to              to   TO      O  
+12    differential    differential   JJ      O  
+13       diagnoses       diagnoses  NNS      O  
+14               (               (   CD NUMBER  
+15           which           which  WDT      O  
+16         involve         involve  VBP      O  
+17         speci?c        specific   NN      O  |||$2
+18     comparisons     comparisons  NNS      O  
+19            with            with   IN      O  
+20         similar         similar   JJ      O  
+21            taxa            taxa   NN      O  
+22             and             and   CC      O  
+23           solid           solid   JJ      O  
+24     discussions    discus-sions  NNS      O  |||rmchar,d,sw$1
+25              of              of   IN      O  
+26    similarities    similarities  NNS      O  
+27          versus          versus   CC      O  
+28     differences     differences  NNS      O  
+29           among           among   IN      O  
+30             all             all   DT      O  
+31        relevant        relevant   JJ      O  
+32            taxa            taxa   NN      O  
+33               )               )   NN      O  
+34               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2    descriptions    descriptions  NNS      O  
+ 3              of              of   IN      O  
+ 4         fossils         fossils  NNS      O  
+ 5             are             are  VBP      O  
+ 6           clear           clear   JJ      O  
+ 7               ,               ,    ,      O  
+ 8        thorough        thorough   JJ      O  
+ 9               ,               ,    ,      O  
+10             and             and   CC      O  
+11          easily          easily   RB      O  
+12        readable        readable   JJ      O  
+13               ,               ,    ,      O  
+14             and             and   CC      O  
+15             the             the   DT      O  
+16          entire          entire   JJ      O  
+17       monograph       monograph   NN      O  
+18              is              is  VBZ      O  
+19            rich            rich   JJ      O  
+20              in              in   IN      O  
+21      anatomical      anatomical   JJ      O  
+22          detail          detail   NN      O  
+23               .               .    .      O  
+
+ 1             For             For   IN      O  
+ 2         example         example   NN      O  
+ 3               ,               ,    ,      O  
+ 4             the             the   DT      O  
+ 5              IS              I5  VBZ      O  |||$2
+ 6              in              in   IN      O  
+ 7      Dryolestes      Dryolestes  NNS      O  
+ 8          occurs          occurs  VBZ      O  
+ 9              in              in   IN      O  
+10             the             the   DT      O  
+11         maxilla         maxilla   NN      O  
+12               ,               ,    ,      O  
+13       re?ecting      reflecting  VBG      O  |||$2
+14               a               a   DT      O  
+15       primitive       primitive   JJ      O  
+16         feature         feature   NN      O  
+17            that            that  WDT      O  
+18              is              is  VBZ      O  
+19      widespread      widespread   JJ      O  
+20           among           among   IN      O  
+21    nonmammalian    nonmammalian   JJ      O  
+22       synapsids       synapsids  NNS      O  
+23               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2   illustrations   illustrations  NNS      O  
+ 3             are             are  VBP      O  
+ 4       generally       generally   RB      O  
+ 5       wonderful       wonderful   JJ      O  
+ 6               .               .    .      O  
+
+ 1       Excellent       Excellent   JJ      O  
+ 2        drawings        drawings  NNS      O  
+ 3              of              of   IN      O  
+ 4            jaws            jaws  NNS      O  
+ 5             and             and   CC      O  
+ 6           teeth           teeth  NNS      O  
+ 7             are             are  VBP      O  
+ 8       presented       presented  VBN      O  
+ 9              by              by   IN      O  
+10           Peter           Peter  NNP PERSON  
+11          Berndt          Berndt  NNP PERSON  
+12             and             and   CC      O  
+13              M.              M.  NNP PERSON  
+14  Bulang-Lorcher  Bulang-Lorcher  NNP PERSON  
+15               .               .    .      O  
+
+ 1     Goodquality    Good-quality  NNP      O  |||$1
+ 2    stereophotos    stereophotos  NNS      O  
+ 3               ,               ,    ,      O  
+ 4            both            both   DT      O  
+ 5            from            from   IN      O  
+ 6           light           light   NN      O  
+ 7               -               -    :      O  
+ 8             and             and   CC      O  
+ 9             REM             REM  NNP      O  
+10               (               (   CD NUMBER  
+11          raster          raster   NN      O  
+12        electron        electron   NN      O  
+13     microscopic     micro-scopi   JJ      O  |||rmchar,d,sw$1
+14               ,              c,    ,      O  |||$1
+15           using           using  VBG      O  
+16           epoxy           epoxy   NN      O  
+17           casts           casts  VBZ      O  
+18               )               )   CD NUMBER  
+19               .               -    .      O  |||$2
+
+ 1               ?               p   NN      O  |||$3
+ 2               .               h    .      O  |||$3
+
+ 1     photography      otography,   NN      O  |||$1
+ 2               ,                    ,      O  ///$1
+ 3             are             are  VBP      O  
+ 4        properly        properly   RB      O  
+ 5          spaced          spaced  VBN      O  
+ 6              so              so   IN      O  
+ 7            that            that   IN      O  
+ 8              an              an   DT      O  
+ 9         optical         optical   JJ      O  
+10          viewer          viewer   NN      O  
+11              is              is  VBZ      O  
+12     unnecessary     unnecessary   JJ      O  
+13               .               .    .      O  
+
+ 1          Plates          Plates  NNP      O  
+ 2              13              13   CD NUMBER  
+ 3             and             and   CC      O  
+ 4              14              14   CD NUMBER  
+ 5         compare         compare  VBP      O  
+ 6         results         results  NNS      O  
+ 7              of              of   IN      O  
+ 8  highresolution high-resolution   NN      O  |||$1
+ 9               x               x   CC      O  
+10               ?               -   CD NUMBER  |||$2
+11             ray             ray   NN      O  
+12      techniques      techniques  NNS      O  
+13           using           using  VBG      O  
+14               8               8   CD NUMBER  
+15               -               -    :      O  
+16             and             and   CC      O  
+17          16-bit          16-bit   JJ      O  
+18      electronic      electronic   JJ      O  
+19         digital         digital   JJ      O  
+20 microradiography micro-radiograph   NN      O  |||$1
+21               .              y.    .      O  |||$1
+
+ 1        Detailed        Detailed   JJ      O  
+ 2             new             new   JJ      O  
+ 3     information     information   NN      O  
+ 4              on              on   IN      O  
+ 5     development     development   NN      O  
+ 6              of              of   IN      O  
+ 7      tooth-buds      tooth-buds  NNS      O  
+ 8            deep            deep   RB      O  
+ 9              in              in   IN      O  
+10             the             the   DT      O  
+11             jaw             jaw   NN      O  
+12         becomes         becomes  VBZ      O  
+13         visible         visible   JJ      O  
+14           using           using  VBG      O  
+15             the             the   DT      O  
+16        enhanced        enhanced  VBN      O  
+17         imagery         imagery   NN      O  
+18               .               .    .      O  
+
+ 1              In              In   IN      O  
+ 2         several         several   JJ      O  
+ 3           cases           cases  NNS      O  
+ 4               ,               ,    ,      O  
+ 5             the             the   DT      O  
+ 6            same            same   JJ      O  
+ 7        specimen        specimen   NN      O  
+ 8              is              is  VBZ      O  
+ 9     illustrated     illustrated  VBN      O  
+10           using           using  VBG      O  
+11         various         various   JJ      O  
+12      techniques      techniques  NNS      O  
+13               ,               ,    ,      O  
+14            thus            thus   RB      O  
+15    highlighting    highlighting  VBG      O  
+16       different       different   JJ      O  
+17           kinds           kinds  NNS      O  
+18              of              of   IN      O  
+19        features        features  NNS      O  
+20               .               .    .      O  
+
+ 1        Captions        Captions  NNS      O  
+ 2              to              to   TO      O  
+ 3             the             the   DT      O  
+ 4          ?gures         figures  NNS      O  |||$1
+ 5             are             are  VBP      O  
+ 6          useful         use-ful   JJ      O  |||$1
+ 7             and             and   CC      O  
+ 8        complete        complete   JJ      O  
+ 9               .               .    .      O  
+
+ 1        Isolated        Isolated  VBN      O  
+ 2           teeth           teeth  NNS      O  
+ 3       typically       typically   RB      O  
+ 4             are             are  VBP      O  
+ 5     illustrated     illustrated  VBN      O  
+ 6              in              in   IN      O  
+ 7            four            four   CD NUMBER  
+ 8           views           views  NNS      O  
+
+ 1               (               (   NN      O  
+ 2        occlusal        occlusal   NN      O  
+ 3               ,               ,    ,      O  
+ 4          labial          labial   JJ      O  
+ 5               ,               ,    ,      O  
+ 6          mesial          mesial   JJ      O  
+ 7               ,               ,    ,      O  
+ 8             and             and   CC      O  
+ 9          distal          distal   JJ      O  
+10               )               )   NN      O  
+11               .               .    .      O  
+
+ 1            Also            Also   RB      O  
+ 2        provided        provided  VBN      O  
+ 3             are             are  VBP      O  
+ 4           brief           brief   JJ      O  
+ 5    descriptions    descriptions  NNS      O  
+ 6              of              of   IN      O  
+ 7  enamel-dentine  enamel-dentine   JJ      O  
+ 8  microstructure  microstructure   NN      O  
+ 9              in              in   IN      O  
+10     dryolestids     dryolestids  NNS      O  
+11               ,               ,    ,      O  
+12     accompanied     accompanied  VBN      O  
+13              by              by   IN      O  
+14    high-quality    high-quality   JJ      O  
+15             SEM             SEM   NN      O  
+16 photomicrographs photomicrographs  NNS      O  ///$1
+17               .               .    .      O  
+
+ 1         Species         Species  NNP      O  
+ 2            from            from   IN      O  
+ 3       Guimarota       Guimarota  NNP LOCATI  
+ 4         provide         provide  VBP      O  
+ 5             the             the   DT      O  
+ 6          oldest          oldest  JJS      O  
+ 7          record          record   NN      O  
+ 8              of              of   IN      O  
+ 9       prismatic       prismatic   JJ      O  
+10          enamel          enamel   NN      O  
+11           among           among   IN      O  
+12             the             the   DT      O  
+13      Holotheria      Holotheria  NNP LOCATI  
+14               .               .    .      O  
+
+ 1            They            They  PRP      O  
+ 2            also            also   RB      O  
+ 3     demonstrate     demonstrate  VBP      O  
+ 4             the             the   DT      O  
+ 5            most            most  RBS      O  
+ 6       primitive       primitive   JJ      O  
+ 7           known           known   JJ      O  
+ 8            form            form   NN      O  
+ 9              of              of   IN      O  
+10       prismatic       prismatic   JJ      O  
+11          enamel          enamel   NN      O  
+12               ,               ,    ,      O  
+13        retained        retained  VBD      O  
+14           among           among   IN      O  
+15        Cenozoic        Cenozoic   JJ   MISC  
+16         mammals         mammals  NNS      O  
+17          mainly          mainly   RB      O  
+18              in              in   IN      O  
+19      marsupials      marsupials  NNS      O  
+20             and             and   CC      O  
+21    insectivores    insectivores  NNS      O  
+22               .               .    .      O  
+
+ 1              An              An   DT      O  
+ 2        appendix        appendix   NN      O  
+ 3           holds           holds  VBZ      O  
+ 4               a               a   DT      O  
+ 5            huge            huge   JJ      O  
+ 6          amount          amount   NN      O  
+ 7              of              of   IN      O  
+ 8            data            data  NNS      O  
+ 9            from            from   IN      O  
+10          dental          dental   JJ      O  
+11    measurements    measurements  NNS      O  
+12               (               (  VBP      O  
+13          length          length   NN      O  
+14               ,               ,    ,      O  
+15           width           width   NN      O  
+16               ,               ,    ,      O  
+17             and             and   CC      O  
+18          height          height   NN      O  
+19              of              of   IN      O  
+20      individual      individual   JJ      O  
+21           teeth           teeth  NNS      O  
+22               )               )   RB      O  
+23              as              as   RB      O  
+24            well            well   RB      O  
+25              as              as   IN      O  
+26        standard        standard   JJ      O  
+27             jaw             jaw   NN      O  
+28     proportions     proportions  NNS      O  
+29               .               .    .      O  
+
+ 1       Gleefully       Gleefully   RB      O  
+ 2               ,               ,    ,      O  
+ 3         however         however   RB      O  
+ 4               ,               ,    ,      O  
+ 5               I               I  PRP      O  
+ 6           point           point  VBP      O  
+ 7             out             out   RP      O  
+ 8             the             the   DT      O  
+ 9      consistent      consistent   JJ      O  
+10     misspelling     misspelling   NN      O  
+11              of              of   IN      O  
+12               ?               "   CD NUMBER  |||$2
+13     Bezeichnung     Bezeichnung  NNP      O  
+14               ?               "   NN      O  |||$2
+15              in              in   IN      O  
+16 column-headings column-headings  NNS      O  
+17               .               .    .      O  
+
+ 1     Interesting     Interesting   JJ      O  
+ 2      proportion      proportion   NN      O  
+ 3               ?               -   NN      O  |||$2
+ 4        diagrams        diagrams  VBZ      O  
+ 5               (               (   CD NUMBER  
+ 6    lengthzwidth    length:width   NN      O  |||$2
+ 7        averages        averages  NNS      O  
+ 8             for             for   IN      O  
+ 9           tooth           tooth   NN      O  
+10            loci            loci  NNS      O  
+11           along           along   IN      O  
+12             the             the   DT      O  
+13          length          length   NN      O  
+14              of              of   IN      O  
+15           upper           upper   JJ      O  
+16             and             and   CC      O  
+17           lower           lower  JJR      O  
+18            jaws            jaws  NNS      O  
+19               )               )   NN      O  
+20             are             are  VBP      O  
+21       presented       presented  VBN      O  
+22             and             and   CC      O  
+23        compared        compared  VBN      O  
+24           among           among   IN      O  
+25             the             the   DT      O  
+26            well            well   RB      O  
+27               ?               -   JJ      O  |||$2
+28     represented     represented  VBN      O  
+29     dryolestids     dryolestids  NNS      O  
+30               .               .    .      O  
+
+ 1    Orientations    Orientations  NNS      O  
+ 2              of              of   IN      O  
+ 3    measurements    measurements  NNS      O  
+ 4             are             are  VBP      O  
+ 5         clearly         clearly   RB      O  
+ 6          de?ned         defined  VBN      O  |||$2
+ 7             and             and   CC      O  
+ 8            were            were  VBD      O  
+ 9           taken           taken  VBN      O  
+10           using           using  VBG      O  
+11               a               a   DT      O  
+12     laser-based     laser-based   JJ      O  
+13               ,               ,    ,      O  
+14            High            High   JJ      O  
+15       Precision       Precision  NNP      O  
+16           Re?ex          Reflex  NNP      O  |||$2
+17      Microscope      Microscope  NNP      O  
+18               .               .    .      O  
+
+ 1       Important       Important   JJ      O  
+ 2             new             new   JJ      O  
+ 3     information     information   NN      O  
+ 4         relates         relates  VBZ      O  
+ 5              to              to   TO      O  
+ 6      mandibular      mandibular   JJ      O  
+ 7       structure       structure   NN      O  
+ 8               .               .    .      O  
+
+ 1             For             For   IN      O  
+ 2         example         ex-ampl   NN      O  |||$1
+ 3               ,              e,    ,      O  |||$1
+ 4               a               a   DT      O  
+ 5         de?nite        definite   JJ      O  |||$2
+ 6           facet           facet   NN      O  
+ 7          exists          exists  VBZ      O  
+ 8             for             for   IN      O  
+ 9               a               a   DT      O  
+10     rudimentary     rudimentary   JJ      O  
+11        coronoid        coronoid   JJ      O  
+12            bone            bone   NN      O  
+13              in              in   IN      O  
+14      Dryolestes     Dry-olestes  NNP      O  |||rmchar,d,sw$1
+15      leiriensis      leiriensis   NN      O  
+16               ,               ,    ,      O  
+17             and             and   CC      O  
+18     persistence     persistence   NN      O  
+19              of              of   IN      O  
+20               a               a   DT      O  
+21        splenial        splenial   JJ      O  
+22            bone            bone   NN      O  
+23            also            also   RB      O  
+24              is              is  VBZ      O  
+25       suggested       suggested  VBN      O  
+26               .               .    .      O  
+
+ 1    Additionally    Additionally   RB      O  
+ 2               ,               ,    ,      O  
+ 3          Martin          Martin  NNP PERSON  
+ 4        observed        observed  VBD      O  
+ 5          facets          facets  NNS      O  
+ 6             for             for   IN      O  
+ 7           these           these   DT      O  
+ 8           bones           bones  NNS      O  
+ 9              on              on   IN      O  
+10      dryolestid      dryolestid   NN      O  
+11       mandibles      man-dibles  NNS      O  |||rmchar,d,sw$1
+12            from            from   IN      O  
+13             the             the   DT      O  
+14        Morrison        Morrison  NNP ORGANI  
+15       Formation       Formation   NN ORGANI  
+16               ,               ,    ,      O  
+17           which           which  WDT      O  
+18      previously      previously   RB   DATE  
+19            were            were  VBD      O  
+20         assumed         assumed  VBN      O  
+21              to              to   TO      O  
+22            lack            lack   VB      O  
+23            them            them  PRP      O  
+24               .               .    .      O  
+
+ 1       Therefore       Therefore   RB      O  
+ 2               ,               ,    ,      O  
+ 3             the             the   DT      O  
+ 4        presumed        presumed   JJ      O  
+ 5            loss            loss   NN      O  
+ 6              of              of   IN      O  
+ 7        coronoid        coronoid   NN      O  
+ 8             and             and   CC      O  
+ 9        splenial        splenial   JJ      O  
+10           bones           bones  NNS      O  
+11              no              no   RB      O  
+12          longer          longer   RB      O  
+13     constitutes     constitutes  VBZ      O  
+14               a               a   DT      O  
+15    synapomorphy    synapomorphy   NN      O  
+16          useful          useful   JJ      O  
+17              in              in   IN      O  
+18         de?ning        defining  VBG      O  |||$2
+19             the             the   DT      O  
+20   Trechnotheria   Trechnotheria  NNP      O  
+21               (               (   NN      O  
+22               =               =   JJ      O  
+23      Holotheria      Holotheria   FW      O  
+24       exclusive       exclusive   JJ      O  
+25              of              of   IN      O  
+26   Kuehneotheria   Kuehneotheria  NNP LOCATI  
+27               )               )   CD NUMBER  
+28               .               .    .      O  
+
+ 1               A               A   DT      O  
+ 2             new             new   JJ      O  
+ 3       cladogram       cladogram   NN      O  
+ 4           draws           draws  VBZ      O  
+ 5        together        together   RB      O  
+ 6             all             all   DT      O  
+ 7        relevant        relevant   JJ      O  
+ 8   morphological   morphological   JJ      O  
+ 9            data            data  NNS      O  
+10             for             for   IN      O  
+11             the             the   DT      O  
+12           known           known   JJ      O  
+13     dryolestids     dryolestids  NNS      O  
+14              of              of   IN      O  
+15             the             the   DT      O  
+16           world           world   NN      O  
+17               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2       cladogram       cladogram   NN      O  
+ 3          unites          unites  VBZ      O  
+ 4               ,               ,    ,      O  
+ 5             for             for   IN      O  
+ 6             the             the   DT      O  
+ 7            ?rst           first   NN      O  |||d,sw,edrule$2
+
+ 1             786             786   CD NUMBER  
+ 2         JOURNAL         JOURNAL   NN      O  
+ 3              OF              OF   IN      O  
+ 4      VERTEBRATE      VERTEBRATE  NNP      O  
+ 5    PALEONTOLOGY    PALEONTOLOGY  NNP      O  
+ 6               ,               ,    ,      O  
+ 7             VOL             VOL  NNP      O  
+ 8               .                    .      O  ///$1
+
+ 1              20              20   CD NUMBER  
+ 2               ,               ,    ,      O  
+ 3             No.             NO.   NN      O  |||$2
+ 4               4               4   CD NUMBER  
+ 5               ,               ,    ,      O  
+ 6            2000            2000   CD   DATE  
+
+ 1            time            time   NN      O  
+ 2               ,               ,    ,      O  
+ 3      characters      characters  NNS      O  
+ 4            from            from   IN      O  
+ 5           upper           upper   JJ      O  
+ 6             and             and   CC      O  
+ 7           lower           lower  JJR      O  
+ 8      dentitions      dentitions  NNS      O  
+ 9               ;               ;    :      O  
+10            that            that   DT      O  
+11             was             was  VBD      O  
+12            made            made  VBN      O  
+13        possible       pos-sible   JJ      O  |||rmchar,d,sw$1
+14              by              by   IN      O  
+15             the             the   DT      O  
+16       abundance       abundance   NN      O  
+17              of              of   IN      O  
+18       materials       materials  NNS      O  
+19            from            from   IN      O  
+20       Guimarota       Guimarota  NNP LOCATI  
+21               ,               ,    ,      O  
+22        allowing        allowing  VBG      O  
+23        con?dent       confident   JJ      O  |||$2
+24         linkage         linkage   NN      O  
+25              of              of   IN      O  
+26           upper           upper   JJ      O  
+27             and             and   CC      O  
+28           lower           lower  JJR      O  
+29             jaw             jaw   NN      O  
+30           parts           parts  NNS      O  
+31               .               .    .      O  
+
+ 1      Physically      Physically   RB      O  
+ 2      associated      associated  VBN      O  
+ 3           upper           upper   JJ      O  
+ 4             and             and   CC      O  
+ 5           lower           lower  JJR      O  
+ 6            jaws            jaws  NNS      O  
+ 7            were            were  VBD      O  
+ 8             not             not   RB      O  
+ 9      recognized      recognized  VBN      O  
+10              in              in   IN      O  
+11             the             the   DT      O  
+12      Portuguese      Portuguese   JJ   MISC  
+13         samples         samples  NNS      O  
+14               ,               ,    ,      O  
+15             but             but   CC      O  
+16           sizes           sizes  NNS      O  
+17             and             and   CC      O  
+18        relative        relative   JJ      O  
+19     frequencies     frequencies  NNS      O  
+20              of              of   IN      O  
+21     occurrences     occurrences  NNS      O  
+22              of              of   IN      O  
+23           teeth           teeth  NNS      O  
+24           among           among   IN      O  
+25             the             the   DT      O  
+26         species         species  NNS      O  
+27            make            make  VBP      O  
+28       taxonomic       taxonomic   JJ      O  
+29    associations    associations  NNS      O  
+30       virtually       virtually   RB      O  
+31         certain         certain   JJ      O  
+32               .               .    .      O  
+
+ 1          Martin          Martin  NNP PERSON  
+ 2        suggests        suggests  VBZ      O  
+ 3            that            that   IN      O  
+ 4             the             the   DT      O  
+ 5 anteroposterior an-teroposterior   JJ      O |||$1
+ 6     compression     compression   NN      O  
+ 7              of              of   IN      O  
+ 8          molars          molars  NNS      O  
+ 9              in              in   IN      O  
+10     dryolestids     dryolestids  NNS      O  
+11              is              is  VBZ      O  
+12             due             due   JJ      O  
+13              to              to   TO      O  
+14             the             the   DT      O  
+15       secondary      sec-ondary   JJ      O  |||rmchar,d,sw$1
+16        increase        increase   NN      O  
+17              in              in   IN      O  
+18           molar           molar   JJ      O  
+19         numbers         numbers  NNS      O  
+20               .               .    .      O  
+
+ 1         Through         Through   IN      O  
+ 2            that            that   DT      O  
+ 3        increase        increase   NN      O  
+ 4               ,               ,    ,      O  
+ 5             the             the   DT      O  
+ 6          molars          molars  NNS      O  
+ 7      functioned      functioned  VBD      O  
+ 8            less            less  RBR      O  
+ 9              as              as   IN      O  
+10      individual      individual   JJ      O  
+11           teeth           teeth  NNS      O  
+12            than            than   IN      O  
+13        together        together   RB      O  
+14              as              as   IN      O  
+15               a               a   DT      O  
+16      functional      functional   JJ      O  
+17         battery         battery   NN      O  
+18              of              of   IN      O  
+19           teeth           teeth  NNS      O  
+20               .               .    .      O  
+
+ 1            Even            Even   RB      O  
+ 2             the             the   DT      O  
+ 3           early           early   JJ      O  
+ 4     dryolestids     dryolestids  NNS      O  
+ 5           known           known  VBN      O  
+ 6            from            from   IN      O  
+ 7       Guimarota       Guimarota  NNP LOCATI  
+ 8         exhibit         exhibit  VBP      O  
+ 9      characters     char-acters  NNS      O  |||$1
+10              of              of   IN      O  
+11             the             the   DT      O  
+12          family          family   NN      O  
+13            that            that  WDT      O  
+14             are             are  VBP      O  
+15 distinguishable distinguishable   JJ      O  
+16            from            from   IN      O  
+17            more            more  JJR      O  
+18        advanced        advanced   JJ      O  
+19           forms           forms  NNS      O  
+20            only            only   RB      O  
+21              by              by   IN      O  
+22           small           small   JJ      O  
+23         details         details  NNS      O  
+24               .               .    .      O  
+
+ 1              In              In   IN      O  
+ 2           large           large   JJ      O  
+ 3            part            part   NN      O  
+ 4         because         because   IN      O  
+ 5              of              of   IN      O  
+ 6            that            that   DT      O  
+ 7               ,               ,    ,      O  
+ 8          Martin          Martin  NNP PERSON  
+ 9        suggests        suggests  VBZ      O  
+10            that            that   IN      O  
+11              it              it  PRP      O  
+12              is              is  VBZ      O  
+13              no              no   RB      O  
+14          longer          longer   RB      O  
+15      reasonable      reasonable   JJ      O  
+16              to              to   TO      O  
+17         suggest         suggest   VB      O  
+18            that            that   IN      O  
+19     dryolestids     dryolestids  NNS      O  
+20         derived         derived  VBN      O  
+21            from            from   IN      O  
+22 Amphitherium-like Am-phitherium-like   JJ   MISC |||rmchar,d,sw$1
+23      precursors      precursors  NNS      O  
+24               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2       extensive       extensive   JJ      O  
+ 3         samples         samples  NNS      O  
+ 4            from            from   IN      O  
+ 5       Guimarota       Guimarota  NNP LOCATI  
+ 6         provide         provide  VBP      O  
+ 7      invaluable      invaluable   JJ      O  
+ 8     information    informa-tion   NN      O  |||$1
+ 9           about           about   IN      O  
+10          dental          dental   JJ      O  
+11        formulas        formulas  NNS      O  
+12              in              in   IN      O  
+13       primitive       primitive   JJ      O  
+14     dryolestids     dryolestids  NNS      O  
+15               ,               ,    ,      O  
+16      especially      especially   RB      O  
+17             for             for   IN      O  
+18      Dryolestes     Dry-olestes  NNS      O  |||rmchar,d,sw$1
+19      leiriensis      leiI.iensi   NN      O  |||$1
+20               .              s.    .      O  |||$1
+
+ 1             The             The   DT      O  
+ 2           count           count   NN      O  
+ 3              in              in   IN      O  
+ 4            that            that   DT      O  
+ 5         species         species  NNS      O  
+ 6              is              is  VBZ      O  
+ 7               :               :    :      O  
+ 8            I5/4            IS/4   NN      O  |||$1
+ 9               ,               ,    ,      O  
+10              Cl              C1   NN      O  |||$2
+11               /               /    :      O  
+12               1               1   CD NUMBER  
+13               ,               ,    ,      O  
+14            P4/4            P4/4   NN      O  
+15               ,               ,    ,      O  
+16              M7              M7   NN      O  
+17               ?               ?   CD NUMBER  
+18               8               ?   CD NUMBER  |||$1
+19               /             ?8/    :      O  |||$1
+20             8-9             8??   CD NUMBER  |||$1
+21               .             ?9.    .      O  |||$1
+
+ 1             The             The   DT      O  
+ 2            last            last   JJ      O  
+ 3          molars          molars  NNS      O  
+ 4              in              in   IN      O  
+ 5           upper           upper   JJ      O  
+ 6             and             and   CC      O  
+ 7           lower           lower  JJR      O  
+ 8            jaws            jaws  NNS      O  
+ 9             are             are  VBP      O  
+10     rudimentary     rudimentary   JJ      O  
+11              if              if   IN      O  
+12         present         present   JJ   DATE  
+13             but             but   CC      O  
+14            more            more  RBR      O  
+15           often           often   RB      O  
+16          absent          absent   JJ      O  
+17               .               .    .      O  
+
+ 1          Except          Except   IN      O  
+ 2             for             for   IN      O  
+ 3             the             the   DT      O  
+ 4       secondary       secondary   JJ      O  
+ 5     advancement     advancement   NN      O  
+ 6              in              in   IN      O  
+ 7       increased      in-creased  VBN      O  |||$1
+ 8           molar           molar   JJ      O  
+ 9           count           count   NN      O  
+10               ,               ,    ,      O  
+11             the             the   DT      O  
+12         overall         overall   JJ      O  
+13         formula         formula   NN      O  
+14              is              is  VBZ      O  
+15           close           close   JJ      O  
+16              to              to   TO      O  
+17            what            what   WP      O  
+18             one             one  PRP NUMBER  
+19           might           might   MD      O  
+20          expect          expect   VB      O  
+21              in              in   IN      O  
+22               a               a   DT      O  
+23          common          common   JJ      O  
+24        ancestor        ancestor   NN      O  
+25              to              to   TO      O  
+26      marsupials      marsupials  NNS      O  
+27             and             and   CC      O  
+28      placentals      placentals  NNS      O  
+29               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2           paper           paper   NN      O  
+ 3            also            also   RB      O  
+ 4        presents        presents  VBZ      O  
+ 5             the             the   DT      O  
+ 6            ?rst           first   JJ      O  |||d,sw,edrule$2
+ 7        detailed        detailed   JJ      O  
+ 8           study           study   NN      O  
+ 9              of              of   IN      O  
+10  pre-Cretaceous  pre-Cretaceous   JJ      O  
+11           tooth           tooth   NN      O  
+12     replacement     replacement   NN      O  
+13          within          within   IN      O  
+14             the             the   DT      O  
+15      Holotheria      Holotheria  NNP      O  
+16               .               .    .      O  
+
+ 1            Most            Most  JJS      O  
+ 2   interestingly   interestingly   RB      O  
+ 3               ,               ,    ,      O  
+ 4              D.              D.  NNP      O  
+ 5      leiriensis      leiriensis  NNP      O  
+ 6       exhibited       exhibited  VBD      O  
+ 7             the             the   DT      O  
+ 8           basic           basic   JJ      O  
+ 9         pattern         pattern   NN      O  
+10              of              of   IN      O  
+11     diphyodonty     diphyodonty   NN      O  
+12  characteristic  characteristic   NN      O  
+13              of              of   IN      O  
+14     generalized     generalized  VBN      O  
+15       placental       placental   JJ      O  
+16         mammals         mammals  NNS      O  
+17               (               (  VBP      O  
+18            i.e.            i.e.   FW      O  
+19               ,               ,    ,      O  
+20       replacing       replacing  VBG      O  
+21            only            only   RB      O  
+22             the             the   DT      O  
+23       antemolar       antemolar   JJ      O  
+24           teeth           teeth  NNS      O  
+25               )               )  VBP      O  
+26               .               .    .      O  
+
+ 1          Martin          Martin  NNP PERSON  
+ 2            uses            uses  VBZ      O  
+ 3            that            that   IN      O  
+ 4     information     information   NN      O  
+ 5              to              to   TO      O  
+ 6         suggest         suggest   VB      O  
+ 7            that            that   IN      O  
+ 8     dryolestids     dryolestids  NNS      O  
+ 9             did             did  VBD      O  
+10             not             not   RB      O  
+11            have            have   VB      O  
+12             the             the   DT      O  
+13    reproductive    reproductive   JJ      O  
+14         pattern         pattern   NN      O  
+15              of              of   IN      O  
+16           short           short   JJ      O  
+17       gestation       gestation   NN      O  
+18              in              in   IN      O  
+19     combination     combination   NN      O  
+20            with            with   IN      O  
+21       prolonged       prolonged   JJ      O  
+22       lactation       lactation   NN      O  
+23            that            that  WDT      O  
+24              is              is  VBZ      O  
+25  characteristic  characteristic   JJ      O  
+26              of              of   IN      O  
+27          living          living  VBG      O  
+28      marsupials      marsupials  NNS      O  
+29               .               .    .      O  
+
+ 1        Although        Although   IN      O  
+ 2              we              we  PRP      O  
+ 3            will            will   MD      O  
+ 4        probably        probably   RB      O  
+ 5           never           never   RB      O  
+ 6            know            know   VB      O  
+ 7            this            this   DT      O  
+ 8             for             for   IN      O  
+ 9         certain         certain   JJ      O  
+10               ,               ,    ,      O  
+11               I               I  PRP      O  
+12           would           would   MD      O  
+13         venture         venture   VB      O  
+14              to              to   TO      O  
+15             add             add   VB      O  
+16            that            that   DT      O  
+17               :               :    :      O  
+18               (               (   CD NUMBER  
+19               1               1   CD NUMBER  
+20               )               )   CD NUMBER  
+21          Martin          Martin  NNP PERSON  
+22              ?s              's  POS      O  |||sw,twchar$2
+23  interpretation inter-pretation   NN      O  |||rmchar,d,sw$1
+24              is              is  VBZ      O  
+25      reasonable      reasonable   JJ      O  
+26               ;               ;    :      O  
+27             and             and   CC      O  
+28               (               (   NN      O  
+29               2               2   CD NUMBER  
+30               )               )   CD NUMBER  
+31             the             the   DT      O  
+32      dryolestid      dryolestid   NN      O  
+33           tooth           tooth   NN      O  
+34     replacement     replacement   NN      O  
+35         pattern         pattern   NN      O  
+36           could           could   MD      O  
+37            well            well   RB      O  
+38            have            have   VB      O  
+39       developed       developed  VBN      O  
+40           while           while   IN      O  
+41       oviparity       oviparity   NN      O  
+42           still           still   RB      O  
+43       prevailed       prevailed  VBD      O  
+44              in              in   IN      O  
+45       mammalian       mammalian   JJ      O  
+46    reproduction    reproduction   NN      O  
+47               .               .    .      O  
+
+ 1              On              On   IN      O  
+ 2             the             the   DT      O  
+ 3           basis           basis   NN      O  
+ 4              of              of   IN      O  
+ 5          faunal          faunal   JJ      O  
+ 6        evidence        evidence   NN      O  
+ 7               (               (   CD NUMBER  
+ 8     principally     principally   RB      O  
+ 9            from            from   IN      O  
+10          fossil          fossil   JJ      O  
+11         mammals         mammals  NNS      O  
+12             and             and   CC      O  
+13      ostracodes      ostracodes  NNS      O  
+14               )               )   RB      O  
+15               ,               ,    ,      O  
+16          Martin          Martin  NNP PERSON  
+17        suggests        suggests  VBZ      O  
+18       existence       existence   NN      O  
+19              of              of   IN      O  
+20          strong          strong   JJ      O  
+21 biogeographical biogeographical   JJ      O  
+22     connections     connections  NNS      O  
+23         between         between   IN      O  
+24         western         western   JJ      O  
+25        Portugal        Portugal  NNP LOCATI  
+26             and             and   CC      O  
+27             the             the   DT      O  
+28           North           North   JJ ORGANI  
+29        American        American   JJ ORGANI  
+30         Rockies         Rockies  NNPS ORGANI 
+31          during          during   IN      O  
+32             the             the   DT      O  
+33            Late            Late   JJ      O  
+34        Jurassic        Jurassic   JJ      O  
+35               (               (   NN      O  
+36             and             and   CC      O  
+37      continuing      continuing  VBG      O  
+38           until           until   IN      O  
+39             the             the   DT      O  
+40        Jurassic        Jurassic   JJ      O  
+41               .               ?    .      O  |||$-
+
+ 1               ?               ?   NN      O  
+ 2               .               ?    .      O  |||$3
+
+ 1      Cretaceous      Cretaceous   JJ      O  
+ 2      transition      transition   NN      O  
+ 3               )               }   NN      O  |||$1
+ 4               .               .    .      O  
+
+ 1 Paleogeographic Paleogeographic   JJ   MISC  
+ 2         effects         effects  NNS      O  
+ 3              of              of   IN      O  
+ 4             the             the   DT      O  
+ 5         opening         opening   NN      O  
+ 6              of              of   IN      O  
+ 7             the             the   DT      O  
+ 8           proto           proto   NN      O  
+ 9               .               -    .      O  |||$2
+
+ 1               ?               N   NN      O  |||$3
+ 2               .               o    .      O  |||$3
+
+ 1           North             rth  NNP LOCATI  |||$1
+ 2        Atlantic        Atlantic  NNP LOCATI  
+ 3           basin           basin   NN      O  
+ 4               ,               ,    ,      O  
+ 5       therefore       therefore   RB      O  
+ 6               ,               ,    ,      O  
+ 7            were            were  VBD      O  
+ 8             not             not   RB      O  
+ 9              as              as   RB      O  
+10       important       important   JJ      O  
+11              in              in   IN      O  
+12         forming         forming  VBG      O  
+13        barriers        barriers  NNS      O  
+14              to              to   TO      O  
+15          faunal          faunal   JJ      O  
+16        exchange        exchange   NN      O  
+17              as              as   IN      O  
+18             had             had  VBD      O  
+19            been            been  VBN      O  
+20         assumed         assumed  VBN      O  
+21      previously      previously   RB   DATE  
+22               .               .    .      O  
+
+ 1              He              He  PRP      O  
+ 2          closes          closes  VBZ      O  
+ 3             the             the   DT      O  
+ 4    biogeography   bio-geography   NN      O  |||$1
+ 5         section         section   NN      O  
+ 6            with            with   IN      O  
+ 7               a               a   DT      O  
+ 8      suggestion      suggestion   NN      O  
+ 9            that            that  WDT      O  
+10     dryolestids     dryolestids  VBZ      O  
+11            were            were  VBD      O  
+12     distributed     distributed  VBN      O  
+13       worldwide       worldwide   RB      O  
+14              by              by   IN      O  
+15          latest          latest  JJS      O  
+16        Jurassic        Jurassic   JJ      O  
+17             and             and   CC      O  
+18        earliest        earliest  JJS      O  
+19      Cretaceous      Cretaceous   JJ   MISC  
+20            time            time   NN      O  
+21               ;               ;    :      O  
+22               a               a   DT      O  
+23             few             few   JJ      O  
+24           forms           forms  NNS      O  
+25             are             are  VBP      O  
+26           known           known  VBN      O  
+27              to              to   TO      O  
+28            have            have   VB      O  
+29       persisted       persisted  VBN      O  
+30              in              in   IN      O  
+31           South           South  NNP LOCATI  
+32             and             and   CC      O  
+33           North           North  NNP LOCATI  
+34         America         America  NNP LOCATI  
+35            into            into   IN      O  
+36             the             the   DT      O  
+37            Late            Late   JJ      O  
+38      Cretaceous      Cretaceous   JJ      O  
+39               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2       monograph       monograph   NN      O  
+ 3              is              is  VBZ      O  
+ 4         written         written  VBN      O  
+ 5              in              in   IN      O  
+ 6      high-level      high-level   JJ      O  
+ 7               ,               ,    ,      O  
+ 8      vocabulary      vocabulary   NN      O  
+ 9               ?               -   CD NUMBER  |||$2
+10            rich            rich   JJ      O  
+11        academic        academic   JJ      O  
+12     Hochdeutsch     Hochdeutsch   NN      O  
+13             and             and   CC      O  
+14              is              is  VBZ      O  
+15             not             not   RB      O  
+16             for             for   IN      O  
+17             the             the   DT      O  
+18           faint           faint   JJ      O  
+19              at              at   IN      O  
+20           heart           heart   NN      O  
+21               .               .    .      O  
+
+ 1         Despite         Despite   IN      O  
+ 2             its             its  PRP$      O 
+ 3       dif?culty      difficulty   NN      O  |||$2
+ 4             for             for   IN      O  
+ 5      non-native      non-native   JJ      O  
+ 6 German-speakers German-speakers  NNS      O  
+ 7               ,               ,    ,      O  
+ 8               I               I  PRP      O  
+ 9            View            view  NNP      O  |||$2
+10          Thomas          Thomas  NNP PERSON  
+11          Martin          Martin  NNP PERSON  
+12              ?s              's  POS      O  |||sw,twchar$2
+13           paper           paper   NN      O  
+14              as              as   IN      O  
+15          having          having  VBG      O  
+16        provided        provided  VBN      O  
+17               a               a   DT      O  
+18    tremendously    tremendously   RB      O  
+19       important       important   JJ      O  
+20         service         service   NN      O  
+21              to              to   TO      O  
+22             the             the   DT      O  
+23         general         general   JJ      O  
+24       community       community   NN      O  
+25              of              of   IN      O  
+26        Mesozoic        Mesozoic   JJ   MISC  
+27    mammalogists    mammalogists  NNS      O  
+28               .               .    .      O  
+
+ 1            Also            Also   RB      O  
+ 2               ,               ,    ,      O  
+ 3             the             the   DT      O  
+ 4           whole           whole   JJ      O  
+ 5       Guimarota       Guimarota  NNP      O  
+ 6           fauna           fauna  NNS      O  
+ 7          stands          stands  VBZ      O  
+ 8              as              as   IN      O  
+ 9               a               a   DT      O  
+10        monument        monument   NN      O  
+11              to              to   TO      O  
+12             the             the   DT      O  
+13       scienti?c      scientific   NN      O  |||$2
+14           value           value   NN      O  
+15              of              of   IN      O  
+16       combining       combining  VBG      O  
+17        diligent        diligent   JJ      O  
+18        ?eldwork        fieldwor   NN      O  |||$fieldwork
+19               ,              k,    ,      O  |||$1
+20            1ong            long   CD NUMBER  |||$2
+21               ?               -   CD NUMBER  |||$2
+22            term            term   NN      O  
+23         efforts         efforts  NNS      O  
+24              in              in   IN      O  
+25      collection      collection   NN      O  
+26               ,               ,    ,      O  
+27             and             and   CC      O  
+28      meticulous      meticulous   JJ      O  
+29     preparation     preparation   NN      O  
+30             and             and   CC      O  
+31        curation        curation   NN      O  
+32               .               .    .      O  
+
+ 1             All             All   DT      O  
+ 2              of              of   IN      O  
+ 3              us              us  PRP      O  
+ 4               ,               ,    ,      O  
+ 5       including       including  VBG      O  
+ 6          Martin          Martin  NNP PERSON  
+ 7               ,               ,    ,      O  
+ 8             are             are  VBP      O  
+ 9             now             now   RB   DATE  
+10       bene?ting      benefiting  VBG      O  |||$2
+11            from            from   IN      O  
+12             the             the   DT      O  
+13      prodigious      prodigious   JJ      O  
+14         efforts         efforts  NNS      O  
+15             put             put  VBD      O  
+16           forth           forth   RB      O  
+17              at              at   IN      O  
+18       Guimarota       Guimarota  NNP LOCATI  
+19              by              by   IN      O  
+20             the             the   DT      O  
+21        talented        talented   JJ      O  
+22           array           array   NN      O  
+23              of              of   IN      O  
+24             his             his  PRP$      O 
+25    predecessors    predecessors  NNS      O  
+26            from            from   IN      O  
+27          Berlin          Berlin  NNP LOCATI  
+28               .               .    .      O  
+
+ 1           JASON           JASON  NNP PERSON  
+ 2              A.              A.  NNP PERSON  
+ 3        LILLEGRA        LILLEGRA  NNP PERSON  
+ 4             VEN             VEN  NNP      O  
+ 5     Departments     Departments  NNP      O  
+ 6              of              of   IN      O  
+ 7 Geology/Geophysics Geology/Geophysics  NNPS      O ///$1
+ 8             and             and   CC      O  
+ 9 Zoology/Physiology Zoology/Physiology  NNP      O  ///$1
+10             The             The  NNP      O  
+11      University      University  NNP ORGANI  
+12              of              of   IN ORGANI  
+13         Wyoming         Wyoming  NNP ORGANI  
+14         Laramie         Laramie  NNP ORGANI  
+15               ,               ,    ,      O  
+16         Wyoming         Wyoming  NNP LOCATI  
+17      82071-3006      82071-3006   CD NUMBER  
+
+ 1        Received        Received  VBN      O  
+ 2              16              16   CD   DATE  
+ 3            June            June  NNP   DATE  
+ 4            2000            2000   CD   DATE  
+ 5               ;               ;    :      O  
+ 6        accepted        accepted  VBN      O  
+ 7              28              28   CD NUMBER  
+ 8            Jane            June  NNP      O  |||$2
+ 9            2000            2000   CD   DATE  
+10               .               .    .      O  
+
+ 1        HOMINOID        HOMINOID  NNP      O  
+ 2       EVOLUTION       EVOLUTION  NNP      O  
+ 3             AND             AND   CC      O  
+ 4        CLIMATIC        CLIMATIC  NNP      O  
+ 5          CHANGE          CHANGE  NNP      O  
+ 6              IN              IN   IN      O  
+ 7          EUROPE          EUROPE  NNP LOCATI  
+ 8               :               :    :      O  
+ 9          VOLUME          VOLUME   NN      O  
+10               1               1   CD NUMBER  
+11               ,               ,    ,      O  
+12             THE             THE   DT      O  
+13       EVOLUTION       EVOLUTION   NN      O  
+14              OF              OF   IN      O  
+15         NEOGENE         NEOGENE  NNP      O  
+16             TER             TER  NNP      O  
+17               ?               -   CD NUMBER  |||$2
+18        RESTRIAL        RESTRIAL  NNP      O  
+19      ECOSYSTEMS      ECOSYSTEMS  NNP      O  
+20              IN              IN   IN      O  
+21          EUROPE          EUROPE  NNP LOCATI  
+22               ,               ,    ,      O  
+23              by              by   IN      O  
+24               J               J   NN      O  
+25               .               .    .      O  
+
+ 1          Agusti          Agusti  NNP PERSON  
+ 2               ,               ,    ,      O  
+ 3              L.              L.  NNP PERSON  
+ 4            Rook            Rook  NNP PERSON  
+ 5               ,               ,    ,      O  
+ 6             and             and   CC      O  
+ 7              P.              P.  NNP PERSON  
+ 8         Andrews         Andrews  NNP PERSON  
+ 9               (               (   CD NUMBER  
+10             eds             eds  NNS      O  
+11               .               .    .      O  
+12               )               )  SYM      O  
+
+ 1               ,               ,    ,      O  
+ 2            1999            1999   CD   DATE  
+ 3               .               .    .      O  
+
+ 1       Cambridge       Cambridge  NNP ORGANI  
+ 2      University      University  NNP ORGANI  
+ 3           Press           Press  NNP ORGANI  
+ 4               ,               ,    ,      O  
+ 5             512             512   CD NUMBER  
+ 6             pp.             pp.   NN      O  
+ 7               ,               ,    ,      O  
+ 8               $               $    $  MONEY  
+ 9             100             100   CD  MONEY  
+10               (               (   CD  MONEY  
+11        hardback        hardback   NN      O  
+12               )               )   NN      O  
+13               ,               ,    ,      O  
+14            ISBN            ISBN  NNP      O  
+15   0-521-64097-0   0-521-64097-0   CD NUMBER  
+16               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2           theme           theme   NN      O  
+ 3              of              of   IN      O  
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6              is              is  VBZ      O  
+ 7            well            well   RB      O  
+ 8             set             set  VBN      O  
+ 9            with            with   IN      O  
+10             the             the   DT      O  
+11           cover           cover   NN      O  
+12    illustration    illustration   NN      O  
+13              of              of   IN      O  
+14               a               a   DT      O  
+15  reconstruction  reconstruction   NN      O  
+16              of              of   IN      O  
+17             the             the   DT      O  
+18           early           early   JJ      O  
+19        Turolian        Turolian   JJ   MISC  
+20       landscape       landscape   NN      O  
+21            from            from   IN      O  
+22     Crevillente     Crevillente  NNP LOCATI  
+23               ,               ,    ,      O  
+24         eastern         eastern   JJ      O  
+25           Spain           Spain  NNP LOCATI  
+26               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         editors         editors  NNS      O  
+ 3            have            have  VBP      O  
+ 4       assembled       assembled  VBN      O  
+ 5              23              23   CD NUMBER  
+ 6        chapters        chapters  NNS      O  
+ 7         written         written  VBN      O  
+ 8              by              by   IN      O  
+ 9              59              59   CD NUMBER  
+10         authors         authors  NNS      O  
+11             and             and   CC      O  
+12       assembled       assembled  VBN      O  
+13            into            into   IN      O  
+14            four            four   CD NUMBER  
+15           parts           parts  NNS      O  
+16          within          within   IN      O  
+17             the             the   DT      O  
+18             512             512   CD NUMBER  
+19           pages           pages  NNS      O  
+20               ,               ,    ,      O  
+21       including       including  VBG      O  
+22               a               a   DT      O  
+23   comprehensive  com-prehensive   JJ      O  |||rmchar,d,sw$1
+24           index           index   NN      O  
+25               .               .    .      O  
+
+ 1               ?               "   NN      O  |||$2
+ 2             The             The   DT      O  
+ 3            late            late   JJ      O  
+ 4         Neogene         Neogene   JJ      O  
+ 5               (               (   NN      O  
+ 6             the             the   DT      O  
+ 7          period          period   NN      O  
+ 8         between         between   IN      O  
+ 9               ?               ?   CD NUMBER  
+10              l4            ??14   NN      O  |||$14
+11             and             and   CC      O  
+12               ?             ???   NN      O  |||$3
+13             2.4             2.4   CD NUMBER  
+14              Ma              Ma  NNP      O  
+15               )               )   CD NUMBER  
+16              is              is  VBZ      O  
+17             one             one   CD NUMBER  
+18              of              of   IN      O  
+19             the             the   DT      O  
+20            most            most  RBS      O  
+21     interesting     interesting   JJ      O  
+22          phases          phases  NNS      O  
+23              in              in   IN      O  
+24      understand      understand  VBP      O  
+25               [               [   CD NUMBER  
+26             ing             ing   JJ      O  
+27               ]               ]   NN      O  
+28             the             the   DT      O  
+29         present         present   JJ   DATE  
+30    con?guration   configuration   NN      O  |||$2
+31              of              of   IN      O  
+32     terrestrial     terrestrial   JJ      O  
+33      ecosystems      ecosystems  NNS      O  
+34               .               .    .      O  
+
+ 1              It              It  PRP      O  
+ 2             was             was  VBD      O  
+ 3          during          during   IN      O  
+ 4            this            this   DT      O  
+ 5            time            time   NN      O  
+ 6            that            that   IN      O  
+ 7             the             the   DT      O  
+ 8          change          change   NN      O  
+ 9            took            took  VBD      O  
+10           place           place   NN      O  
+11            from            from   IN      O  
+12             the             the   DT      O  
+13          middle          middle   JJ      O  
+14         Miocene         Miocene   JJ   MISC  
+15        dominant        dominant   JJ      O  
+16     subtropical    subtrop-ical   JJ      O  |||rmchar,d,sw$1
+17         forests         forests  NNS      O  
+18            that            that  WDT      O  
+19       stretched       stretched  VBD      O  
+20          across          across   IN      O  
+21        southern        southern   JJ      O  
+22          Europe          Europe  NNP LOCATI  
+23             and             and   CC      O  
+24         western         western   JJ      O  
+25            Asia            Asia  NNP LOCATI  
+26              to              to   TO      O  
+27               a               a   DT      O  
+28            more            more  RBR      O  
+29            open            open   JJ      O  
+30             but             but   CC      O  
+31           still           still   RB      O  
+32          wooded          wooded   JJ      O  
+33         biotope         biotope   NN      O  
+34            that            that  WDT      O  
+35             now             now   RB   DATE  
+36        prevails        prevails  VBZ      O  
+37              in              in   IN      O  
+38   warmtemperate warm-tem-perate   NN      O  |||rmchar,d,sw$1
+39           areas           areas  NNS      O  
+40               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2          change          change   NN      O  
+ 3              in              in   IN      O  
+ 4      vegetation      vegetation   NN      O  
+ 5               ,               ,    ,      O  
+ 6           which           which  WDT      O  
+ 7        strongly        strongly   RB      O  
+ 8        affected        affected  VBD      O  
+ 9             the             the   DT      O  
+10     composition     composition   NN      O  
+11              of              of   IN      O  
+12       mammalian       mammalian   JJ      O  
+13          faunas          faunas  NNS      O  
+14               ,               ,    ,      O  
+15           seems           seems  VBZ      O  
+16              to              to   TO      O  
+17              be              be   VB      O  
+18          linked          linked  VBN      O  
+19              to              to   TO      O  
+20             the             the   DT      O  
+21           rapid           rapid   JJ      O  
+22          spread          spread   NN      O  
+23              of              of   IN      O  
+24         grasses         grasses  NNS      O  
+25          around          around   IN      O  
+26            8-10          8???10   CD NUMBER  |||$1
+27              Ma              Ma  NNP      O  
+28             ago             ago   RB      O  
+29               .               .    .      O  
+
+ 1        Moreover        Moreover   RB      O  
+ 2               ,               ,    ,      O  
+ 3              in              in   IN      O  
+ 4             the             the   DT      O  
+ 5            late            late   JJ      O  
+ 6         Neogene         Neogene  NNP      O  
+ 7               ,               ,    ,      O  
+ 8        climatic        climatic   JJ      O  
+ 9          shifts          shifts  NNS      O  
+10             and             and   CC      O  
+11         falling         falling  VBG      O  
+12    temperatures    temperatures  NNS      O  
+13             due             due   JJ      O  
+14              to              to   TO      O  
+15             the             the   DT      O  
+16          spread          spread   NN      O  
+17              of              of   IN      O  
+18             the             the   DT      O  
+19       Antarctic      Ant-arctic   JJ   MISC  |||rmchar,d,sw$1
+20             Ice             Ice   NN   MISC  
+21               ,               ,    ,      O  
+22            were            were  VBD      O  
+23        followed        followed  VBN      O  
+24              by              by   IN      O  
+25             the             the   DT      O  
+26            Plio            Plio  NNP      O  
+27               .               -    .      O  |||$2
+
+ 1               ?               P   NN      O  |||$3
+ 2               .               l    .      O  |||$3
+
+ 1     Plesitocene       esitocene  NNP   MISC  |||$1
+ 2          Arctic          Arctic  NNP   MISC  
+ 3     glaciations     glaciations  NNS      O  
+ 4              in              in   IN      O  
+ 5             the             the   DT      O  
+ 6        Northern        Northern   NN LOCATI  
+ 7      Hemisphere      Hemisphere  NNP LOCATI  
+ 8           . . .               .  NNP      O  |||$1
+ 9              At             .At   IN      O  |||$1
+10             the             the   DT      O  
+11            same            same   JJ      O  
+12            time            time   NN      O  
+13               ,               ,    ,      O  
+14           other           other   JJ      O  
+15        tectonic        tectonic   JJ      O  
+16       processes       processes  NNS      O  
+17            like            like   IN      O  
+18             the             the   DT      O  
+19       Himalayan       Himalayan  NNP   MISC  
+20             and             and   CC      O  
+21             the             the   DT      O  
+22         Tibetan         Tibetan  NNP   MISC  
+23         uplifts         uplifts  VBZ      O  
+24             and             and   CC      O  
+25             the             the   DT      O  
+26         opening         opening  VBG      O  
+27              up              up   RB      O  
+28              of              of   IN      O  
+29             the             the   DT      O  
+30           great           great   JJ      O  
+31         eastern         eastern   JJ      O  
+32         African         African   JJ   MISC  
+33          basins          basins  NNS      O  
+34             and             and   CC      O  
+35             Red             Red  NNP LOCATI  
+36             Sea             Sea  NNP LOCATI  
+37               ,               ,    ,      O  
+38        although        although   IN      O  
+39         working         working  VBG      O  
+40              in              in   IN      O  
+41        opposite        opposite   JJ      O  
+42      directions      directions  NNS      O  
+43               ,               ,    ,      O  
+44        favoured        favoured  VBD      O  
+45             the             the   DT      O  
+46       processes       processes  NNS      O  
+47              of              of   IN      O  
+48      speciation      speciation   NN      O  
+49             and             and   CC      O  
+50        isolated        isolated  VBN      O  
+51       evolution       evolution   NN      O  
+52               .               .    .      O  
+
+ 1               ?               "   RB      O  |||$2
+ 2              So              So   RB      O  
+ 3          begins          begins  VBZ      O  
+ 4            page            page   NN      O  
+ 5             one             one   CD NUMBER  
+ 6             and             and   CC      O  
+ 7            sets            sets  VBZ      O  
+ 8             the             the   DT      O  
+ 9            pace            pace   NN      O  
+10              of              of   IN      O  
+11            this            this   DT      O  
+12            fact            fact   NN      O  
+13               ?               -   NN      O  |||$2
+14           ?lled          filled  VBD      O  |||$2
+15          volume          volume   NN      O  
+16               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2        European        European   JJ ORGANI  
+ 3         Science         Science  NNP ORGANI  
+ 4      Foundation      Foundation  NNP ORGANI  
+ 5             set             set  VBD      O  
+ 6           about           about   IN      O  
+ 7             the             the   DT      O  
+ 8       scienti?c      scientific   NN      O  |||$2
+ 9         network         network   NN      O  
+10               ?               '   CD NUMBER  |||$2
+11        Hominoid       Homi-noid   JJ      O  |||rmchar,d,sw$1
+12       evolution       evolution   NN      O  
+13             and             and   CC      O  
+14   environmental   environmental   JJ      O  
+15          change          change   NN      O  
+16              on              on   IN      O  
+17             the             the   DT      O  
+18         Neogene         Neogene   NN      O  
+19              of              of   IN      O  
+20          Europe          Europe  NNP LOCATI  
+21               ?               '   CD NUMBER  |||$2
+22              in              in   IN      O  
+23            1995            1995   CD   DATE  
+24               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2            goal            goal   NN      O  
+ 3              of              of   IN      O  
+ 4            this            this   DT      O  
+ 5         network         network   NN      O  
+ 6             was             was  VBD      O  
+ 7              to              to   TO      O  
+ 8          create          create   VB      O  
+ 9               a               a   DT      O  
+10        database        database   NN      O  
+11           about           about   IN      O  
+12         Neogene        Neo-gene  NNP   MISC  |||rmchar,d,sw$1
+13         mammals         mammals  NNS      O  
+14              of              of   IN      O  
+15         Eurasia         Eurasia  NNP LOCATI  
+16               .               .    .      O  
+
+ 1       Workshops       Workshops  NNS      O  
+ 2            were            were  VBD      O  
+ 3       organized       organized  VBN      O  
+ 4              to              to   TO      O  
+ 5         analyze         analyze   VB      O  
+ 6             the             the   DT      O  
+ 7       different       different   JJ      O  
+ 8         aspects         aspects  NNS      O  
+ 9              of              of   IN      O  
+10             the             the   DT      O  
+11            late            late   JJ      O  
+12         Neogene         Neogene   NN      O  
+13               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2            ?rst           first   JJ      O  |||d,sw,edrule$2
+ 3        workshop        workshop   NN      O  
+ 4             was             was  VBD      O  
+ 5            held            held  VBN      O  
+ 6              in              in   IN      O  
+ 7            Sant            Sant  NNP PERSON  
+ 8           Feliu           Feliu  NNP PERSON  
+ 9              de              de   IN PERSON  
+10         Guixols         Guixols  NNP PERSON  
+11               ,               ,    ,      O  
+12           Spain           Spain  NNP LOCATI  
+13               ,               ,    ,      O  
+14            with            with   IN      O  
+15             the             the   DT      O  
+16          second          second   JJ ORDINA  
+17              in              in   IN      O  
+18         Certosa         Certosa  NNP LOCATI  
+19              di              di   FW LOCATI  
+20      Portignano      Portignano  NNP LOCATI  
+21               ,               ,    ,      O  
+22           Siena           Siena  NNP LOCATI  
+23               ,               ,    ,      O  
+24           Italy           Italy  NNP LOCATI  
+25               .               .    .      O  
+
+ 1            Part            Part   NN      O  
+ 2               I               I   NN      O  
+ 3              is              is  VBZ      O  
+ 4        entitled        entitled  VBN      O  
+ 5 Palaeogeography Palaeogeography   NN      O  
+ 6              of              of   IN      O  
+ 7             the             the   DT      O  
+ 8 circum-Mediterranean circum-Mediterranean   JJ   MISC  ///$1
+ 9          region          re-gio   NN      O  |||$1
+10               ,              n,    ,      O  |||$1
+11             and             and   CC      O  
+12        includes        includes  VBZ      O  
+13           three           three   CD NUMBER  
+14        chapters        chapters  NNS      O  
+15               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2         section         section   NN      O  
+ 3           works           works  VBZ      O  
+ 4            with            with   IN      O  
+ 5             the             the   DT      O  
+ 6         broader         broader  JJR      O  
+ 7          issues          issues  NNS      O  
+ 8               :               :    :      O  
+ 9               (               (   CD NUMBER  
+10               1               1   CD NUMBER  
+11               )               )   CD NUMBER  
+12   Mediterranean   Mediterranean  NNP LOCATI  
+13             and             and   CC      O  
+14      Paratethys      Paratethys  NNP      O  
+15  paleogeography  paleogeography   NN      O  
+16          during          during   IN      O  
+17             the             the   DT      O  
+18       O1igocene      Ol-igocene   NN      O  |||$Oligocene
+19             and             and   CC      O  
+20         Miocene         Miocene   NN   MISC  
+21               ;               ;    :      O  
+22               (               (   NN      O  
+23               2               2   CD NUMBER  
+24               )               )   CD NUMBER  
+25        Pliocene        Pliocene   JJ   MISC  
+26          tephra          tephra   NN      O  
+27    correlations    correlations  NNS      O  
+28         between         between   IN      O  
+29            East            East   JJ   MISC  
+30         African         African   JJ   MISC  
+31         hominid         hominid   NN      O  
+32      localities      localities  NNS      O  
+33              in              in   IN      O  
+34             the             the   DT      O  
+35            Gulf            Gulf  NNP LOCATI  
+36              of              of   IN LOCATI  
+37            Aden            Aden  NNP LOCATI  
+38             and             and   CC      O  
+39             the             the   DT      O  
+40         Arabian         Arabian  NNP LOCATI  
+41             Sea             Sea  NNP LOCATI  
+42               ;               ;    :      O  
+43             and             and   CC      O  
+44               (               (   NN      O  
+45               3               3   CD NUMBER  
+46               )               )   NN      O  
+47        climatic        climatic   JJ      O  
+48    perspectives    perspectives  NNS      O  
+49             for             for   IN      O  
+50         Neogene         Neogene   JJ      O  
+51   environmental   environmental   JJ      O  
+52 reconstructions reconstruc-tion  NNS      O  |||rmchar,d,sw$1
+53               .              s.    .      O  |||$1
+
+ 1            Part            Part  NNP      O  
+ 2              II              II  NNP      O  
+ 3              is              is  VBZ      O  
+ 4        entitled        entitled  VBN      O  
+ 5         Miocene         Miocene   JJ   MISC  
+ 6       mammalian       mammalian   JJ      O  
+ 7     successions     successions  NNS      O  
+ 8               ,               ,    ,      O  
+ 9             and             and   CC      O  
+10        includes        includes  VBZ      O  
+11            nine            nine   CD NUMBER  
+12        chapters        chapters  NNS      O  
+13               .               .    .      O  
+
+ 1          Topics          Topics  NNS   MISC  
+ 2         include         include  VBP      O  
+ 3               :               :    :      O  
+ 4               (               (   CD NUMBER  
+ 5               1               1   CD NUMBER  
+ 6               )               )   NN      O  
+ 7               a               a   DT      O  
+ 8        critical        critical   JJ      O  
+ 9              re              re   NN      O  
+10               ?               -   NN      O  |||$2
+11      evaluation      evaluation   NN      O  
+12              of              of   IN      O  
+13             the             the   DT      O  
+14         Miocene         Miocene   JJ   MISC  
+15          mammal          mammal   NN      O  
+16           units           units  NNS      O  
+17              in              in   IN      O  
+18         western         western   JJ      O  
+19          Europe          Europe  NNP LOCATI  
+20               ;               ;    :      O  
+21               (               (   NN      O  
+22               2               2   CD NUMBER  
+23               )               )   CD NUMBER  
+24             the             the   DT      O  
+25           large           large   JJ      O  
+26         mammals         mammals  NNS      O  
+27            from            from   IN      O  
+28             the             the   DT      O  
+29       Vallesian      Val-lesian   NN      O  |||rmchar,d,sw$1
+30              of              of   IN      O  
+31           Spain           Spain  NNP LOCATI  
+32               ;               ;    :      O  
+33               (               (   CD NUMBER  
+34               3               3   CD NUMBER  
+35               )               )   NN      O  
+36          trends          trends  NNS      O  
+37              in              in   IN      O  
+38          rodent          rodent   JJ      O  
+39     assemblages     assemblages  NNS      O  
+40              of              of   IN      O  
+41           early           early   JJ      O  
+42              to              to   TO      O  
+43          middle          middle   JJ      O  
+44         Miocene         Miocene  NNP      O  
+45              of              of   IN      O  
+46           Spain           Spain  NNP LOCATI  
+47               ;               ;    :      O  
+48               (               (   CD NUMBER  
+49               4               4   CD NUMBER  
+50               )               )   NN      O  
+51            late            late   JJ      O  
+52         Miocene         Miocene   JJ   MISC  
+53           small           small   JJ      O  
+54          mammal          mammal   NN      O  
+55      succession      succession   NN      O  
+56            from            from   IN      O  
+57          France          France  NNP LOCATI  
+58               ;               ;    :      O  
+59               (               (   CD NUMBER  
+60               5               5   CD NUMBER  
+61               )               )   NN      O  
+62            late            late   JJ      O  
+63         Miocene         Miocene   JJ   MISC  
+64         mammals         mammals  NNS      O  
+65            from            from   IN      O  
+66         central         central   JJ      O  
+67          Europe          Europe  NNP LOCATI  
+68               ;               ;    :      O  
+69               (               (   CD NUMBER  
+70               6               6   CD NUMBER  
+71               )               )   CD NUMBER  
+72              an              an   DT      O  
+73        overview       over-view   NN      O  |||rmchar,d,sw$1
+74              of              of   IN      O  
+75         Italian         Italian   JJ   MISC  
+76         Miocene         Miocene   JJ   MISC  
+77            land            land   NN      O  
+78          mammal          mammal   NN      O  
+79          faunas          faunas  NNS      O  
+80               ;               ;    :      O  
+81               (               (   NN      O  
+82               7               7   CD NUMBER  
+83               )               )   CD NUMBER  
+84         Miocene         Miocene   JJ   MISC  
+85           large           large   JJ      O  
+86          mammal         mam-mal   NN      O  |||rmchar,d,sw$1
+87      succession      succession   NN      O  
+88              in              in   IN      O  
+89          Greece          Greece  NNP LOCATI  
+90               ;               ;    :      O  
+91               (               (   CD NUMBER  
+92               8               8   CD NUMBER  
+93               )               )   NN      O  
+94      chronology      chronology   NN      O  
+95             and             and   CC      O  
+96          mammal          mammal   NN      O  
+97          faunas          faunas  NNS      O  
+98              in              in   IN      O  
+99          Turkey          Tur-ke  NNP LOCATI  |||rmchar,d,sw$1
+100               ;              y;    :      O |||$1
+101             and             and   CC      O 
+102               (               (   CD NUMBER 
+103               9               9   CD NUMBER 
+104               )               )   NN      O 
+105            late            late   JJ      O 
+106         Miocene         Miocene   JJ   MISC 
+107           small           small   JJ      O 
+108          mammal          mammal   NN      O 
+109      succession      succession   NN      O 
+110              in              in   IN      O 
+111         Ukraine         Ukraine  NNP LOCATI 
+112               .               .    .      O 
+
+ 1            Part            Part  NNP      O  
+ 2             III             III  NNP      O  
+ 3              is              is  VBZ      O  
+ 4        entitled        entitled  VBN      O  
+ 5 Palaeoenvironments Palaeoenvironments  NNP      O  ///$1
+ 6               :               :    :      O  
+ 7             non             non   JJ      O  
+ 8               ?               -   JJ      O  |||$2
+ 9       mammalian       mammalian   JJ      O  
+10        evidence        evidence   NN      O  
+11               ,               ,    ,      O  
+12             and             and   CC      O  
+13        includes        includes  VBZ      O  
+14             ?ve            five   JJ      O  |||$2
+15        chapters        chapters  NNS      O  
+16               .               .    .      O  
+
+ 1       Ancillary       Ancillary   JJ      O  
+ 2        evidence        evidence   NN      O  
+ 3       presented       presented  VBN      O  
+ 4              in              in   IN      O  
+ 5            this            this   DT      O  
+ 6         section         section   NN      O  
+ 7         include         include  VBP      O  
+ 8               :               :    :      O  
+ 9               (               (   CD NUMBER  
+10               1               1   CD NUMBER  
+11               )               )   NN      O  
+12          marine          marine   JJ      O  
+13    foraminifera    foraminifera   NN      O  
+14               ;               ;    :      O  
+15               (               (   NN      O  
+16               2               2   CD NUMBER  
+17               )               )   CD NUMBER  
+18          marine          marine   JJ      O  
+19          corals          corals  NNS      O  
+20               ;               ;    :      O  
+21               (               (   CD NUMBER  
+22               3               3   CD NUMBER  
+23               )               )   NN      O  
+24      non-marine      non-marine   JJ      O  
+25        mollusks        mol-lusk  NNS      O  |||rmchar,d,sw$1
+26               ;              s;    :      O  |||$1
+27               (               (   CD NUMBER  
+28               4               4   CD NUMBER  
+29               )               )   NN      O  
+30     sedimentary     sedimentary   JJ      O  
+31          facies          facies   NN      O  
+32        analyses        analyses  NNS      O  
+33               ;               ;    :      O  
+34             and             and   CC      O  
+35               (               (   CD NUMBER  
+36               5               5   CD NUMBER  
+37               )               )   NN      O  
+38      vegetation      vegetation   NN      O  
+39         studies         studies  NNS      O  
+40               .               .    .      O  
+
+ 1               I               I  PRP      O  
+ 2           think           think  VBP      O  
+ 3            that            that   IN      O  
+ 4            this            this   DT      O  
+ 5         section         section   NN      O  
+ 6              of              of   IN      O  
+ 7             the             the   DT      O  
+ 8            book            book   NN      O  
+ 9              is              is  VBZ      O  
+10       extremely       extremely   RB      O  
+11       important       important   JJ      O  
+12              as              as   IN      O  
+13              it              it  PRP      O  
+14        presents        presents  VBZ      O  
+15              in              in   IN      O  
+16         general         general   JJ      O  
+17        overview        overview   NN      O  
+18         fashion         fashion   NN      O  
+19           other           other   JJ      O  
+20            data            data  NNS      O  
+21           bases           bases  NNS      O  
+22               .               .    .      O  
+
+ 1               I               I  PRP      O  
+ 2           found           found  VBD      O  
+ 3             the             the   DT      O  
+ 4      non-marine      non-marine   JJ      O  
+ 5       molluscan       molluscan   JJ      O  
+ 6         chapter         chapter   NN      O  
+ 7               (               (   NN      O  
+ 8              by              by   IN      O  
+ 9              D.              D.  NNP PERSON  
+10             Esu             Esu  NNP PERSON  
+11               )               )   CD NUMBER  
+12              to              to   TO      O  
+13              be              be   VB      O  
+14               a               a   DT      O  
+15        welcomed       wel-comed  VBN      O  |||rmchar,d,sw$1
+16        overview        overview   NN      O  
+17            with            with   IN      O  
+18         easy-to         easy-to   JJ      O  
+19               ?               -   NN      O  |||$2
+20      understand      understand  VBP      O  
+21      concluding      concluding  VBG      O  
+22         remarks         remarks  NNS      O  
+23               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2          author         au-thor   NN      O  |||$1
+ 3        included        included  VBD      O  
+ 4             but             but   CC      O  
+ 5             one             one   CD NUMBER  
+ 6           ?gure           figur   NN      O  |||$figure
+ 7               ?               e   NN      O  |||$--
+ 8       schematic    ???schematic   JJ      O  |||$1
+ 9 chronostratigraphic chronostratigraphic   JJ      O  ///$1
+10   relationships  relation-ships  NNS      O  |||$1
+
+ 1           among           among   IN      O  
+ 2          select          select   JJ      O  
+ 3       molluscan       molluscan   NN      O  
+ 4      localities      localities  NNS      O  
+ 5              in              in   IN      O  
+ 6        relation        relation   NN      O  
+ 7              to              to   TO      O  
+ 8        European        European   JJ   MISC  
+ 9          Mammal          Mammal   JJ   MISC  
+10         Neogene         Neogene   NN   MISC  
+11           zones           zones  NNS      O  
+12               ;               ;    :      O  
+13               a               a   DT      O  
+14             map             map   NN      O  
+15           would           would   MD      O  
+16            have            have   VB      O  
+17            been            been  VBN      O  
+18       wonderful       wonderful   JJ      O  
+19               .               .    .      O  
+
+ 1            Most            Most  JJS      O  
+ 2              of              of   IN      O  
+ 3             the             the   DT      O  
+ 4          tables          tables  NNS      O  
+ 5             are             are  VBP      O  
+ 6           lists           lists  NNS      O  
+ 7              of              of   IN      O  
+ 8         species         species  NNS      O  
+ 9              in              in   IN      O  
+10    relationship    relationship   NN      O  
+11              to              to   TO      O  
+12              MN              MN   NN      O  
+13           zones           zones  NNS      O  
+14               .               .    .      O  
+
+ 1              It              It  PRP      O  
+ 2           would           would   MD      O  
+ 3            also            also   RB      O  
+ 4            have            have   VB      O  
+ 5            been            been  VBN      O  
+ 6         helpful         helpful   JJ      O  
+ 7              to              to   TO      O  
+ 8             see             see   VB      O  
+ 9            some            some   DT      O  
+10      concluding      concluding  VBG      O  
+11        diagrams        diagrams  NNS      O  
+12    illustrating    illustrating  VBG      O  
+13             the             the   DT      O  
+14       molluscan       molluscan   NN      O  
+15          record         re-cord   NN      O  |||rmchar,d,sw$1
+16              in              in   IN      O  
+17        relation        relation   NN      O  
+18              to              to   TO      O  
+19         climate         climate   NN      O  
+20               ?               ?   CD NUMBER  
+21            data          ??data  NNS      O  |||$1
+22             all             all   DT      O  
+23       presented       presented  VBN      O  
+24              in              in   IN      O  
+25           prose           prose   NN      O  
+26              in              in   IN      O  
+27             the             the   DT      O  
+28      concluding      concluding  VBG      O  
+29         remarks         remarks  NNS      O  
+30               .               .    .      O  
+
+ 1           Aside           Aside   RB      O  
+ 2            from            from   IN      O  
+ 3           these           these   DT      O  
+ 4           items           items  NNS      O  
+ 5               ,               ,    ,      O  
+ 6             the             the   DT      O  
+ 7            data            data  NNS      O  
+ 8              is              is  VBZ      O  
+ 9              in              in   IN      O  
+10             the             the   DT      O  
+11         chapter         chapter   NN      O  
+12          and/or          and/or   NN      O  
+13              in              in   IN      O  
+14             the             the   DT      O  
+15          listed          listed  VBN      O  
+16      references      references  NNS      O  
+17               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         chapter         chapter   NN      O  
+ 3              by              by   IN      O  
+ 4             Suc             Suc  NNP   MISC  
+ 5              et              et   FW      O  
+ 6             al.             al.   FW      O  
+ 7      concerning      concerning  VBG      O  
+ 8      vegetation      vegetation   NN      O  
+ 9         changes         changes  NNS      O  
+10              is              is  VBZ      O  
+11            also            also   RB      O  
+12              in              in   IN      O  
+13        overview        overview   NN      O  
+14         fashion         fashion   NN      O  
+15               ,               ,    ,      O  
+16            with            with   IN      O  
+17            text            text   NN      O  
+18              at              at   IN      O  
+19               a               a   DT      O  
+20         minimum         minimum   NN      O  
+21               .               .    .      O  
+
+ 1            Five            Five   CD NUMBER  
+ 2           color           color   NN      O  
+ 3            maps            maps  NNS      O  
+ 4            with            with   IN      O  
+ 5     generalized    gen-eralized  VBN      O  |||$1
+ 6          pollen          pollen   NN      O  
+ 7         pro?les        profiles  NNS      O  |||$2
+ 8             and             and   CC      O  
+ 9   reconstructed   reconstructed   JJ      O  
+10      vegetation      vegetation   NN      O  
+11           zones           zones  NNS      O  
+12             are             are  VBP      O  
+13       presented       present-e  VBN      O  |||rmchar,d,sw$1
+14               .              d.    .      O  |||$1
+
+ 1             The             The   DT      O  
+ 2         chapter         chapter   NN      O  
+ 3              is              is  VBZ      O  
+ 4           short           short   JJ      O  
+ 5               ,               ,    ,      O  
+ 6              to              to   TO      O  
+ 7             the             the   DT      O  
+ 8           point           point   NN      O  
+ 9               ,               ,    ,      O  
+10        provides        provides  VBZ      O  
+11     conclusions     conclusions  NNS      O  
+12               ?               -   CD NUMBER  |||$2
+13 reconstructions reconstruc-tion  NNS      O  |||rmchar,d,sw$1
+14               ,              s,    ,      O  |||$1
+15             and             and   CC      O  
+16          points          points  NNS      O  
+17          toward          toward   IN      O  
+18             the             the   DT      O  
+19           major           major   JJ      O  
+20      references      references  NNS      O  
+21               .               .    .      O  
+
+ 1            Part            Part   NN      O  
+ 2              IV              IV   CD NUMBER  
+ 3              is              is  VBZ      O  
+ 4        entitled        entitled  VBN      O  
+ 5 Palaeoenvironments Palaeoenvironments  NNP      O  ///$1
+ 6               :               :    :      O  
+ 7       mammalian       mammalian   JJ      O  
+ 8        evidence        evidence   NN      O  
+ 9               ,               ,    ,      O  
+10             and             and   CC      O  
+11        includes        includes  VBZ      O  
+12             ?ve            five   JJ      O  |||$2
+13        chapters        chapters  NNS      O  
+14               .               .    .      O  
+
+ 1          Mammal          Mammal   JJ      O  
+ 2            data            data   NN      O  
+ 3        analyses        analyses  NNS      O  
+ 4         include         include  VBP      O  
+ 5               :               :    :      O  
+ 6               (               (   CD NUMBER  
+ 7               1               1   CD NUMBER  
+ 8               )               )   NN      O  
+ 9          shrews          shrews  NNS      O  
+10              as              as   IN      O  
+11      indicators      indicators  NNS      O  
+12              of              of   IN      O  
+13    paleoclimate    paleoclimate   NN      O  
+14               ;               ;    :      O  
+15               (               (   CD NUMBER  
+16               2               2   CD NUMBER  
+17               )               )   NN      O  
+18          mammal          mammal   NN      O  
+19        turnover        turnover   NN      O  
+20             and             and   CC      O  
+21          global          global   JJ      O  
+22         climate         climate   NN      O  
+23          change          change   NN      O  
+24              in              in   IN      O  
+25           Spain           Spain  NNP LOCATI  
+26               ;               ;    :      O  
+27               (               (   CD NUMBER  
+28               3               3   CD NUMBER  
+29               )               )   NN      O  
+30         Miocene         Miocene   NN      O  
+31         primate         primate   JJ      O  
+32      localities      localities  NNS      O  
+33              in              in   IN      O  
+34       Macedonia       Macedonia  NNP LOCATI  
+35               ,               ,    ,      O  
+36          Greece          Greece  NNP LOCATI  
+37               ;               ;    :      O  
+
+ 1            BOOK            BOOK   NN      O  
+ 2         REVIEWS         REVIEWS  VBZ      O  
+ 3             787             787   CD NUMBER  
+
+ 1               (               (   NN      O  
+ 2               4               4   CD NUMBER  
+ 3               )               )   CD NUMBER  
+ 4             the             the   DT      O  
+ 5    paleoecology    paleoecology   NN      O  
+ 6              of              of   IN      O  
+ 7             the             the   DT      O  
+ 8       Pikermian       Pikermian   JJ   MISC  
+ 9           biome           biome   NN      O  
+10             and             and   CC      O  
+11             the             the   DT      O  
+12         savanna         savanna   NN      O  
+13            myth            myth   NN      O  
+14               ;               ;    :      O  
+15             and             and   CC      O  
+16               (               (   NN      O  
+17               5               5   CD NUMBER  
+18               )               )   NN      O  
+19      vicariance      vicariance   NN      O  
+20    biogeography    biogeography   NN      O  
+21             and             and   CC      O  
+22        Eurasian        Eurasian   JJ   MISC  
+23         Miocene         Miocene   JJ   MISC  
+24        hominoid        hominoid   NN      O  
+25        primates        pri-mate  NNS      O  |||rmchar,d,sw$1
+26               .              s.    .      O  |||$1
+
+ 1             The             The   DT      O  
+ 2         concept         concept   NN      O  
+ 3              of              of   IN      O  
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6              is              is  VBZ      O  
+ 7              to              to   TO      O  
+ 8         provide         provide   VB      O  
+ 9               a               a   DT      O  
+10           state           state   NN      O  
+11               ?               -   CD NUMBER  |||$2
+12      of-the-art      of-the-art   NN      O  
+13        treatise        treatise   NN      O  
+14           about           about   IN      O  
+15         mammals         mammals  NNS      O  
+16             and             and   CC      O  
+17    environments    environments  NNS      O  
+18              of              of   IN      O  
+19             the             the   DT      O  
+20         Neogene         Neogene   NN      O  
+21              of              of   IN      O  
+22          Europe          Europe  NNP LOCATI  
+23               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2           topic           topic   NN      O  
+ 3              of              of   IN      O  
+ 4            this            this   DT      O  
+ 5            book            book   NN      O  
+ 6              is              is  VBZ      O  
+ 7       certainly       certainly   RB      O  
+ 8          needed          needed  VBN      O  
+ 9               .               .    .      O  
+
+ 1            Some            Some   DT      O  
+ 2              of              of   IN      O  
+ 3             the             the   DT      O  
+ 4        chapters        chapters  NNS      O  
+ 5             are             are  VBP      O  
+ 6         extreme         extreme   JJ      O  
+ 7       overviews      over-views  NNS      O  |||$1
+ 8            with            with   IN      O  
+ 9              no              no   DT      O  
+10            hard            hard   JJ      O  
+11            data            data  NNS      O  
+12           being           being  VBG      O  
+13       presented       presented  VBN      O  
+14               .               .    .      O  
+
+ 1           Other           Other   JJ      O  
+ 2        chapters        chapters  NNS      O  
+ 3             are             are  VBP      O  
+ 4      attempting      attempting  VBG      O  
+ 5              to              to   TO      O  
+ 6         provide         provide   VB      O  
+ 7            some            some   DT      O  
+ 8              of              of   IN      O  
+ 9             the             the   DT      O  
+10        detailed        detailed   JJ      O  
+11            data            data  NNS      O  
+12             but             but   CC      O  
+13         provide         provide  VBP      O  
+14            just            just   RB      O  
+15         running         running  VBG      O  
+16           lists           lists  NNS      O  
+17              of              of   IN      O  
+18            taxa            taxa   NN      O  
+19              by              by   IN      O  
+20              MN              MN   NN      O  
+21            zone            zone   NN      O  
+22               .               .    .      O  
+
+ 1               I               I  PRP      O  
+ 2           think           think  VBP      O  
+ 3            that            that   IN      O  
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6           meets           meets  VBZ      O  
+ 7             its             its  PRP$      O 
+ 8        intended        intended   JJ      O  
+ 9           goals           goals  NNS      O  
+10               .               .    .      O  
+
+ 1         Granted         Grant-e  VBN      O  |||$1
+ 2               ,              d,    ,      O  |||$1
+ 3             the             the   DT      O  
+ 4           topic           topic   NN      O  
+ 5              is              is  VBZ      O  
+ 6            huge            huge   JJ      O  
+ 7               ,               ,    ,      O  
+ 8             the             the   DT      O  
+ 9            area            area   NN      O  
+10              of              of   IN      O  
+11        coverage        coverage   NN      O  
+12              is              is  VBZ      O  
+13         immense         immense   JJ      O  
+14               ;               ;    :      O  
+15          surely          surely   RB      O  
+16            some            some   DT      O  
+17           areas           areas  NNS      O  
+18            will            will   MD      O  
+19         receive         receive   VB      O  
+20         greater         greater  JJR      O  
+21        coverage        coverage   NN      O  
+22            than            than   IN      O  
+23          others          others  NNS      O  
+24               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2            more            more  JJR      O  
+ 3               I               I  PRP      O  
+ 4            read            read  VBP      O  
+ 5              of              of   IN      O  
+ 6             the             the   DT      O  
+ 7            book            book   NN      O  
+ 8               ,               ,    ,      O  
+ 9             the             the   DT      O  
+10            more            more  RBR      O  
+11               I               I  PRP      O  
+12           found           found  VBD      O  
+13          myself          myself  PRP      O  
+14          asking          asking  VBG      O  
+15      additional      additional   JJ      O  
+16        detailed        detailed   JJ      O  
+17       questions       questions  NNS      O  
+18               ,               ,    ,      O  
+19             but             but   CC      O  
+20               I               I  PRP      O  
+21             was             was  VBD      O  
+22             not             not   RB      O  
+23         getting         getting  VBG      O  
+24             the             the   DT      O  
+25         answers         answers  NNS      O  
+26        directly        directly   RB      O  
+27            from            from   IN      O  
+28            this            this   DT      O  
+29     publication     publication   NN      O  
+30               .               .    .      O  
+
+ 1              At              At   IN      O  
+ 2            ?rst           first   NN      O  |||d,sw,edrule$2
+ 3            this            this   DT      O  
+ 4       irritated       irritated   JJ      O  
+ 5              me              me  PRP      O  
+ 6            that            that   IN      O  
+ 7             the             the   DT      O  
+ 8         answers         answers  NNS      O  
+ 9            were            were  VBD      O  
+10             not             not   RB      O  
+11         readily         readily   RB      O  
+12       available       available   JJ      O  
+13              in              in   IN      O  
+14             the             the   DT      O  
+15            book            book   NN      O  
+16               ,               ,    ,      O  
+17             but             but   CC      O  
+18            then            then   RB      O  
+19               I               I  PRP      O  
+20        realized        realized  VBD      O  
+21            that            that   IN      O  
+22              my              my  PRP$      O 
+23       questions       questions  NNS      O  
+24            were            were  VBD      O  
+25         outside         outside   IN      O  
+26             the             the   DT      O  
+27           scope           scope   NN      O  
+28              of              of   IN      O  
+29             the             the   DT      O  
+30          volume          volume   NN      O  
+31               .               .    .      O  
+
+ 1              In              In   IN      O  
+ 2         reality         reality   NN      O  
+ 3             the             the   DT      O  
+ 4            book            book   NN      O  
+ 5              is              is  VBZ      O  
+ 6       extremely       extremely   RB      O  
+ 7            good            good   JJ      O  
+ 8         because         because   IN      O  
+ 9              it              it  PRP      O  
+10         pointed         pointed  VBD      O  
+11              to              to   TO      O  
+12              me              me  PRP      O  
+13            what            what   WP      O  
+
+ 1       ANTELOPES       ANTELOPES  NNP      O  
+ 2               ,               ,    ,      O  
+ 3            DEER            DEER  NNP      O  
+ 4               ,               ,    ,      O  
+ 5             AND             AND   CC      O  
+ 6       RELATIVES       RELATIVES  NNS      O  
+ 7               :               :    :      O  
+ 8          FOSSIL          FOSSIL  NNP      O  
+ 9          RECORD          RECORD  NNP      O  
+10               ,               ,    ,      O  
+11          should          should   MD      O  
+12              be              be   VB      O  
+13             the             the   DT      O  
+14            next            next   JJ      O  
+15            step            step   NN      O  
+16               ?               ?   RB      O  
+17       precisely     ??precisely   RB      O  |||$1
+18            what            what   WP      O  
+19               a               a   DT      O  
+20 state-of-the-art state-of-the-art   JJ      O  ///$1
+21            book            book   NN      O  
+22          should          should   MD      O  
+23              do              do   VB      O  
+24              in              in   IN      O  
+25         science         science   NN      O  
+26               .               .    .      O  
+
+ 1               I               I  PRP      O  
+ 2           think           think  VBP      O  
+ 3            that            that   IN      O  
+ 4            this            this   DT      O  
+ 5            book            book   NN      O  
+ 6              is              is  VBZ      O  
+ 7               a               a   DT      O  
+ 8            must            must   MD      O  
+ 9             for             for   IN      O  
+10          anyone          anyone   NN      O  
+11             who             who   WP      O  
+12              is              is  VBZ      O  
+13              in              in   IN      O  
+14            need            need   NN      O  
+15              of              of   IN      O  
+16   understanding   understanding   NN      O  
+17               ,               ,    ,      O  
+18              in              in   IN      O  
+19        overview        overview   NN      O  
+20         fashion         fashion   NN      O  
+21               ,               ,    ,      O  
+22             the             the   DT      O  
+23         Miocene         Miocene  NNP   MISC  
+24              of              of   IN      O  
+25          Europe          Europe  NNP LOCATI  
+26               .               .    .      O  
+
+ 1        Students        Students  NNS      O  
+ 2            will            will   MD      O  
+ 3             ?nd            find   VB      O  |||$2
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6             the             the   DT      O  
+ 7         perfect         perfect   JJ      O  
+ 8       beginning       beginning   NN      O  
+ 9       reference       reference   NN      O  
+10             for             for   IN      O  
+11            just            just   RB      O  
+12           about           about   IN      O  
+13             any             any   DT      O  
+14           study           study   NN      O  
+15              of              of   IN      O  
+16          Europe          Europe  NNP LOCATI  
+17              ?s              's  POS      O  |||sw,twchar$2
+18         Miocene         Miocene  NNP   MISC  
+19               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2       reference       reference   NN      O  
+ 3            book            book   NN      O  
+ 4         abounds         abounds  VBZ      O  
+ 5            with            with   IN      O  
+ 6        critical       crit-ical   JJ      O  |||$1
+ 7       citations       citations  NNS      O  
+ 8             for             for   IN      O  
+ 9           those           those   DT      O  
+10         readers         readers  NNS      O  
+11         looking         looking  VBG      O  
+12             for             for   IN      O  
+13             the             the   DT      O  
+14            hard            hard   JJ      O  
+15               ,               ,    ,      O  
+16        original        original   JJ      O  
+17            data            data  NNS      O  
+18               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         editors         editors  NNS      O  
+ 3             are             are  VBP      O  
+ 4       commended       commended  VBN      O  
+ 5             for             for   IN      O  
+ 6         pulling         pulling  VBG      O  
+ 7        together        together   RB      O  
+ 8              so              so   RB      O  
+ 9            many            many   JJ      O  
+10         authors         authors  NNS      O  
+11            from            from   IN      O  
+12              so              so   RB      O  
+13            many            many   JJ      O  
+14       countries       countries  NNS      O  
+15             and             and   CC      O  
+16    amalgamating    amalgamating  VBG      O  
+17              so              so   RB      O  
+18            many            many   JJ      O  
+19         concise         concise   JJ      O  
+20       overviews       overviews  NNS      O  
+21             and             and   CC      O  
+22       syntheses      syn-theses  NNS      O  |||rmchar,d,sw$1
+23            into            into   IN      O  
+24             one             one   CD NUMBER  
+25        cohesive        cohesive   JJ      O  
+26            book            book   NN      O  
+27               .               .    .      O  
+
+ 1             JIM             JIM  NNP PERSON  
+ 2              I.              J.  NNP PERSON  |||$1
+ 3            MEAD            MEAD  NNP PERSON  
+
+ 1      Department      Department  NNP ORGANI  
+ 2              of              of   IN ORGANI  
+ 3         Geology         Geology  NNP ORGANI  
+ 4               ,               ,    ,      O  
+ 5             and             and   CC      O  
+ 6      Quaternary      Quaternary  NNP ORGANI  
+ 7        Sciences        Sciences  NNPS ORGANI 
+ 8         Program         Program  NNP ORGANI  
+ 9        Northern        Northern  NNP ORGANI  
+10         Arizona         Arizona  NNP ORGANI  
+11      University      University  NNP ORGANI  
+12        Flagsta?        Flagstaf  NNP      O  |||$flagstaff
+13               ?               f   NN      O  |||$3
+14               ,               ,    ,      O  
+15         Arizona         Arizona  NNP LOCATI  
+16           86011           86011   CD NUMBER  
+
+ 1        Received        Received  VBN      O  
+ 2             and             and   CC      O  
+ 3        accepted        accepted  VBN      O  
+ 4           April           April  NNP   DATE  
+ 5            2000            2000   CD   DATE  
+ 6               .               .    .      O  
+
+ 1      BEHAVIORAL      BEHAVIORAL   JJ      O  
+ 2         ECOLOGY         ECOLOGY   NN      O  
+ 3               ,               ,    ,      O  
+ 4     SYSTEMATICS     SYSTEMATICS  NNP      O  
+ 5               ,               ,    ,      O  
+ 6             AND             AND  NNP      O  
+ 7    CONSERVATION    CONSER-VATIO  NNP      O  |||$1
+ 8               ,              N,    ,      O  |||$1
+ 9              by              by   IN      O  
+10              E.              E.  NNP PERSON  
+11              S.              S.  NNP PERSON  
+12            Vrba            Vrba  NNP PERSON  
+13             and             and   CC      O  
+14              G.              G.  NNP PERSON  
+15              B.              B.  NNP PERSON  
+16         Shaller         Shaller  NNP PERSON  
+17               (               (   CD NUMBER  
+18             eds             eds  NNS      O  
+19               .               .    .      O  
+20               )               )  SYM      O  
+
+ 1               ,               ,    ,      O  
+ 2            2000            2000   CD   DATE  
+ 3               .               .    .      O  
+
+ 1            Yale            Yale  NNP ORGANI  
+ 2      University      University  NNP ORGANI  
+ 3           Press           Press  NNP ORGANI  
+ 4               ,               ,    ,      O  
+ 5             341             341   CD NUMBER  
+ 6             pp.             pp.   NN      O  
+ 7               ,               ,    ,      O  
+ 8               $               $    $  MONEY  
+ 9              65              65   CD  MONEY  
+10               (               (   CD  MONEY  
+11        hardback        hardback   NN      O  
+12               )               )   NN      O  
+13               ,               ,    ,      O  
+14            ISBN            ISBN  NNP      O  
+15   0-300-08142-1   0-300-08142-1   CD NUMBER  
+16               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2            book            book   NN      O  
+ 3              is              is  VBZ      O  
+ 4        designed        designed  VBN      O  
+ 5             for             for   IN      O  
+ 6             the             the   DT      O  
+ 7         student         student   NN      O  
+ 8               ,               ,    ,      O  
+ 9    professional    professional   JJ      O  
+10               ,               ,    ,      O  
+11             and             and   CC      O  
+12             the             the   DT      O  
+13     avocational    avoca-tional   JJ      O  |||rmchar,d,sw$1
+14          reader          reader   NN      O  
+15       intensely       intensely   RB      O  
+16      interested      interested   JJ      O  
+17              in              in   IN      O  
+18       ruminants       ruminants  NNS      O  
+19               .               .    .      O  
+
+ 1           Every           Every   DT      O  
+ 2         serious         serious   JJ      O  
+ 3 paleomammalogist paleomam-malogis   NN      O  |||$1
+ 4               ,              t,    ,      O  |||$1
+ 5     mammalogist     mammalogist   NN      O  
+ 6               ,               ,    ,      O  
+ 7    conservation    conservation   NN      O  
+ 8       zoologist       zoologist   NN      O  
+ 9               ,               ,    ,      O  
+10        wildlife        wildlife   NN      O  
+11      specialist      specialist   NN      O  
+12               ,               ,    ,      O  
+13         library         li-brar   NN      O  |||rmchar,d,sw$1
+14               ,              y,    ,      O  |||$1
+15          museum          museum   NN      O  
+16               ,               ,    ,      O  
+17 zooarchaeologist zooarchaeologist   NN      O  ///$1
+18               ,               ,    ,      O  
+19             and             and   CC      O  
+20             zoo             zoo   NN      O  
+21          should          should   MD      O  
+22            have            have   VB      O  
+23               a               a   DT      O  
+24            copy            copy   NN      O  
+25              of              of   IN      O  
+26            this            this   DT      O  
+27          volume          volume   NN      O  
+28               .               .    .      O  
+
+ 1             How             How  WRB      O  
+ 2           aptly           aptly   RB      O  
+ 3            that            that   IN      O  
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6              is              is  VBZ      O  
+ 7       dedicated       dedicated  VBN      O  
+ 8              to              to   TO      O  
+ 9            Alan            Alan  NNP PERSON  
+10              W.              W.  NNP PERSON  
+11          Gentry          Gentry  NNP PERSON  
+12               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         quality         quality   NN      O  
+ 3              of              of   IN      O  
+ 4             the             the   DT      O  
+ 5     publication     publication   NN      O  
+ 6              is              is  VBZ      O  
+ 7         typical         typical   JJ      O  
+ 8              of              of   IN      O  
+ 9            Yale            Yale  NNP ORGANI  
+10      University      University  NNP ORGANI  
+11           Press           Press  NNP ORGANI  
+12               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2            text            text   NN      O  
+ 3              is              is  VBZ      O  
+ 4            easy            easy   JJ      O  
+ 5              to              to   TO      O  
+ 6            read            read   VB      O  
+ 7               .               .    .      O  
+
+ 1         Figures         Figures  NNS      O  
+ 2             and             and   CC      O  
+ 3   illustrations   illustrations  NNS      O  
+ 4          abound          abound  VBP      O  
+ 5             and             and   CC      O  
+ 6             are             are  VBP      O  
+ 7              of              of   IN      O  
+ 8             top             top   JJ      O  
+ 9         quality         quality   NN      O  
+10               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2          volume          volume   NN      O  
+ 3         editors         editors  NNS      O  
+ 4            have            have  VBP      O  
+ 5        produced        produced  VBN      O  
+ 6               a               a   DT      O  
+ 7          needed          needed  VBN      O  
+ 8        resource        resource   NN      O  
+ 9               .               .    .      O  
+
+ 1               ?               "   NN      O  |||$2
+ 2              Of              Of   IN      O  
+ 3             the             the   DT      O  
+ 4            more            more  JJR      O  
+ 5            than            than   IN      O  
+ 6             two             two   CD NUMBER  
+ 7         hundred         hundred   CD NUMBER  
+ 8          extant          extant   JJ      O  
+ 9            wild            wild   JJ      O  
+10         species         species  NNS      O  
+11              in              in   IN      O  
+12             the             the   DT      O  
+13           order           order   NN      O  
+14    Artiodactyla    Artiodactyla   FW      O  
+15               (               (   FW      O  
+16        appendix        appendix   NN      O  
+17             1.1             1.1   CD NUMBER  
+18               )               )   NN      O  
+19               ,               ,    ,      O  
+20            most            most  JJS      O  
+21          belong          belong  VBP      O  
+22              to              to   TO      O  
+23             the             the   DT      O  
+24        suborder        suborder   NN      O  
+25      Ruminantia      Ruminantia   NN      O  
+26               ,               ,    ,      O  
+27      especially      especially   RB      O  
+28              in              in   IN      O  
+29             two             two   CD NUMBER  
+30        families        families  NNS      O  
+31               ,               ,    ,      O  
+32             the             the   DT      O  
+33            deer            deer  NNS      O  
+34               (               (  VBP      O  
+35        Cervidae        Cervidae   FW      O  
+36               )               )   FW      O  
+37             and             and   CC      O  
+38          bovids          bovids   FW      O  
+39               (               (   FW      O  
+40         Bovidae         Bovidae   FW      O  
+41               )               )   FW      O  
+42               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2           focus           focus   NN      O  
+ 3              on              on   IN      O  
+ 4       ruminants       ruminants  NNS      O  
+ 5              in              in   IN      O  
+ 6            this            this   DT      O  
+ 7          volume          volume   NN      O  
+ 8              is              is  VBZ      O  
+ 9          timely          timely   JJ      O  
+10             for             for   IN      O  
+11         science         science   NN      O  
+12             and             and   CC      O  
+13    conservation    con-servatio   NN      O  |||rmchar,d,sw$1
+14               .              n.    .      O  |||$1
+
+ 1         Because         Because   IN      O  
+ 2              of              of   IN      O  
+ 3           their           their  PRP$      O 
+ 4        richness        richness   NN      O  
+ 5              in              in   IN      O  
+ 6         species         species  NNS      O  
+ 7             and             and   CC      O  
+ 8            wide            wide   JJ      O  
+ 9      geographic      geographic   JJ      O  
+10          spread          spread   NN      O  
+11               ,               ,    ,      O  
+12            both            both   CC      O  
+13          during          during   IN      O  
+14               a               a   DT      O  
+15          fossil          fossil   NN      O  
+16          record          record   NN      O  
+17              of              of   IN      O  
+18              50              50   CD DURATI  
+19         million         million   CD DURATI  
+20           years           years  NNS NUMBER  
+21             and             and   CC      O  
+22           today           today   NN   DATE  
+23               ,               ,    ,      O  
+24       ruminants      ru-minants  NNS      O  |||rmchar,d,sw$1
+25             are             are  VBP      O  
+26               a               a   DT      O  
+27       scienti?c      scientific   JJ      O  |||$2
+28        treasure        treasure   NN      O  
+29             for             for   IN      O  
+30   understanding   understanding  VBG      O  
+31             the             the   DT      O  
+32       processes       processes  NNS      O  
+33              of              of   IN      O  
+34       evolution      evo-lution   NN      O  |||rmchar,d,sw$1
+35             and             and   CC      O  
+36             our             our  PRP$      O 
+37             own             own   JJ      O  
+38         history         history   NN      O  
+39               .               .    .      O  
+
+ 1               ?               "   NN      O  |||$2
+
+ 1             The             The   DT      O  
+ 2          edited          edited  VBN      O  
+ 3          volume          volume   NN      O  
+ 4              is              is  VBZ      O  
+ 5         divided         divided  VBN      O  
+ 6            into            into   IN      O  
+ 7           three           three   CD NUMBER  
+ 8           parts           parts  NNS      O  
+ 9               :               :    :      O  
+10             The             The   DT   DATE  
+11            Past            Past  NNP   DATE  
+12               ,               ,    ,      O  
+13             The             The   DT      O  
+14         Present         Present   JJ   DATE  
+15               ,               ,    ,      O  
+16             and             and   CC      O  
+17             The             The   DT      O  
+18          Bridge          Bridge   NN      O  
+19              to              to   TO      O  
+20          Future          Future  NNP   DATE  
+21    Conservation    Conservation  NNP      O  
+22               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         editors         editors  NNS      O  
+ 3          pulled          pulled  VBN      O  
+ 4        together        together   RB      O  
+ 5              23              23   CD NUMBER  
+ 6         leading         leading  VBG      O  
+ 7         authors         authors  NNS      O  
+ 8             for             for   IN      O  
+ 9              23              23   CD NUMBER  
+10        chapters        chapters  NNS      O  
+11               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         overall         overall   JJ      O  
+ 3        coverage        coverage   NN      O  
+ 4              by              by   IN      O  
+ 5             the             the   DT      O  
+ 6         various         various   JJ      O  
+ 7        chapters        chapters  NNS      O  
+ 8              is              is  VBZ      O  
+ 9            well            well   RB      O  
+10         rounded         rounded  VBN      O  
+11               .               .    .      O  
+
+ 1            This            This   DT      O  
+ 2     publication     publication   NN      O  
+ 3           would           would   MD      O  
+ 4              be              be   VB      O  
+ 5             the             the   DT      O  
+ 6           ideal           ideal   JJ      O  
+ 7        textbook        textbook   NN      O  
+ 8             for             for   IN      O  
+ 9              an              an   DT      O  
+10        advanced        advanced   JJ      O  
+11         seminar         seminar   NN      O  
+12           about           about   IN      O  
+13       ruminants       ruminants  NNS      O  
+14               (               (   CD NUMBER  
+15               I               I  PRP      O  
+16            wish            wish  VBP      O  
+17            that            that   IN      O  
+18               I               I  PRP      O  
+19             had             had  VBD      O  
+20             had             had  VBN      O  
+21            this            this   DT      O  
+22            book            book   NN      O  
+23             for             for   IN      O  
+24       precisely       precisely   RB      O  
+25            that            that   DT      O  
+26          course          course   NN      O  
+27               I               I  PRP      O  
+28          taught          taught  VBD      O  
+29               a               a   DT   DATE  
+30             few             few   JJ   DATE  
+31           years           years  NNS   DATE  
+32             ago             ago   IN   DATE  
+33               )               }   NN      O  |||$1
+34               .               .    .      O  
+
+ 1             The             The   DT   DATE  
+ 2            Past            Past   JJ   DATE  
+ 3         section         section   NN      O  
+ 4        contains        contains  VBZ      O  
+ 5               :               :    :      O  
+ 6               (               (   CD NUMBER  
+ 7               1               1   CD NUMBER  
+ 8               )               )   CD NUMBER  
+ 9             The             The   DT      O  
+10        ruminant        ruminant   NN      O  
+11       radiation       radiation   NN      O  
+12               ;               ;    :      O  
+13               (               (   NN      O  
+14               2               2   CD NUMBER  
+15               )               )   CD NUMBER  
+16             The             The   DT      O  
+17         endemic        en-demic   JJ      O  |||rmchar,d,sw$1
+18       ruminants       ruminants  NNS      O  
+19              of              of   IN      O  
+20             the             the   DT      O  
+21         Neogene         Neogene   NN      O  
+22              of              of   IN      O  
+23           North           North  NNP LOCATI  
+24         America         America  NNP LOCATI  
+25               ;               ;    :      O  
+26               (               (   CD NUMBER  
+27               3               3   CD NUMBER  
+28               )               )   NN      O  
+29    Evolutionary    Evolutionary   JJ      O  
+30         history         history   NN      O  
+31              of              of   IN      O  
+32             New             New  NNP   MISC  
+33           World           World  NNP   MISC  
+34        Cervidae        Cervidae  NNP   MISC  
+35               ;               ;    :      O  
+36               (               (   CD NUMBER  
+37               4               4   CD NUMBER  
+38               )               )   CD NUMBER  
+39        Caprinae        Caprinae  NNP      O  
+40             and             and   CC      O  
+41    Hippotragini    Hippotragini  NNP PERSON  
+42               (               (   CD NUMBER  
+43         Bovidae         Bovi-da  NNP      O  |||rmchar,d,sw$1
+44               ,              e,    ,      O  |||$1
+45        Mammalia        Mammalia  NNP LOCATI  
+46               )               }   CD NUMBER  |||$1
+47              in              in   IN      O  
+48             the             the   DT      O  
+49           Upper           Upper  NNP      O  
+50         Miocene         Miocene  NNP      O  
+51               ;               ;    :      O  
+52               (               (   CD NUMBER  
+53               5               5   CD NUMBER  
+54               )               )   NN      O  
+55       Paleodiet       Paleodiet   NN      O  
+56              of              of   IN      O  
+57             the             the   DT      O  
+58       Giraf?dae       Giraffida  NNP      O  |||$Giraffidae
+59               ;              e;    :      O  |||$1
+60               (               (   CD NUMBER  
+61               6               6   CD NUMBER  
+62               )               )   NN      O  
+63     Paleolithic     Paleolithic   JJ   MISC  
+64             art             art   NN      O  
+65              as              as   IN      O  
+66               a               a   DT      O  
+67        resource        resource   NN      O  
+68              in              in   IN      O  
+69     artiodactyl     artiodactyl   NN      O  
+70    paleobiology    paleobiology   NN      O  
+71               ,               ,    ,      O  
+72             and             and   CC      O  
+73               (               (   NN      O  
+74               7               7   CD NUMBER  
+75               )               )   CD NUMBER  
+76           Human           Human   JJ      O  
+77       evolution       evolution   NN      O  
+78             and             and   CC      O  
+79           large           large   JJ      O  
+80          mammal          mammal   NN      O  
+81     extinctions     extinctions  NNS      O  
+82               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2         Present         Present   JJ   DATE  
+ 3         section         section   NN      O  
+ 4        contains        contains  VBZ      O  
+ 5               (               (   CD NUMBER  
+ 6               1               1   CD NUMBER  
+ 7               )               )   CD NUMBER  
+ 8       Molecular       Molecular   JJ      O  
+ 9        evidence        evidence   NN      O  
+10             for             for   IN      O  
+11             the             the   DT      O  
+12    phylogenetic   phylo-genetic   JJ      O  |||rmchar,d,sw$1
+13       af?nities      affinities  NNS      O  |||$2
+14              of              of   IN      O  
+15      Ruminantia      Ruminantia   NN LOCATI  
+16               ;               ;    :      O  
+17               (               (   NN      O  
+18               2               2   CD NUMBER  
+19               )               )   CD NUMBER  
+20    Morphoclinal    Morphoclinal   JJ      O  
+21       evolution       evolution   NN      O  
+22              in              in   IN      O  
+23       ungulates       ungu-late  NNS      O  |||rmchar,d,sw$1
+24               ;              s;    :      O  |||$1
+25               (               (   CD NUMBER  
+26               3               3   CD NUMBER  
+27               )               )   NN      O  
+28      Dimorphism      Dimorphism   NN   MISC  
+29              in              in   IN      O  
+30          Social          Social  NNP   MISC  
+31    Artiodactyla    Artiodactyla  NNP   MISC  
+32               :               :    :      O  
+33       selection       selection   NN      O  
+34            upon            upon   IN      O  
+35         females         females  NNS      O  
+36               ;               ;    :      O  
+37               (               (   CD NUMBER  
+38               4               4   CD NUMBER  
+39               )               )   CD NUMBER  
+40         Descent         Descent   NN      O  
+41               ,               ,    ,      O  
+42        adaption        adaption   NN      O  
+43               ,               ,    ,      O  
+44      adjustment      adjustment   NN      O  
+45               :               :    :      O  
+46         lession         lession   NN      O  
+47            from            from   IN      O  
+48             the             the   DT      O  
+49        Cervidae        Cervidae  NNP      O  
+50             and             and   CC      O  
+51           other           other   JJ      O  
+52          beasts          beasts  NNS      O  
+53               ;               ;    :      O  
+54               (               (   CD NUMBER  
+55               5               5   CD NUMBER  
+56               )               )   CD NUMBER  
+57             The             The   DT      O  
+58    contemporary    contemporary   JJ      O  
+59        Cervidae        Cervidae  NNP   MISC  
+60              of              of   IN   MISC  
+61         Central         Central  NNP   MISC  
+62             and             and   CC      O  
+63           South           South  NNP LOCATI  
+64         America         America  NNP LOCATI  
+65               ;               ;    :      O  
+66               (               (   CD NUMBER  
+67               6               6   CD NUMBER  
+68               )               )   NN      O  
+69       Phylogeny       Phylogeny   NN      O  
+70              of              of   IN      O  
+71         Bovidae         Bovidae  NNP      O  
+72           based           based  VBN      O  
+73              on              on   IN      O  
+74        behavior        behavior   NN      O  
+75               ,               ,    ,      O  
+76          glands          glands  NNS      O  
+77               ,               ,    ,      O  
+78          skulls          skulls  NNS      O  
+79               ,               ,    ,      O  
+80             and             and   CC      O  
+81      postcrania      po-stcrani   NN      O  |||rmchar,d,sw$1
+82               ;              a;    :      O  |||$1
+83               (               (   NN      O  
+84               7               7   CD NUMBER  
+85               )               )   CD NUMBER  
+86          Recent          Recent   JJ      O  
+87      Antilopini      Antilopini  NNP      O  
+88               (               (   CD NUMBER  
+89         Bovidae         Bovidae  NNP      O  
+90               )               )   NN      O  
+91               ;               ;    :      O  
+92               (               (   CD NUMBER  
+93               8               8   CD NUMBER  
+94               )               )   NN      O  
+95       Evolution       Evolution   NN      O  
+96              of              of   IN      O  
+97     conspicuous     conspicuous   JJ      O  
+98      coloration      coloration   NN      O  
+99              in              in   IN      O  
+100             the             the   DT      O 
+101         Bovidae         Bovidae  NNP      O 
+102               :               :    :      O 
+103          female          female   JJ      O 
+104         mimicry         mimicry   NN      O 
+105              of              of   IN      O 
+106            male            male   JJ      O 
+107       secondary       secondary   JJ      O 
+108      characters      characters  NNS      O 
+109              as              as   IN      O 
+110        catalyst        catalyst   NN      O 
+111               ;               ;    :      O 
+112               (               (   CD NUMBER 
+113               9               9   CD NUMBER 
+114               )               )   NN      O 
+115      Adaptation      Adaptation   NN      O 
+116               ,               ,    ,      O 
+117           niche           niche   NN      O 
+118    partitioning    partitioning   NN      O 
+119               ,               ,    ,      O 
+120             and             and   CC      O 
+121     coexistence     coexistence   NN      O 
+122              of              of   IN      O 
+123         African        Af-rican  NNP   MISC |||rmchar,d,sw$1
+124         Bovidae         Bovidae  NNP   MISC 
+125               ;               ;    :      O 
+126             and             and   CC      O 
+127               (               (  VBP      O 
+128              10              10   CD NUMBER 
+129               )               )   CD NUMBER 
+130             The             The   DT      O 
+131       phylogeny       phylogeny   NN      O 
+132             and             and   CC      O 
+133    biogeography    biogeography   NN      O 
+134              of              of   IN      O 
+135             the             the   DT      O 
+136           newly           newly   RB      O 
+137      discovered      discovered  VBN      O 
+138        Annamite        Annamite   JJ      O 
+139    artiodactyls    artiodactyls  NNS      O 
+140               .               .    .      O 
+
+ 1             The             The   DT      O  
+ 2           third           third   JJ ORDINA  
+ 3         section         section   NN      O  
+ 4        contains        contains  VBZ      O  
+ 5               a               a   DT      O  
+ 6           suite           suite   NN      O  
+ 7              of              of   IN      O  
+ 8             ?ve            five   NN      O  |||$2
+ 9        chapters        chapters  NNS      O  
+10       outlining       outlining  VBG      O  
+11           views           views  NNS      O  
+12           about           about   IN      O  
+13      management      management   NN      O  
+14             and             and   CC      O  
+15    conservation    conservation   NN      O  
+16               :               :    :      O  
+17               (               (   CD NUMBER  
+18               1               1   CD NUMBER  
+19               )               )   CD NUMBER  
+20   Mitochondrial   Mitochondrial   JJ      O  
+21             DNA             DNA   NN      O  
+22       variation       variation   NN      O  
+23              in              in   IN      O  
+24         Muntjac         Muntjac  NNP ORGANI  
+25               ;               ;    :      O  
+26               (               (   NN      O  
+27               2               2   CD NUMBER  
+28               )               )   CD NUMBER  
+29          Genome          Genome  NNP      O  
+30       evolution       evolution   NN      O  
+31              in              in   IN      O  
+32    Artiodactyla    Artiodactyla  NNP LOCATI  
+33             and             and   CC      O  
+34             its             its  PRP$      O 
+35       relevance       relevance   NN      O  
+36              to              to   TO      O  
+37    conservation    conservation   NN      O  
+38               ;               ;    :      O  
+39               (               (   CD NUMBER  
+40               3               3   CD NUMBER  
+41               )               )   NN      O  
+42         Setting         Setting  VBG      O  
+43      priorities      priorities  NNS      O  
+44             for             for   IN      O  
+45    conservation    conservation   NN      O  
+46              of              of   IN      O  
+47       protected       protected   JJ      O  
+48           areas           areas  NNS      O  
+49               ;               ;    :      O  
+50               (               (   CD NUMBER  
+51               4               4   CD NUMBER  
+52               )               )   NN      O  
+53           Under           Under   IN      O  
+54            what            what   WP      O  
+55          system          system   NN      O  
+56              of              of   IN      O  
+57        wildlife        wildlife   NN      O  
+58      management      management   NN      O  
+59             are             are  VBP      O  
+60       ungulates       ungulates  VBZ      O  
+61           least           least  JJS      O  
+62    domesticated    do-mesticate  VBN      O  |||rmchar,d,sw$1
+63               ?               d    .      O  |||$1
+
+ 1               ;              ?;    :      O  |||$1
+ 2             and             and   CC      O  
+ 3               (               (   NN      O  
+ 4               5               5   CD NUMBER  
+ 5               )               )   CD NUMBER  
+ 6             The             The   DT      O  
+ 7    conservation    conservation   NN      O  
+ 8              of              of   IN      O  
+ 9    Artiodactyla    Artiodactyla  NNP LOCATI  
+10               .               .    .      O  
+
+ 1             All             All  PDT      O  
+ 2             the             the   DT      O  
+ 3        chapters        chapters  NNS      O  
+ 4             are             are  VBP      O  
+ 5       excellent       excellent   JJ      O  
+ 6             and             and   CC      O  
+ 7         provide         provide  VBP      O  
+ 8             the             the   DT      O  
+ 9         perfect         perfect   JJ      O  
+10        overview        overview   NN      O  
+11              of              of   IN      O  
+12           their           their  PRP$      O 
+13          topics          topics  NNS      O  
+14               .               .    .      O  
+
+ 1         Guthrie         Guthrie  NNP PERSON  
+ 2              ?s              's  POS      O  |||sw,twchar$2
+ 3         chapter         chapter   NN      O  
+ 4              on              on   IN      O  
+ 5             the             the   DT      O  
+ 6               ?               '   CD NUMBER  |||$2
+ 7     Paleolithic     Paleolithic   JJ   MISC  
+ 8             art             art   NN      O  
+ 9              as              as   IN      O  
+10               a               a   DT      O  
+11        resource        resource   NN      O  
+12              in              in   IN      O  
+13     artiodactyl     artiodactyl   NN      O  
+14    paleobiology    paleobiology   NN      O  
+15               ?               '   NN      O  |||$2
+16              is              is  VBZ      O  
+17          superb          superb   JJ      O  
+18               .               .    .      O  
+
+ 1              It              It  PRP      O  
+ 2              is              is  VBZ      O  
+ 3    comprehenive    comprehenive   JJ      O  
+ 4             and             and   CC      O  
+ 5    exhaustively    exhaustively   RB      O  
+ 6      illustated      illustated  VBN      O  
+ 7            with            with   IN      O  
+ 8            line            line   NN      O  
+ 9        drawings        drawings  NNS      O  
+10             and             and   CC      O  
+11          tonals          tonals  NNS      O  
+12               .               .    .      O  
+
+ 1           Estes           Estes  NNP PERSON  
+ 2               ?               '   CD NUMBER  |||$2
+ 3         chapter         chapter   NN      O  
+ 4              on              on   IN      O  
+ 5      coloration      coloration   NN      O  
+ 6              in              in   IN      O  
+ 7          bovids          bovids  NNS      O  
+ 8              is              is  VBZ      O  
+ 9          nicely          nicely   RB      O  
+10        accented        accented  VBN      O  
+11            with            with   IN      O  
+12              10              10   CD NUMBER  
+13         quality         quality   NN      O  
+14           color           color   NN      O  
+15     photographs     photographs  NNS      O  
+16               .               .    .      O  
+
+ 1              It              It  PRP      O  
+ 2              is              is  VBZ      O  
+ 3           great           great   JJ      O  
+ 4              to              to   TO      O  
+ 5             see             see   VB      O  
+ 6             the             the   DT      O  
+ 7         chapter         chapter   NN      O  
+ 8              by              by   IN      O  
+ 9          Groves          Groves  NNPS      O 
+10             and             and   CC      O  
+11        Schaller        Schaller  NNP PERSON  
+12           about           about   IN      O  
+13             the             the   DT      O  
+14    artiodactyls    artiodactyls  NNS      O  
+15            from            from   IN      O  
+16             the             the   DT      O  
+17        Annamite        Annamite  NNP      O  
+18        Mountain        Mountain  NNP      O  
+19           range           range   NN      O  
+20              on              on   IN      O  
+21             the             the   DT      O  
+22    Laos-Vietnam    Laos-Vietnam  NNP   MISC  
+23          border          border   NN      O  
+24               .               .    .      O  
+
+ 1        Although        Although   IN      O  
+ 2          beyond          beyond   IN      O  
+ 3             the             the   DT      O  
+ 4           scope           scope   NN      O  
+ 5              of              of   IN      O  
+ 6           their           their  PRP$      O 
+ 7         chapter         chapter   NN      O  
+ 8               ,               ,    ,      O  
+ 9               I               I  PRP      O  
+10              do              do  VBP      O  
+11            wish            wish   VB      O  
+12            that            that   IN      O  
+13            they            they  PRP      O  
+14             had             had  VBD      O  
+15       discussed       discussed  VBN      O  
+16              in              in   IN      O  
+17            more            more  JJR      O  
+18          detail          detail   NN      O  
+19             the             the   DT      O  
+20    relationship    relationship   NN      O  
+21              of              of   IN      O  
+22             the             the   DT      O  
+23          faunas          faunas  NNS      O  
+24         between         between   IN      O  
+25        Annamite        Annamite  NNP      O  
+26           Range           Range  NNP      O  
+27             and             and   CC      O  
+28             the             the   DT      O  
+29           Sunda           Sunda  NNP LOCATI  
+30           Shelf           Shelf   NN LOCATI  
+31               (               (   NN      O  
+32            that            that  WDT      O  
+33          region          region   NN      O  
+34           where           where  WRB      O  
+35             the             the   DT      O  
+36            full            full   JJ      O  
+37         glacial         glacial   JJ      O  
+38        lowering        lowering   NN      O  
+39              of              of   IN      O  
+40             the             the   DT      O  
+41             sea             sea   NN      O  
+42           level           level   NN      O  
+43         exposed         exposed  VBN      O  
+44            land            land   NN      O  
+45            that            that  WDT      O  
+46       basically       basically   RB      O  
+47       connected       connected  VBD      O  
+48             the             the   DT      O  
+49           Malay           Malay  NNP LOCATI  
+50       Peninsula       Peninsula  NNP LOCATI  
+51               ,               ,    ,      O  
+52         Sumatra         Su-matr  NNP LOCATI  |||rmchar,d,sw$1
+53               ,              a,    ,      O  |||$1
+54            Java            Java  NNP   MISC  
+55               ,               ,    ,      O  
+56          Borneo          Borneo  NNP LOCATI  
+57               ,               ,    ,      O  
+58             and             and   CC      O  
+59          nearby          nearby   RB      O  
+60         smaller         smaller  JJR      O  
+61         islands         islands  NNS      O  
+62               )               )   CD NUMBER  
+63               .               .    .      O  
+
+ 1              It              It  PRP      O  
+ 2              is              is  VBZ      O  
+ 3            good            good   JJ      O  
+ 4              to              to   TO      O  
+ 5             see             see   VB      O  
+ 6       something      some-thing   NN      O  |||
+ 7           about           about   IN      O  
+ 8      paleodiets      paleodiets  NNS      O  
+ 9              of              of   IN      O  
+10       ruminants       ruminants  NNS      O  
+11               ?               ?  VBP      O  
+12             the           ??the   DT      O  |||$1
+13         chapter         chapter   NN      O  
+14              by              by   IN      O  
+15       Solounias       Solounias  NNP      O  
+16              et              et   FW      O  
+17             al.             al.   FW      O  
+18              is              is  VBZ      O  
+19        welcomed        welcomed  VBN      O  
+20               .               .    .      O  
+
+ 1               I               I  PRP      O  
+ 2              do              do  VBP      O  
+ 3            wish            wish   VB      O  
+ 4            that            that   IN      O  
+ 5             the             the   DT      O  
+ 6          wealth          wealth   NN      O  
+ 7              of              of   IN      O  
+ 8     information     information   NN      O  
+ 9           about           about   IN      O  
+10             the             the   DT      O  
+11           diets           diets  NNS      O  
+12              of              of   IN      O  
+
+ 1     Pleistocene     Pleistocene   JJ      O  
+ 2       ruminants       ruminants  NNS      O  
+ 3              of              of   IN      O  
+ 4           North           North  NNP LOCATI  
+ 5         America         America  NNP LOCATI  
+ 6             was             was  VBD      O  
+ 7         covered         covered  VBN      O  
+ 8              in              in   IN      O  
+ 9             the             the   DT      O  
+10          volume          volume   NN      O  
+11               .               .    .      O  
+
+ 1             The             The   DT      O  
+ 2      Quaternary      Quaternary  NNP      O  
+ 3              of              of   IN      O  
+ 4           North           North  NNP LOCATI  
+ 5         America         America  NNP LOCATI  
+ 6             and             and   CC      O  
+ 7           South           South  NNP LOCATI  
+ 8         America         America  NNP LOCATI  
+ 9             was             was  VBD      O  
+10    surprisingly    surprisingly   RB      O  
+11         avoided         avoided  VBN      O  
+12             for             for   IN      O  
+13             the             the   DT      O  
+14            most            most  JJS      O  
+15            part            part   NN      O  
+16               ,               ,    ,      O  
+17        although        although   IN      O  
+18            Webb            Webb  NNP PERSON  
+19              ?s              's  POS      O  |||sw,twchar$2
+20         chapter         chapter   NN      O  
+21              on              on   IN      O  
+22             New             New  NNP   MISC  
+23           World           World  NNP   MISC  
+24        Cervidae        Cervidae  NNP   MISC  
+25             has             has  VBZ      O  
+26            been            been  VBN      O  
+27          sorely          sorely   RB      O  
+28          needed          needed  VBN      O  
+29             and             and   CC      O  
+30           higly           higly   RB      O  
+31        welcomed        welcomed  VBN      O  
+32               .               .    .      O  
+
+ 1              No              No   DT      O  
+ 2          single          single   JJ      O  
+ 3          Volume         vol-ume   NN      O  |||$volume
+ 4             can             can   MD      O  
+ 5           cover           cover   VB      O  
+ 6             all             all   DT      O  
+ 7           areas           areas  NNS      O  
+ 8              of              of   IN      O  
+ 9       expertise       expertise   NN      O  
+10             and             and   CC      O  
+11             all             all   DT      O  
+12           areas           areas  NNS      O  
+13              of              of   IN      O  
+14            need            need   NN      O  
+15              by              by   IN      O  
+16             all             all   DT      O  
+17     researchers     re-searcher  NNS      O  |||rmchar,d,sw$1
+18               .              s.    .      O  |||$1
+
+ 1              By              By   IN      O  
+ 2        omission        omission   NN      O  
+ 3            from            from   IN      O  
+ 4             the             the   DT      O  
+ 5            book            book   NN      O  
+ 6               ,               ,    ,      O  
+ 7             the             the   DT      O  
+ 8          volume          volume   NN      O  
+ 9   appropriately   appropriately   RB      O  
+10          points          points  VBZ      O  
+11             out             out   RP      O  
+12            what            what   WP      O  
+13           areas           areas  NNS      O  
+14             are             are  VBP      O  
+15              in              in   IN      O  
+16            need            need   NN      O  
+17              of              of   IN      O  
+18           study           study   NN      O  
+19             and             and   CC      O  
+20     publication     publication   NN      O  
+21               .               .    .      O  
+
+ 1             JIM             JIM  NNP PERSON  
+ 2              I.              I.  NNP PERSON  
+ 3            MEAD            MEAD  NNP PERSON  
+
+ 1      Department      Department  NNP ORGANI  
+ 2              of              of   IN ORGANI  
+ 3         Geology         Geology  NNP ORGANI  
+ 4               ,               ,    ,      O  
+ 5             and             and   CC      O  
+ 6      Quaternary      Quaternary  NNP ORGANI  
+ 7        Sciences        Sciences  NNPS ORGANI 
+ 8         Program         Program  NNP ORGANI  
+ 9        Northern        Northern  NNP ORGANI  
+10         Arizona         Arizona  NNP ORGANI  
+11      University      University  NNP ORGANI  
+12               F               F   NN      O  
+13         lagsta?         lagstaf   NN      O  |||$Flagstaff
+14               ?               f   NN      O  |||$3
+15               ,               ,    ,      O  
+16         Arizona         Arizona  NNP LOCATI  
+17           86011           86011   CD NUMBER  
+
+ 1        Received        Received  VBN      O  
+ 2             and             and   CC      O  
+ 3        accepted        accepted  VBN      O  
+ 4             May             May  NNP   DATE  
+ 5            2000            2000   CD   DATE  
+ 6               .               .    .      O  

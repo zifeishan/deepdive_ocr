@@ -1,0 +1,22 @@
+_CONDOR_ANCESTOR_24594=24598:1382992820:3295678156
+_CONDOR_ANCESTOR_10336=10338:1378332990:3181601193
+_CONDOR_ANCESTOR_10338=24594:1382992819:1050836093
+TEMP=/var/lib/condor/execute/slot1/dir_24594
+_CONDOR_SCRATCH_DIR=/var/lib/condor/execute/slot1/dir_24594
+_CONDOR_SLOT=slot1_6
+TMPDIR=/var/lib/condor/execute/slot1/dir_24594
+_CONDOR_JOB_PIDS=
+TMP=/var/lib/condor/execute/slot1/dir_24594
+_CONDOR_JOB_AD=/var/lib/condor/execute/slot1/dir_24594/.job.ad
+_CONDOR_JOB_IWD=/var/lib/condor/execute/slot1/dir_24594
+_CONDOR_MACHINE_AD=/var/lib/condor/execute/slot1/dir_24594/.machine.ad
+PATH=/usr/local/bin:/usr/kerberos/bin:/usr/bin:/bin
+MachineAdTest: looking for <IsEuclid>
+Euclid test returned <no>
+Calling curl to fetch chtcinnerwrapper try 0
+Curl error <0>
+MachineAdTest: looking for <IsEuclid>
+Euclid test returned <no>
+Trying to open logfile... ChtcWrapper4968.2.out
+Done Running chtcinnerwrapper Result was <0>
+All went well!

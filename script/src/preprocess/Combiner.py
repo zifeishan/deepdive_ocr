@@ -66,10 +66,10 @@ def CombineWords(allwords):
 
     words = []  # candidates separated: [[cand1, cand2], [cand1], ...]
     wccs = snap.TCnComV()
-    snap.GetWccs(g, wccs)
+    snap.GetWccs(graph, wccs)
     for comp in wccs:
       # print "Size of component: %d" % comp.Len()
-      print [nodes[nid] for nid in comp]
+      print [nodes[nid].GetAllParts() for nid in comp]
       words.append( [nodes[nid] for nid in comp] )
       raw_input()
 

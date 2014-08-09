@@ -3,7 +3,7 @@ Protocol for OCR error analysis
 
 **Dataset**: We assume that documents can be roughly classified into 3 classes according to OCR quality: clean, medium and dirty. We randomly choose one document from each class (3 documents in total), and we pick random pages from them to do error analysis. The number of real words in documents on which we do error analysis are: 2529 (clean), 715 (medium), 365 (dirty).
 
-**Errors**: We define errors as words in document where at least 1 OCR do not give the correct output.  
+<!-- **Errors**: We define errors as words in document where at least 1 OCR do not give the correct output.   -->
 
 **Rules**: Rules are leaf nodes in our knowledge taxonomy. There are two kinds of rules: (1) to judge whether a candidate is correct for a word, and (2) to generate a set of new candidates for a word.  We define that *a set of rules R can fix an error*, if the correct output can be judged by a combination of rules in *R*.
 

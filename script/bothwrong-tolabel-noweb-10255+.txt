@@ -1,0 +1,53 @@
+| DA-VADzHAMS	DAVADZI-IAMS 	['P2,1916 540 1991 573', 'P2,173 602 383 635'] 	10137
+| YJtaa-TOJtoroa	YraH-ToJorox 	['P18,853 792 1145 817'] 	10137
+| csoeopaawoM	cBoeopaHoM 	['P18,749 2870 1011 2901'] 	10137
+| KraLttrt-Jwomowstrw	KIIELAN-JAWOIIOWSKA 	['P20,186 2596 507 2625'] 	10137
+| Halobiatyp-e	Halobia-type 	['P7,726 853 1252 943'] 	10255
+| Manusela-Mosso	ManuseaMosso 	['P13,1729 959 2138 1029', 'P13,8 1079 266 1146'] 	10255
+| Flugel-Kahler	Fliigel-Kahler 	['P37,1323 597 1887 687'] 	10255
+| Enzo-nalasporites	Enalasporites 	['P42,1920 2388 2149 2456', 'P42,14 2504 518 2595'] 	10255
+| reptil-ian-bearing	reptilian-bearing 	['P6,1961 1814 2151 1886', 'P6,7 1902 364 1974'] 	10432
+| MaastrichtianNeu-	NMaastrichtian 	['P20,2074 986 2147 1011', 'P20,17 1031 235 1059'] 	10432
+| mabovedinofla-	Lzmabove 	['P20,2033 1068 2147 1094', 'P20,19 1114 202 1141'] 	10432
+| Gierlowsky-Iordesch	Gierlowsky-Kordesch 	['P16,693 2950 1549 3031'] 	10504
+| tectonoe-stratigrafia	tectono-estratigraa 	['P21,897 679 1475 744'] 	10504
+| K-fieldpa	K-eldpar 	['P7,1238 1323 1438 1366'] 	13268
+| Eurhino-delphido	Eurhmodelphido 	['P1,1709 719 1859 765', 'P1,518 765 666 803'] 	13326
+| Cetothe-rum	Cetotierlum 	['P1,1721 841 1859 873', 'P1,518 898 598 919'] 	13326
+| Palaeo-Pacifi	Palaeo-Pacic 	['P1,907 1365 1139 1398'] 	13588
+| ceratophoraNann-oceratopsis	ceratophora-Nannoceratopsis 	['P5,1065 1741 2145 1824'] 	13588
+| pellucidaChytr-oeisphaeridia	pellucida-Chytroeisphaeridia 	['P5,6 1846 1071 1928'] 	13588
+| IrrrHOaapbr	IIIHOaBDbI 	['P10,1086 2573 1275 2598'] 	13908
+| Dro-maeosaurus	Dromaeosaurus-Am 	['P10,1751 2790 1829 2815', 'P10,439 2833 769 2859'] 	13908
+| KapHo-aBpa	xapHoaBpa 	['P10,1706 3238 1824 3263', 'P10,435 3280 532 3305'] 	13908
+| ro-aBpoB	VlHBpOB 	['P10,1727 3282 1825 3305', 'P10,438 3319 771 3350'] 	13908
+| HeMeN-cKN	LHeueooCK 	['P6,1556 43 1829 71', 'P6,403 95 484 113'] 	13909
+| JNHOBBpoB	zmHoaBpo 	['P6,686 94 895 118'] 	13909
+| NHBBpoB	MHoaBpB 	['P6,941 182 1151 205'] 	13909
+| NocTpaTNrparjJNJI	iocrparmrpacbna 	['P6,1523 175 1829 204'] 	13909
+| aypNcxNN	ayprcxx 	['P6,1647 352 1830 381'] 	13909
+| KBNHOOH	KaxHoo 	['P6,1668 396 1829 420'] 	13909
+| NHOarrpoa	ViHoaBpa 	['P6,1630 710 1828 733'] 	13909
+| MoHro-JINN	MOHFOJIII 	['P6,1705 748 1831 772', 'P6,404 798 520 816'] 	13909
+| httdxdoiora	httpdXdoiorgapp 	['P1,165 608 976 654'] 	15460
+| httwwwbiooneordoifulla	httpwwwbiooneorgdoifullapp 	['P1,177 675 1279 720'] 	15460
+| Otozounz-lik	Otozoum-like 	['P1,1441 2324 1651 2355'] 	15460
+| MNDPDSA-GS	MNDPDSA-G 	['P7,168 547 700 612'] 	15460
+| high-latitu-dinal	highatitudinal 	['P18,1717 593 2139 681', 'P18,14 708 200 777'] 	16596
+| coelu-rosau	coeurosaur 	['P24,1918 3335 2144 3401', 'P24,7 3463 269 3521'] 	16979
+| Somuncura-Canadon	Somuncura-Caadon 	['P27,1105 107 1754 160'] 	16979
+| cross-stratificatio	cross-stratication 	['P9,16 2825 724 2888'] 	17825
+| interfer-ence-rippled	interference-rippled 	['P22,1877 285 2099 330', 'P22,394 350 721 406'] 	17825
+| Bal-aton-Felvidek	Balaton-Felvidk 	['P29,2018 3193 2145 3269', 'P29,113 3272 545 3325'] 	17825
+| Palaeoclimatolo-g	Paaeoclimatology 	['P31,1612 763 2121 816', 'P31,109 857 196 906'] 	17825
+| Arnager-Renne	Arnager-Ronne 	['P3,535 996 1147 1085'] 	18050
+| adexposure-tNctrlless	badexposure-thickness 	['P6,344 1408 645 1437'] 	18050
+| duodsec	eIBuodse 	['P14,552 910 670 929'] 	18050
+| ewnkrqrg	emicyyn-oqo 	['P14,547 1601 671 1616'] 	18050
+| nwurg	E-lmuolnla 	['P14,566 1838 671 1856'] 	18050
+| Vnia-U	Vllla-U 	['P6,365 716 463 736'] 	18557
+| Vnia-V	Vllla-V 	['P6,365 752 460 771'] 	18557
+| Sevierno-Timanskaja	Seviemo-Timanskaja 	['P10,567 1514 904 1550'] 	19007
+| Trochaliafri-burgensis	TrchaliafrTburgensis 	['P3,1657 508 1900 549', 'P3,307 562 480 603'] 	19227
+| OHGMBRE-FIRMAs	DHOMBRE-FIRMAS 	['P3,961 1656 1294 1688'] 	19227
+| ckestcae	wackestc-ne 	['P5,1190 1492 1423 1526'] 	19276

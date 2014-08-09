@@ -110,8 +110,9 @@ When conflict, we can break ties by:
 1. Select a random candidate;
 2. Select candidate with larger 1-gram frequency;
 3. Break ties using 2-gram.
+4. Set all candidates to label "Unknown".
 
-We can see that 1-gram distant supervision does not preserve order of document. To better capture the order, we may use 2-gram or n-gram.
+We can see that 1-gram distant supervision does not preserve order of document. To better capture the order, we may use n-gram.
 
 
 ### Distant Supervision by n-Gram ($n>1$) in Labeled Document
